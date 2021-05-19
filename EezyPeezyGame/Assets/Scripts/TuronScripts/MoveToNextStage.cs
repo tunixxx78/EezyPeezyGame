@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MoveToNextStage : MonoBehaviour
 {
@@ -18,12 +19,18 @@ public class MoveToNextStage : MonoBehaviour
         if (currentPoints >= pointsToWin)
         {
             MoveOn.SetActive(true);
+            Invoke("GoBack", 2f);
         }
     }
 
     public void AddPoints()
     {
         currentPoints++;
+    }
+
+    void GoBack()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 }
 
