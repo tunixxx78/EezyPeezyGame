@@ -5,6 +5,8 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+EezyPeezeGame/Assets/firebase
+
 # Visual Studio cache directory
 .vs/
 
