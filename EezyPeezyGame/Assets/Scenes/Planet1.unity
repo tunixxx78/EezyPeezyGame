@@ -152,6 +152,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c182f6593403548a986a5be5051cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogText: {fileID: 1869086407}
+  dialogs:
+  - Hello friend and welcome to Team Cody Headquarters!
+  - "I\u2019m EZ and this is PZ. We are working here with the final touches on our
+    rescue rocket. Thank you so much for coming to help us!"
+  - First things first! We need to get the rocket ready, here are your first tasks.
+  - As you can see, there is work to be done inside the rocket.
+  - You can also get to places by opening the map and choosing the desired location.
+    Pressing M button will also open the map for you.
+  - If you are unsure what to do, you can press the Help button, there is some useful
+    information for puzzled adventurers.
+  - And finally, if you would like to save your progress, adjust settings, log out
+    or exit the game, you can press the home/pause) button.
+  - "Ok, Team Cody! Let\u2019s get to work and go in the rocket!"
+  dialogSpeed: 0.05
 --- !u!4 &313636262
 Transform:
   m_ObjectHideFlags: 0
@@ -575,8 +590,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
