@@ -6,28 +6,29 @@ using UnityEngine.SceneManagement;
 public class MiniGameManager : MonoBehaviour
 {
     [SerializeField] GameObject minigameOne;
-    [SerializeField] GameObject[] buttons;
-    private int buttonIndex;
 
-    public void HideButtons(int index)
+    private void Start()
     {
-        for (int i = 0; i < buttons.Length; i++)
+        if (ScoringSystem.theScore >= 10)
         {
-            buttons[i].SetActive(true);
+            MoveToArcade();
         }
-        this.buttonIndex = index;
-        buttons[index].SetActive(false);
     }
 
     public void StartThisGame()
     {
         SceneManager.LoadScene("DashboardAssembly");
-        //minigameOne.SetActive(false);
-        PlayerPrefs.SetInt("miniGameManager", buttonIndex);
+        
     }
 
     public void MoveToArcade()
     {
         minigameOne.SetActive(false);
+        
+    }
+
+    public void GoToArcade()
+    {
+        SceneManager.LoadScene("MiniGameArcade");
     }
 }
