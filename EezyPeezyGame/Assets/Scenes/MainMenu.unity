@@ -720,7 +720,7 @@ RectTransform:
   m_GameObject: {fileID: 336478038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 742975817}
   - {fileID: 806635387}
@@ -1902,7 +1902,7 @@ RectTransform:
   m_GameObject: {fileID: 682549069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1291856656}
   - {fileID: 2131790431}
@@ -3523,7 +3523,7 @@ RectTransform:
   m_GameObject: {fileID: 966811946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1346855812}
   - {fileID: 1188603777}
@@ -4499,7 +4499,7 @@ RectTransform:
   m_GameObject: {fileID: 1120137413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 140050845}
   - {fileID: 383775561}
@@ -4833,7 +4833,7 @@ RectTransform:
   m_GameObject: {fileID: 1270266030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1406990511}
   - {fileID: 1308102815}
@@ -5735,7 +5735,7 @@ RectTransform:
   m_GameObject: {fileID: 1417007938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 781129845}
   - {fileID: 1550731918}
@@ -6486,7 +6486,7 @@ RectTransform:
   m_GameObject: {fileID: 1644151973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1769628074}
   - {fileID: 228148141}
