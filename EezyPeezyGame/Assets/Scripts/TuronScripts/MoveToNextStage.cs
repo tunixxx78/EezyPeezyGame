@@ -31,6 +31,7 @@ public class MoveToNextStage : MonoBehaviour
     void GoBack()
     {
         SceneManager.LoadScene("SampleScene");
+        
     }
 }
 
