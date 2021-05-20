@@ -1,0 +1,40 @@
+{
+    "project_info": {
+        "project_number": "673142252597",
+        "project_id": "eezypeezygame",
+        "firebase_url": "https://eezypeezygame-default-rtdb.europe-west1.firebasedatabase.app/",
+        "storage_bucket": "eezypeezygame.appspot.com"
+    },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673142252597:android:20217358d68af6a6bc3d7c",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.EezyPeezyGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673142252597-lt0n91n2gq2gvsb53o8tr7rq79cuk4ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx_5aoE6DJA9tZh45UFfL3QxbR3A_BUDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673142252597-lt0n91n2gq2gvsb53o8tr7rq79cuk4ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
