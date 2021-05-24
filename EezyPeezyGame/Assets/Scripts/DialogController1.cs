@@ -11,13 +11,18 @@ public class DialogController1 : MonoBehaviour
     public string[] dialogs;
     private int index = 0;
     public float dialogSpeed;
+    private bool nextText = true;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (nextText == true)
         {
-            NextDialog();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                nextText = false;
+                NextDialog();
+            }
         }
     }
 
@@ -38,5 +43,6 @@ public class DialogController1 : MonoBehaviour
             yield return new WaitForSeconds(dialogSpeed);
         }
         index++;
+        nextText = true;
     }
 }
