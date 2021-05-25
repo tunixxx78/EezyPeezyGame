@@ -711,6 +711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa6871fd37f77814eb9e69e0cf1fab84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loginScreen: {fileID: 0}
+  registerScreen: {fileID: 0}
+  startGameScreen: {fileID: 0}
 --- !u!224 &336478040
 RectTransform:
   m_ObjectHideFlags: 0
