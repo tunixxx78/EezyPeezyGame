@@ -18,9 +18,8 @@ public class MoveToNextStage : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
-            ScoringSystem.theScore += 10;
-            MoveOn.SetActive(true);
             Invoke("GoBack", 2f);
+            MoveOn.SetActive(true);
         }
     }
 
@@ -31,6 +30,9 @@ public class MoveToNextStage : MonoBehaviour
 
     void GoBack()
     {
+        ScoringSystem.theScore += 10;
+        Debug.Log(ScoringSystem.theScore);
+        
         SceneManager.LoadScene("SampleScene");
     }
 

@@ -5,33 +5,43 @@ using UnityEngine.SceneManagement;
 
 public class MiniGameManager : MonoBehaviour
 {
-    [SerializeField] GameObject minigameOne, minigameTwo;
+    [SerializeField] GameObject minigameOne, minigameTwo, minigamethree;
+    public bool newScene;
 
     private void Start()
     {
-        if (ScoringSystem.theScore >= 10)
+        if (ScoringSystem.theScore >= 10 && ScoringSystem.theScore <= 100)
         {
-            MoveToArcade();
+            minigameOne.SetActive(false);
             minigameTwo.SetActive(true);
-
+        }
+        else if (ScoringSystem.theScore >= 100 && ScoringSystem.theScore <= 500)
+        {
+            minigameOne.SetActive(false);
+            minigameTwo.SetActive(false);
+            minigamethree.SetActive(true);
+        }
+        else if (ScoringSystem.theScore >= 500)
+        {
+            minigameOne.SetActive(false);
+            minigameTwo.SetActive(false);
+            minigamethree.SetActive(false);
         }
     }
 
-
-    public void StartThisGame()
+    public void LoadScene(string SceneName)
     {
-        SceneManager.LoadScene("DashboardAssembly");
-        
+        Scene currentScene = SceneManager.GetActiveScene();
+        if ( currentScene.name != SceneName)
+        {
+            newScene = true;
+            SceneManager.LoadScene(SceneName);
+        }
     }
 
     public void MoveToArcade()
     {
         minigameOne.SetActive(false);
         
-    }
-
-    public void GoToArcade()
-    {
-        SceneManager.LoadScene("MiniGameArcade");
     }
 }
