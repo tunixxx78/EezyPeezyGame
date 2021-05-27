@@ -20,7 +20,7 @@ public class AvatarManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Planet1");
+        SceneManager.LoadScene("HomePlanet");
         PlayerPrefs.SetInt("RobotIndex", RobotIndex);
     }
 }

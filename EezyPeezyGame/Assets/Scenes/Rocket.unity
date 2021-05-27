@@ -340,7 +340,6 @@ MonoBehaviour:
   - {fileID: 4842963459710446966, guid: 9ec54310e7b984f72b48b153d891ac44, type: 3}
   - {fileID: 5196454837350721048, guid: 283e18c9392ed4244a2069bb5df3d7a1, type: 3}
   - {fileID: 5889841232024631426, guid: a6a933c1cb7ed4530953b08094e831cd, type: 3}
-  spawnpointForAvatar: {fileID: 0}
 --- !u!114 &547480295
 MonoBehaviour:
   m_ObjectHideFlags: 0
