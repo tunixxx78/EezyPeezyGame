@@ -8,6 +8,7 @@ public class DialogController1 : MonoBehaviour
 {
 
     public TextMeshProUGUI dialogText;
+    public GameObject dialogPanel;
     public string[] dialogs;
     private int index = 0;
     public float dialogSpeed;
@@ -32,6 +33,10 @@ public class DialogController1 : MonoBehaviour
         {
             dialogText.text = "";
             StartCoroutine(WriteDialog());
+        }
+        else
+        {
+            dialogPanel.SetActive(false);
         }
     }
 
