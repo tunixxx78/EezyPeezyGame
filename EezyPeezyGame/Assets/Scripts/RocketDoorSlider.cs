@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorSlider : MonoBehaviour
+public class RocketDoorSlider : MonoBehaviour
 {
     private Animator animator;
     // Start is called before the first frame update
