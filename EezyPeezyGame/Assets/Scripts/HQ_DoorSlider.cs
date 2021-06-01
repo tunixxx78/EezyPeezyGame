@@ -8,6 +8,8 @@ public class HQ_DoorSlider : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*This script is for Headquarter building doors to open when mouse is over the door collider
+        */
         animator = gameObject.GetComponent<Animator>();
         animator.SetBool("Open", false);
     }

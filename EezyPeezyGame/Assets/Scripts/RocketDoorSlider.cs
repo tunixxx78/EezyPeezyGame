@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RocketDoorSlider : MonoBehaviour
 {
+    /*This script is for Rockets doors to open when mouse is over the door collider
+    */
     private Animator animator;
     // Start is called before the first frame update
     void Start()

@@ -9,34 +9,57 @@ public class DialogTutorial : MonoBehaviour
 
     public TextMeshProUGUI dialogText;
     public GameObject dialogPanel;
+    //an array of all the dialog sentences you want to go through
     public string[] dialogs;
+    //index to keep track of arrays index in for each loop
     private int index = 0;
+    //how fast does the text animate to the panel
     public float dialogSpeed;
+    //this prevents the user to press next until the text is fully animated -> otherwise it will cause a bug and gibberish 
     private bool nextText = true;
+    //bool checks if the panel is open
     public bool isOpen;
-    public GameObject taskPanel, mapPanel, menuPanel;
-    private Animator taskAnimator, mapAnimator, menuAnimator;
+    public GameObject taskPanel, mapPanel, menuPanel, ez, pz;
+    private Animator taskAnimator, mapAnimator, menuAnimator, ezAnimator, pzAnimator;
 
-    // Update is called once per frame
-    void Update()
+
+    private void Start()
     {
         taskAnimator = taskPanel.GetComponent<Animator>();
         mapAnimator = mapPanel.GetComponent<Animator>();
         menuAnimator = menuPanel.GetComponent<Animator>();
+        ezAnimator = ez.GetComponent<Animator>();
+        pzAnimator = pz.GetComponent<Animator>();
+    }
 
+    // Update is called once per frame
+    void Update()
+    {
+
+        //preventing the use of input until the bool is true again after the coroutine
         if (nextText == true)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Return))
             {
                 nextText = false;
                 NextDialog();
             }
-        } 
+        }
+    }
+
+    public void UIInputForDialog()
+    {
+        //Tis is same as pressing Enter but for UI element
+        if (nextText == true)
+        {
+            nextText = false;
+            NextDialog();
+        }
     }
 
     void NextDialog()
     {
-        if(index < dialogs.Length)
+        if (index < dialogs.Length)
         {
             dialogText.text = "";
             StartCoroutine(WriteDialog());
@@ -45,11 +68,17 @@ public class DialogTutorial : MonoBehaviour
         {
             dialogPanel.SetActive(false);
         }
+        
     }
 
     IEnumerator WriteDialog()
     {
-        if (index == 2)
+        if(index < 2)
+        {
+            ezAnimator.Play("EzWave");
+            pzAnimator.Play("PzWave");
+        }
+        else if (index == 2)
         {
             isOpen = taskAnimator.GetBool("show");
             taskAnimator.SetBool("show", !isOpen);
@@ -71,6 +100,11 @@ public class DialogTutorial : MonoBehaviour
             menuAnimator.SetBool("show", false);
         }
 
+        if (index >= 2)
+        {
+            ezAnimator.Play("EzIdle");
+            pzAnimator.Play("PzIdle");
+        }
 
 
         foreach (char Character in dialogs[index].ToCharArray())
