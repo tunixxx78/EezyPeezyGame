@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RemoveAlien : MonoBehaviour
 {
+    [SerializeField] Animator animator;
 
     void Update()
     {
@@ -15,21 +16,14 @@ public class RemoveAlien : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            /*RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
-            {
-                if (hit.collider != null)
-                {
-
-                }
-            }*/
       
             RaycastHit2D hit2D = Physics2D.GetRayIntersection(ray);
 
             if (hit2D.collider.CompareTag("PinkAlien"))
             {
                 ScoringSystem.numberOfAliens += 1;
-                Destroy(gameObject, 0.5f);
+                animator.SetTrigger("DeathOfPiggy");
+                Destroy(gameObject, 1f);
             }
             else
             {
