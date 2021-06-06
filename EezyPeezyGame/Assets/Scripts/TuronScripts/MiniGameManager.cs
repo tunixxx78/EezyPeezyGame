@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MiniGameManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class MiniGameManager : MonoBehaviour
 
     private void Start()
     {
+        
+       
         if (ScoringSystem.theScore >= 10 && ScoringSystem.theScore <= 100)
         {
             minigameOne.SetActive(false);

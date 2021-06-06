@@ -7,6 +7,7 @@ TagManager:
   - GameTemplates
   - SpawnPoint
   - SpaceShip
+  - PinkAlien
   layers:
   - Default
   - TransparentFX
