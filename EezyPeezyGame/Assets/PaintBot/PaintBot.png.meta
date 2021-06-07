@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 5d2320630806a4bd1b9197faa980e135
+guid: cc9e41e5478ecd1448362a10f98d0b51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5574403119798571104
-    second: Pinkki_alien_1920x1080_Png_0
+      213: -6436146101121658342
+    second: Head
   - first:
-      213: -5738229375806564065
-    second: Pinkki_alien_1920x1080_Png_1
+      213: -8457598622071731027
+    second: Screw
   - first:
-      213: 3146841114855722214
-    second: Pinkki_alien_1920x1080_Png_2
+      213: -7352486864590678252
+    second: Neck
+  - first:
+      213: 6878966828923749904
+    second: Arm
+  - first:
+      213: 436603539694431452
+    second: Body
+  - first:
+      213: 4697679914136663528
+    second: Leg
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -96,41 +105,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pinkki_alien_1920x1080_Png_0
+      name: Head
       rect:
         serializedVersion: 2
-        x: 369
-        y: 659
-        width: 15
-        height: 18
+        x: 106
+        y: 514
+        width: 399
+        height: 446
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +123,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0afa391a5edb3a2b0800000000000000
-      internalID: -5574403119798571104
+      spriteID: a12d020a8373ea6a0800000000000000
+      internalID: -6436146101121658342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkki_alien_1920x1080_Png_1
+      name: Screw
       rect:
         serializedVersion: 2
-        x: 377
-        y: 658
-        width: 10
-        height: 10
+        x: 617
+        y: 922
+        width: 76
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19965ff8c6bd50b0800000000000000
-      internalID: -5738229375806564065
+      spriteID: dacc49e0dd290aa80800000000000000
+      internalID: -8457598622071731027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkki_alien_1920x1080_Png_2
+      name: Neck
       rect:
         serializedVersion: 2
-        x: 396
-        y: 337
-        width: 422
-        height: 439
+        x: 878
+        y: 814
+        width: 47
+        height: 133
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +165,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ecc19f3253dbab20800000000000000
-      internalID: 3146841114855722214
+      spriteID: 417d85cd628b6f990800000000000000
+      internalID: -7352486864590678252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arm
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 442
+        width: 219
+        height: 245
+      alignment: 9
+      pivot: {x: 0.108405404, y: 0.89776933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01602b372eff67f50800000000000000
+      internalID: 6878966828923749904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 88
+        width: 257
+        height: 273
+      alignment: 9
+      pivot: {x: 0.50505584, y: 0.51903844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc2a2b2b902f0600800000000000000
+      internalID: 436603539694431452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leg
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 56
+        width: 81
+        height: 212
+      alignment: 9
+      pivot: {x: 0.49197802, y: 0.9596866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e57a961ef2813140800000000000000
+      internalID: 4697679914136663528
       vertices: []
       indices: 
       edges: []
