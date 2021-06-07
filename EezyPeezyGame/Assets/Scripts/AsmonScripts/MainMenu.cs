@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
      
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("HomePlanet");
     }
 
     public void QuitGame()
