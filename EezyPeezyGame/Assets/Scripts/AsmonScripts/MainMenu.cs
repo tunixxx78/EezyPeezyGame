@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -8,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public static MainMenu instance;
-    [SerializeField] GameObject loginScreen, registerScreen, startGameScreen;
+    [SerializeField] GameObject loginScreen, registerScreen, startGameScreen, avatar;
 
     private void Awake()
     {
@@ -24,6 +25,7 @@ public class MainMenu : MonoBehaviour
      
     public void StartGame()
     {
+        PrefabUtility.SaveAsPrefabAsset(avatar, "assets/Prefabs/TestPrefabs/avatar.prefab");
         SceneManager.LoadScene("SampleScene");
     }
 

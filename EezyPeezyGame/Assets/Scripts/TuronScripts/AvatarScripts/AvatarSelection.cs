@@ -7,7 +7,7 @@ public class AvatarSelection : MonoBehaviour
 {
     private int pointsToWin, currentPoints;
     public GameObject myObjects;
-    [SerializeField] GameObject robotSelectionCanvas, robotAssembly;
+    [SerializeField] GameObject robotSelectionCanvas, RobotSelection2, robotAssembly;
     
 
     private void Start()
@@ -20,6 +20,7 @@ public class AvatarSelection : MonoBehaviour
         if (currentPoints >= pointsToWin)
         {
             robotSelectionCanvas.SetActive(true);
+            RobotSelection2.SetActive(true);
             robotAssembly.SetActive(false);
         }   
     }
