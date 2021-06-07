@@ -802,11 +802,12 @@ MonoBehaviour:
   dialogPanel: {fileID: 212210035}
   dialogs:
   - Hello friend and welcome to Team Cody Headquarters!
-  - "I\u2019m EZ and this is PZ. We are working here with the final touches on our
-    rescue rocket. Thank you so much for coming to help us!"
-  - First things first! We need to get the rocket ready, here are your first tasks.
+  - "I\u2019m EZ and this is PZ. We are working on the final touches on our rescue
+    rocket. Thank you so much for coming to help us!"
+  - First things first! We need to get the rocket ready. Here are your first tasks.
   - As you can see, there is work to be done inside the rocket.
-  - You can also get to places by opening the map and choosing the desired location.
+  - You can also go to different places by opening the map and choosing the desired
+    location.
   - And finally, if you would like to save your game, adjust settings, log out or
     exit the game, you can press the options button.
   - "Ok, Team Cody! Let\u2019s get to work and go in the rocket!"
