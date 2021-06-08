@@ -23,6 +23,7 @@ public class RemoveAlien : MonoBehaviour
             {
                 ScoringSystem.numberOfAliens += 1;
                 animator.SetTrigger("DeathOfPiggy");
+                FMODUnity.RuntimeManager.PlayOneShot("event:/music", GetComponent<Transform>().position);
                 Destroy(gameObject, 1f);
             }
             else
