@@ -378,7 +378,7 @@ MonoBehaviour:
   EnableErrorCallback: 0
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   Platforms:
   - {fileID: -6528488487177284567}
   - {fileID: -5236343329700411553}

@@ -19,11 +19,21 @@ public class DialogController1 : MonoBehaviour
     {
         if (nextText == true)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Return))
             {
                 nextText = false;
                 NextDialog();
             }
+        }
+    }
+
+    public void UIInputForDialog()
+    {
+        //This is same as pressing Enter but for UI element
+        if (nextText == true)
+        {
+            nextText = false;
+            NextDialog();
         }
     }
 
