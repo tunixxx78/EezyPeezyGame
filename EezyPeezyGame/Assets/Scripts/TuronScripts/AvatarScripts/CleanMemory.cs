@@ -10,5 +10,7 @@ public class CleanMemory : MonoBehaviour
         PlayerPrefs.SetInt("HighScore", 0);
         ScoringSystem.numberOfAliens = 0;
         PlayerPrefs.SetInt("NumberOfAliens", 0);
+        ScoringSystem.theDots = 0;
+        PlayerPrefs.SetInt("DotsCollected", 0);
     }
 }

@@ -6,10 +6,17 @@ public class DrawToDots : MonoBehaviour
 {
     public Camera mainCamera;
     public GameObject brush;
+    public static 
+    
 
     LineRenderer currentLineRenderer;
 
     Vector2 lastPos;
+
+    private void Start()
+    {
+       
+    }
 
     private void Update()
     {
@@ -21,6 +28,7 @@ public class DrawToDots : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             CreateBrush();
+            
         }
         if (Input.GetKey(KeyCode.Mouse0))
         {
@@ -40,13 +48,15 @@ public class DrawToDots : MonoBehaviour
 
     private void CreateBrush()
     {
-        GameObject brushInstance = Instantiate(brush);
-        currentLineRenderer = brushInstance.GetComponent<LineRenderer>();
+        
+            GameObject brushInstance = Instantiate(brush);
+            currentLineRenderer = brushInstance.GetComponent<LineRenderer>();
 
-        Vector2 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
 
-        currentLineRenderer.SetPosition(0, mousePos);
-        currentLineRenderer.SetPosition(1, mousePos);
+            currentLineRenderer.SetPosition(0, mousePos);
+            currentLineRenderer.SetPosition(1, mousePos);
+       
 
     }
 
@@ -56,4 +66,8 @@ public class DrawToDots : MonoBehaviour
         int positionIndex = currentLineRenderer.positionCount - 1;
         currentLineRenderer.SetPosition(positionIndex, pointPos);
     }
+
+    
+
+    
 }

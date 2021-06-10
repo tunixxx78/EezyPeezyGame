@@ -8,6 +8,8 @@ TagManager:
   - SpawnPoint
   - SpaceShip
   - PinkAlien
+  - Dots
+  - Pen
   layers:
   - Default
   - TransparentFX
