@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingSystem : MonoBehaviour
 {
-    public GameObject correctShape;
+    public GameObject correctShape, stroke;
     private bool moving, finish;
 
     private float startPosX, startPosY;
@@ -57,6 +57,7 @@ public class MovingSystem : MonoBehaviour
             this.transform.position = new Vector3(correctShape.transform.position.x, correctShape.transform.position.y, correctShape.transform.position.z);
             finish = true;
 
+            Destroy(stroke);
             GameObject.Find("MoveOn").GetComponent<MoveToNextStage>().AddPoints();
         }
         else
