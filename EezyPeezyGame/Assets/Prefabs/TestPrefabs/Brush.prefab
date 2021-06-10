@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 2236457805790845522}
   - component: {fileID: 4297512387934936246}
   - component: {fileID: 1592635658775798060}
+  - component: {fileID: 1442199273237908023}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Pen
@@ -288,3 +289,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dot: {fileID: 2236457805790845522}
   speed: 500
+--- !u!114 &1442199273237908023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765958487495025830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b02ac6a24d4a54cc2b6f83041cc4ff76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -20,7 +20,15 @@ public class DrawToDots : MonoBehaviour
 
     private void Update()
     {
+
         Draw();
+
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            Debug.Log("HAISTA PASKA");
+            FindObjectOfType<DestroyBrush>().GetRidOfBrushClone();
+                       
+        }
     }
 
     private void Draw()
@@ -49,6 +57,7 @@ public class DrawToDots : MonoBehaviour
     private void CreateBrush()
     {
         
+        
             GameObject brushInstance = Instantiate(brush);
             currentLineRenderer = brushInstance.GetComponent<LineRenderer>();
 
@@ -56,6 +65,7 @@ public class DrawToDots : MonoBehaviour
 
             currentLineRenderer.SetPosition(0, mousePos);
             currentLineRenderer.SetPosition(1, mousePos);
+
        
 
     }

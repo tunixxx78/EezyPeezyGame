@@ -11,6 +11,7 @@ public class DotsCounter : MonoBehaviour
     int totalDots = 0;
     [SerializeField] int collectedDots = 0;
     [SerializeField] GameTemplates templates;
+    private GameObject spawnedObj;
 
     int gameSheetRandomization;
     bool spawned = false;
@@ -47,8 +48,9 @@ public class DotsCounter : MonoBehaviour
         if (spawned == false)
         {
             gameSheetRandomization = Random.Range(0, templates.gameSheets.Length);
-            Instantiate(templates.gameSheets[gameSheetRandomization], transform.position, Quaternion.identity);
+            spawnedObj = Instantiate(templates.gameSheets[gameSheetRandomization], transform.position, Quaternion.identity);
         }
         spawned = true;
     }
+
 }

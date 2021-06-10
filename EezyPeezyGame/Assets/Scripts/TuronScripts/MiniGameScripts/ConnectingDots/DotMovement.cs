@@ -43,12 +43,13 @@ public class DotMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Dots"))
+        if (other.gameObject.tag == "Dots")
         {
             ScoringSystem.theDots += 1;
-        }
+            DestroyObject(other.gameObject);
+        }    
     }
     
 }
