@@ -57,6 +57,15 @@ public class DialogTutorial : MonoBehaviour
         }
     }
 
+    public void SkipTutorial()
+    {
+        index = dialogs.Length;
+        dialogPanel.SetActive(false);
+        ezAnimator.Play("EzIdle");
+        pzAnimator.Play("PzIdle");
+
+    }
+
     void NextDialog()
     {
         if (index < dialogs.Length)
