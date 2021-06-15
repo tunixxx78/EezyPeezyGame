@@ -1,0 +1,1164 @@
+fileFormatVersion: 2
+guid: 1e2eb74176e3040f49abe46d80a2e1d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4599245996245301657
+    second: Dots minigame pictures NEW 1920x1080_0
+  - first:
+      213: -4976107484676649849
+    second: Dots minigame pictures NEW 1920x1080_1
+  - first:
+      213: 8054373518968894324
+    second: Dots minigame pictures NEW 1920x1080_2
+  - first:
+      213: -1825249218583363558
+    second: Dots minigame pictures NEW 1920x1080_3
+  - first:
+      213: 6959141094017659830
+    second: Dots minigame pictures NEW 1920x1080_4
+  - first:
+      213: 8803068114372896597
+    second: Dots minigame pictures NEW 1920x1080_5
+  - first:
+      213: 6947453591947876156
+    second: Dots minigame pictures NEW 1920x1080_6
+  - first:
+      213: 3149529835027955352
+    second: Dots minigame pictures NEW 1920x1080_7
+  - first:
+      213: -237550261901834085
+    second: Dots minigame pictures NEW 1920x1080_8
+  - first:
+      213: -3870012002891554785
+    second: Dots minigame pictures NEW 1920x1080_9
+  - first:
+      213: 6214460530171143029
+    second: Dots minigame pictures NEW 1920x1080_10
+  - first:
+      213: 8207471081611264849
+    second: Dots minigame pictures NEW 1920x1080_11
+  - first:
+      213: -4169784414738568665
+    second: Dots minigame pictures NEW 1920x1080_12
+  - first:
+      213: -907294375037109401
+    second: Dots minigame pictures NEW 1920x1080_13
+  - first:
+      213: -1410380707469940842
+    second: Dots minigame pictures NEW 1920x1080_14
+  - first:
+      213: 4330579216150167577
+    second: Dots minigame pictures NEW 1920x1080_15
+  - first:
+      213: 6400888785580452122
+    second: Dots minigame pictures NEW 1920x1080_16
+  - first:
+      213: -123470245998661957
+    second: Dots minigame pictures NEW 1920x1080_17
+  - first:
+      213: 7829703853543034132
+    second: Dots minigame pictures NEW 1920x1080_18
+  - first:
+      213: 5854087524521205549
+    second: Dots minigame pictures NEW 1920x1080_19
+  - first:
+      213: 8859104050444755022
+    second: Dots minigame pictures NEW 1920x1080_20
+  - first:
+      213: 4695751191572473695
+    second: Dots minigame pictures NEW 1920x1080_21
+  - first:
+      213: -3651973210347367042
+    second: Dots minigame pictures NEW 1920x1080_22
+  - first:
+      213: 3641365818743851124
+    second: Dots minigame pictures NEW 1920x1080_23
+  - first:
+      213: 9181758001825124734
+    second: Dots minigame pictures NEW 1920x1080_24
+  - first:
+      213: 2131433551835644474
+    second: Dots minigame pictures NEW 1920x1080_25
+  - first:
+      213: 5041205554648836794
+    second: Dots minigame pictures NEW 1920x1080_26
+  - first:
+      213: -1797846445365735187
+    second: Dots minigame pictures NEW 1920x1080_27
+  - first:
+      213: 6546205861828963694
+    second: Dots minigame pictures NEW 1920x1080_28
+  - first:
+      213: 281024901552385297
+    second: Dots minigame pictures NEW 1920x1080_29
+  - first:
+      213: -5518730677433817345
+    second: Dots minigame pictures NEW 1920x1080_30
+  - first:
+      213: -6778189390551341439
+    second: Dots minigame pictures NEW 1920x1080_31
+  - first:
+      213: -1879353879515140705
+    second: Dots minigame pictures NEW 1920x1080_32
+  - first:
+      213: 2514954486669484263
+    second: Dots minigame pictures NEW 1920x1080_33
+  - first:
+      213: 3498617759819702358
+    second: Dots minigame pictures NEW 1920x1080_34
+  - first:
+      213: 5277363369406299309
+    second: Dots minigame pictures NEW 1920x1080_35
+  - first:
+      213: 5031888150669593347
+    second: Dots minigame pictures NEW 1920x1080_36
+  - first:
+      213: 2074538053514807039
+    second: Dots minigame pictures NEW 1920x1080_37
+  - first:
+      213: 8281847387260906227
+    second: Dots minigame pictures NEW 1920x1080_38
+  - first:
+      213: -7400857160895719603
+    second: Dots minigame pictures NEW 1920x1080_39
+  - first:
+      213: 1105054311471831322
+    second: Dots minigame pictures NEW 1920x1080_40
+  - first:
+      213: -4020595559401216270
+    second: Dots minigame pictures NEW 1920x1080_41
+  - first:
+      213: -8569955549166975184
+    second: Dots minigame pictures NEW 1920x1080_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_0
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1052
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999b6d0adddc3df30800000000000000
+      internalID: 4599245996245301657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_1
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1057
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c8fa37b9051fab0800000000000000
+      internalID: -4976107484676649849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_2
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1057
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4733476aa02e6cf60800000000000000
+      internalID: 8054373518968894324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_3
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1042
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1087cb91896ba6e0800000000000000
+      internalID: -1825249218583363558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_4
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1047
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3feb234f5d39060800000000000000
+      internalID: 6959141094017659830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_5
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1039
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a3c23fc7ca2a70800000000000000
+      internalID: 8803068114372896597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_6
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1039
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3790919b305a6060800000000000000
+      internalID: 6947453591947876156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 665
+        width: 312
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ef552b2b065bb20800000000000000
+      internalID: 3149529835027955352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_8
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1027
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b984a0f9b4d04bcf0800000000000000
+      internalID: -237550261901834085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_9
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1026
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10a62b6694fa4ac0800000000000000
+      internalID: -3870012002891554785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_10
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 524
+        width: 322
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57369833de23e3650800000000000000
+      internalID: 6214460530171143029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 622
+        width: 345
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1530bb3b67bc6e170800000000000000
+      internalID: 8207471081611264849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_12
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1019
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a2c81da23f126c0800000000000000
+      internalID: -4169784414738568665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_13
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 927
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bf33da294a863f0800000000000000
+      internalID: -907294375037109401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 920
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697a03518325d6ce0800000000000000
+      internalID: -1410380707469940842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_15
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 547
+        width: 344
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910025a4ade491c30800000000000000
+      internalID: 4330579216150167577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_16
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 554
+        width: 388
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19ed47ef6684d850800000000000000
+      internalID: 6400888785580452122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_17
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 781
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe6be62778594ef0800000000000000
+      internalID: -123470245998661957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_18
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 778
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d80f6db22b8ac60800000000000000
+      internalID: 7829703853543034132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 740
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fd1275695ed3150800000000000000
+      internalID: 5854087524521205549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_20
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 743
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40ebf2423cd1fa70800000000000000
+      internalID: 8859104050444755022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_21
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 679
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f576b4f54d8aa2140800000000000000
+      internalID: 4695751191572473695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_22
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 682
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e759004d6b5915dc0800000000000000
+      internalID: -3651973210347367042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_23
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 682
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4780a7b5beab88230800000000000000
+      internalID: 3641365818743851124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_24
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 561
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71136071482c6f70800000000000000
+      internalID: 9181758001825124734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_25
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 561
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a324387c58f549d10800000000000000
+      internalID: 2131433551835644474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_26
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 565
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abae1941eb5f5f540800000000000000
+      internalID: 5041205554648836794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_27
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 561
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d64fee24cc07e0800000000000000
+      internalID: -1797846445365735187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_28
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 441
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d25ec4c8bc8da50800000000000000
+      internalID: 6546205861828963694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_29
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 441
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11da116b8a666e300800000000000000
+      internalID: 281024901552385297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_30
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 18
+        width: 403
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6a18830b78963b0800000000000000
+      internalID: -5518730677433817345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_31
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 4
+        width: 451
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186add369a80fe1a0800000000000000
+      internalID: -6778189390551341439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_32
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 4
+        width: 283
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6f349a913be5e0800000000000000
+      internalID: -1879353879515140705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_33
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 25
+        width: 294
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0a534e7c9e6e220800000000000000
+      internalID: 2514954486669484263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_34
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 16
+        width: 326
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6502deae0569d8030800000000000000
+      internalID: 3498617759819702358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_35
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 419
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacfe181606fc3940800000000000000
+      internalID: 5277363369406299309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_36
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 279
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b882aec9bd4d540800000000000000
+      internalID: 5031888150669593347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_37
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 226
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6c7c84e5d3acc10800000000000000
+      internalID: 2074538053514807039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_38
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 195
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faeea1d1580fe270800000000000000
+      internalID: 8281847387260906227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_39
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 186
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d479763af9fda4990800000000000000
+      internalID: -7400857160895719603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_40
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 186
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19dacc9a01f55f00800000000000000
+      internalID: 1105054311471831322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_41
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6a06804a9f338c0800000000000000
+      internalID: -4020595559401216270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures NEW 1920x1080_42
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 10
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037c30765d6611980800000000000000
+      internalID: -8569955549166975184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
