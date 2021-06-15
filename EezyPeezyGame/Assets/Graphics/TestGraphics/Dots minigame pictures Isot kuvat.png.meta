@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: f0052acb9e3ba4bf09559d7fc6a6dd70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2646396287243504704
+    second: Dots minigame pictures Isot kuvat_0
+  - first:
+      213: -7967648695557240133
+    second: Dots minigame pictures Isot kuvat_1
+  - first:
+      213: 3945147824691694747
+    second: Dots minigame pictures Isot kuvat_2
+  - first:
+      213: 8285083310038599195
+    second: Dots minigame pictures Isot kuvat_3
+  - first:
+      213: -6293859527928662703
+    second: Dots minigame pictures Isot kuvat_4
+  - first:
+      213: -5120780671171697069
+    second: Dots minigame pictures Isot kuvat_5
+  - first:
+      213: -4375411155108874837
+    second: Dots minigame pictures Isot kuvat_6
+  - first:
+      213: 2873875831062261949
+    second: Dots minigame pictures Isot kuvat_7
+  - first:
+      213: 7623858343460309357
+    second: Dots minigame pictures Isot kuvat_8
+  - first:
+      213: -7992054582035831390
+    second: Dots minigame pictures Isot kuvat_9
+  - first:
+      213: 6147952658424530477
+    second: Dots minigame pictures Isot kuvat_10
+  - first:
+      213: 6597189384350210188
+    second: Dots minigame pictures Isot kuvat_11
+  - first:
+      213: 7493910045453400483
+    second: Dots minigame pictures Isot kuvat_12
+  - first:
+      213: 6314682289505039944
+    second: Dots minigame pictures Isot kuvat_13
+  - first:
+      213: 4264974806014491614
+    second: Dots minigame pictures Isot kuvat_14
+  - first:
+      213: -2916074553587082716
+    second: Dots minigame pictures Isot kuvat_15
+  - first:
+      213: -6222592597403137424
+    second: Dots minigame pictures Isot kuvat_16
+  - first:
+      213: 7149003236585241223
+    second: Dots minigame pictures Isot kuvat_17
+  - first:
+      213: -6962795063424786769
+    second: Dots minigame pictures Isot kuvat_18
+  - first:
+      213: 2483020703213974515
+    second: Dots minigame pictures Isot kuvat_19
+  - first:
+      213: 3667105981493046706
+    second: Dots minigame pictures Isot kuvat_20
+  - first:
+      213: -9178594564782150250
+    second: Dots minigame pictures Isot kuvat_21
+  - first:
+      213: 2424248570638181525
+    second: Dots minigame pictures Isot kuvat_22
+  - first:
+      213: 1128836282075035157
+    second: Dots minigame pictures Isot kuvat_23
+  - first:
+      213: 4020694081113724098
+    second: Dots minigame pictures Isot kuvat_24
+  - first:
+      213: -2410674709162802779
+    second: Dots minigame pictures Isot kuvat_25
+  - first:
+      213: 6607414363117237469
+    second: Dots minigame pictures Isot kuvat_26
+  - first:
+      213: 8295295388450944505
+    second: Dots minigame pictures Isot kuvat_27
+  - first:
+      213: 5325184170456406117
+    second: Dots minigame pictures Isot kuvat_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_0
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 2103
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c330f3199c164bd0800000000000000
+      internalID: -2646396287243504704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_1
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 2112
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbac43ec9b93d6190800000000000000
+      internalID: -7967648695557240133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1328
+        width: 627
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c47255b0bffb630800000000000000
+      internalID: 3945147824691694747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_3
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 2052
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b164e5dcf578af270800000000000000
+      internalID: 8285083310038599195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_4
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 2050
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ba9b0b18b7a8a0800000000000000
+      internalID: -6293859527928662703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_5
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 1046
+        width: 640
+        height: 1099
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356ef125c155fe8b0800000000000000
+      internalID: -5120780671171697069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_6
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1241
+        width: 698
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba534718cba6743c0800000000000000
+      internalID: -4375411155108874837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_7
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 2035
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0fb0787de02e720800000000000000
+      internalID: 2873875831062261949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_8
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1852
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6989db35c26dc960800000000000000
+      internalID: 7623858343460309357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_9
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1838
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5a83c83b4861190800000000000000
+      internalID: -7992054582035831390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_10
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1092
+        width: 691
+        height: 891
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26005d9e5ae15550800000000000000
+      internalID: 6147952658424530477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_11
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 1104
+        width: 776
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c881c2aaacced8b50800000000000000
+      internalID: 6597189384350210188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_12
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1555
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a93bfd5b77bff760800000000000000
+      internalID: 7493910045453400483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_13
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1478
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846f56fe51242a750800000000000000
+      internalID: 6314682289505039944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_14
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1484
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbfb704dfb303b30800000000000000
+      internalID: 4264974806014491614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_15
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1357
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ad2eeb4a50887d0800000000000000
+      internalID: -2916074553587082716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_16
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 1362
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a8fc95009e4a9a0800000000000000
+      internalID: -6222592597403137424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_17
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 880
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78af7ce019c563360800000000000000
+      internalID: 7149003236585241223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_18
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 35
+        width: 810
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faed8b0c7ce2f5f90800000000000000
+      internalID: -6962795063424786769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_19
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 5
+        width: 905
+        height: 974
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f372098c26757220800000000000000
+      internalID: 2483020703213974515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_20
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 6
+        width: 570
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd6a94067d24e230800000000000000
+      internalID: 3667105981493046706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 48
+        width: 593
+        height: 819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d24d4afd41f9080800000000000000
+      internalID: -9178594564782150250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_22
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 23
+        width: 661
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59423241b39a4a120800000000000000
+      internalID: 2424248570638181525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_23
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 837
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516b7a22e9e6aaf00800000000000000
+      internalID: 1128836282075035157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_24
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 556
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c49c47d6ff5cc730800000000000000
+      internalID: 4020694081113724098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_25
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 451
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a14553df109b8ed0800000000000000
+      internalID: -2410674709162802779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_26
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 370
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4ba6d0b5042bb50800000000000000
+      internalID: 6607414363117237469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_27
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 318
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5fd87943fce1370800000000000000
+      internalID: 8295295388450944505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dots minigame pictures Isot kuvat_28
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 18
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568569bf9cad6e940800000000000000
+      internalID: 5325184170456406117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,6 +16,8 @@ public class DotsCounter : MonoBehaviour
     int gameSheetRandomization;
     bool spawned = false;
 
+    [SerializeField] GameObject FinalPicture;
+
     private void Start()
     {
         ScoringSystem.theDots = 0;
@@ -23,6 +25,7 @@ public class DotsCounter : MonoBehaviour
         SpawnDots();
 
         dotHolder = templates.gameSheets[gameSheetRandomization];
+
 
         totalDots = dotHolder.transform.childCount;
         dots = new GameObject[totalDots];
@@ -39,7 +42,7 @@ public class DotsCounter : MonoBehaviour
 
         if (collectedDots == totalDots)
         {
-            SceneManager.LoadScene("SampleScene");
+            FinalPicture.SetActive(true);
         }
     }
 
@@ -51,6 +54,16 @@ public class DotsCounter : MonoBehaviour
             spawnedObj = Instantiate(templates.gameSheets[gameSheetRandomization], transform.position, Quaternion.identity);
         }
         spawned = true;
+    }
+
+    public void SpawnDotsAgain()
+    {
+        SceneManager.LoadScene("ConnectDots");
+    }
+
+    public void GuitThisGame()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 
 }
