@@ -37,6 +37,12 @@ public class DialogController1 : MonoBehaviour
         }
     }
 
+    public void SkipDialog()
+    {
+        index = dialogs.Length;
+        dialogPanel.SetActive(false);
+    }
+
     void NextDialog()
     {
         if(index < dialogs.Length)

@@ -10,6 +10,9 @@ TagManager:
   - PinkAlien
   - Dots
   - Pen
+  - RocketDoor
+  - HQDoor
+  - ElevatorDoor
   layers:
   - Default
   - TransparentFX

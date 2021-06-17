@@ -15,8 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/HomePlanet.unity
     guid: 468c5e0f83d76f9449d9b41c1442a3ed
   - enabled: 1
-    path: Assets/Scenes/Rocket.unity
+    path: Assets/Scenes/RocketLobby.unity
     guid: 24b99b4eb6243d94b80a94087c4d400e
+  - enabled: 1
+    path: Assets/Scenes/RocketCockpit.unity
+    guid: 48ffa505396bc304db26733ca67260fc
+  - enabled: 1
+    path: Assets/Scenes/HeadQuarters.unity
+    guid: a9f0a3a991e659443afa4b98e2b7e23f
   - enabled: 1
     path: Assets/Scenes/MiniGames/DashboardAssembly.unity
     guid: 06f927640d4454deaacfd740741616ce

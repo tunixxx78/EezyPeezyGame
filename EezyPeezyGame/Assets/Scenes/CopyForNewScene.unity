@@ -153,6 +153,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239291758 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 239291758, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_PrefabInstance: {fileID: 617965731}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &313636260
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,14 +193,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c182f6593403548a986a5be5051cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogText: {fileID: 617965732}
-  dialogPanel: {fileID: 1320701409}
-  dialogs:
-  - "It\u2019s starting to look very nice in here. We can go to different floors
-    with that elevator."
-  - "I think there are some problems with the control panel of the rocket\u2019s
-    cockpit. Can you help us fix it?"
-  - Click on the elevator to choose the floor.
+  dialogText: {fileID: 239291758}
+  dialogPanel: {fileID: 2036660778}
+  dialogs: []
   dialogSpeed: 0.02
 --- !u!4 &313636262
 Transform:
@@ -360,13 +366,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 98753029899859527, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 164.5
+    - target: {fileID: 689184999, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 313636261}
+    - target: {fileID: 1679554145, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 313636261}
+    - target: {fileID: 1679554145, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UIInputForDialog
       objectReference: {fileID: 0}
-    - target: {fileID: 98753031821523867, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -183.6
+    - target: {fileID: 1679554145, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogController1, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1924155132194631407, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_Pivot.x
@@ -452,35 +466,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8187579631151506406, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 313636261}
-    - target: {fileID: 8187579631151506406, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UIInputForDialog
-      objectReference: {fileID: 0}
-    - target: {fileID: 8187579631151506406, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DialogController1, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 8698239225561558547, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_Name
       value: Default_Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
---- !u!114 &617965732 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4756376205775487803, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-  m_PrefabInstance: {fileID: 617965731}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &618781878
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,11 +544,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1320701409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3159960776069372652, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-  m_PrefabInstance: {fileID: 617965731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1396551257
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,8 +570,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2106582805}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -655,85 +640,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2106582804
+--- !u!1 &2036660778 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2036660778, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_PrefabInstance: {fileID: 617965731}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2106582805}
-  - component: {fileID: 2106582806}
-  m_Layer: 0
-  m_Name: Rocket_Lobby_Default
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2106582805
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106582804}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.98, y: 0.98, z: 0.98}
-  m_Children: []
-  m_Father: {fileID: 1396551258}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2106582806
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106582804}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 248e2fc4482e5cb4ba29a27bd7a4edcf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0

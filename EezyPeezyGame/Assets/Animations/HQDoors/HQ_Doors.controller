@@ -153,7 +153,7 @@ AnimatorStateMachine:
     m_Position: {x: 40, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4350463813434534785}
-    m_Position: {x: 200, y: 180, z: 0}
+    m_Position: {x: 160, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3294106218192313629}
     m_Position: {x: 310, y: 90, z: 0}
@@ -211,7 +211,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HQDoorsOpen
+  m_Name: Open
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -294,7 +294,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HQDoorsClose
+  m_Name: Close
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -321,7 +321,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HQDoorsOpenIdle
+  m_Name: OpenIdle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

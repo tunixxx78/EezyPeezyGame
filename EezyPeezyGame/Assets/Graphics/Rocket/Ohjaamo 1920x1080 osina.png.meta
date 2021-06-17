@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 0d723d9c7a90ec841bc6c184ec555b2e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8153426040995614562
+    second: Ohjaamo 1920x1080 osina_0
+  - first:
+      213: 785159571740954849
+    second: Ohjaamo 1920x1080 osina_1
+  - first:
+      213: 6783403940528651168
+    second: Ohjaamo 1920x1080 osina_2
+  - first:
+      213: 5560942557835793273
+    second: Ohjaamo 1920x1080 osina_3
+  - first:
+      213: 4074495017003520111
+    second: Ohjaamo 1920x1080 osina_4
+  - first:
+      213: 3546796063923401583
+    second: Ohjaamo 1920x1080 osina_5
+  - first:
+      213: -2148115198379641633
+    second: Ohjaamo 1920x1080 osina_6
+  - first:
+      213: -3067738896937224088
+    second: Ohjaamo 1920x1080 osina_7
+  - first:
+      213: 224489066783883206
+    second: Ohjaamo 1920x1080 osina_8
+  - first:
+      213: 8066715797968293132
+    second: Ohjaamo 1920x1080 osina_9
+  - first:
+      213: 2054193374170374867
+    second: Ohjaamo 1920x1080 osina_10
+  - first:
+      213: -8069257951313074975
+    second: Ohjaamo 1920x1080 osina_11
+  - first:
+      213: 1765770716541431950
+    second: Ohjaamo 1920x1080 osina_12
+  - first:
+      213: -6380293726335810364
+    second: Ohjaamo 1920x1080 osina_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +83,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +117,375 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 325
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f86fb19c9c62170800000000000000
+      internalID: 8153426040995614562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_1
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 475
+        width: 581
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e01e95787275ea00800000000000000
+      internalID: 785159571740954849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_2
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 635
+        width: 182
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abf133a1fd732e50800000000000000
+      internalID: 6783403940528651168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_3
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 613
+        width: 320
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97397201bcf6c2d40800000000000000
+      internalID: 5560942557835793273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_4
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 296
+        width: 122
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60189f51a38b8830800000000000000
+      internalID: 4074495017003520111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_5
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 421
+        width: 102
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6378e87a30c83130800000000000000
+      internalID: 3546796063923401583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_6
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 142
+        width: 225
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b6f7bb9c5032e0800000000000000
+      internalID: -2148115198379641633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_7
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 253
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86878601ab33d65d0800000000000000
+      internalID: -3067738896937224088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_8
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 238
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfbc99ed9b8d1300800000000000000
+      internalID: 224489066783883206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_9
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 46
+        width: 256
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d8ee9674bb2ff60800000000000000
+      internalID: 8066715797968293132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_10
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 86
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2e26f7df5f18c10800000000000000
+      internalID: 2054193374170374867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_11
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 61
+        width: 69
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4ecf265ac340090800000000000000
+      internalID: -8069257951313074975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_12
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 79
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e803d3a7c17418810800000000000000
+      internalID: 1765770716541431950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ohjaamo 1920x1080 osina_13
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 51
+        width: 52
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4c91ff8a4a477a0800000000000000
+      internalID: -6380293726335810364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

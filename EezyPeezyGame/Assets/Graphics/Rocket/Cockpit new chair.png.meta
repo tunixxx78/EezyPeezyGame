@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: f4ac4ea5c67320a428a8c9e98fca2afc
+guid: b30e1a1fd39e7b945a1f71ead6415cbf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7168088753976902721
-    second: Rocket_Elevator_Sprites_0
+      213: 5583579279696264332
+    second: Cockpit new chair_0
   - first:
-      213: -3859230015837128551
-    second: Rocket_Elevator_Sprites_1
+      213: -2227393764635508260
+    second: Cockpit new chair_1
   - first:
-      213: 4478340366576386577
-    second: Rocket_Elevator_Sprites_2
+      213: 5295454219555894875
+    second: Cockpit new chair_2
   - first:
-      213: -7894520129674995837
-    second: Rocket_Elevator_Sprites_3
+      213: 8080528390395968853
+    second: Cockpit new chair_3
+  - first:
+      213: -3092244211711559057
+    second: Cockpit new chair_4
+  - first:
+      213: -1183736792713158799
+    second: Cockpit new chair_5
+  - first:
+      213: 1973105329757147282
+    second: Cockpit new chair_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,85 +172,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rocket_Elevator_Sprites_0
+      name: Cockpit new chair_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 67
-        width: 391
-        height: 985
+        x: 207
+        y: 843
+        width: 297
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 144044b5eba2a7360800000000000000
-      internalID: 7168088753976902721
+      spriteID: c8cf68595cbdc7d40800000000000000
+      internalID: 5583579279696264332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rocket_Elevator_Sprites_1
+      name: Cockpit new chair_1
       rect:
         serializedVersion: 2
-        x: 475
-        y: 69
-        width: 392
-        height: 983
+        x: 1323
+        y: 525
+        width: 283
+        height: 406
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 998b0876fb2417ac0800000000000000
-      internalID: -3859230015837128551
+      spriteID: cd10bfb1c25b611e0800000000000000
+      internalID: -2227393764635508260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rocket_Elevator_Sprites_2
+      name: Cockpit new chair_2
       rect:
         serializedVersion: 2
-        x: 960
-        y: 71
-        width: 391
-        height: 983
+        x: 1070
+        y: 699
+        width: 60
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 112041d06d2462e30800000000000000
-      internalID: 4478340366576386577
+      spriteID: b56f8f06e8b3d7940800000000000000
+      internalID: 5295454219555894875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rocket_Elevator_Sprites_3
+      name: Cockpit new chair_3
       rect:
         serializedVersion: 2
-        x: 1454
-        y: 69
-        width: 391
-        height: 983
+        x: 207
+        y: 508
+        width: 390
+        height: 83
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3871d8ed4c7017290800000000000000
-      internalID: -7894520129674995837
+      spriteID: 55db20332cdc32070800000000000000
+      internalID: 8080528390395968853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cockpit new chair_4
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 324
+        width: 298
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6abc2ad5442615d0800000000000000
+      internalID: -3092244211711559057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cockpit new chair_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 140
+        width: 298
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f95c2a8a5829fe0800000000000000
+      internalID: -1183736792713158799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cockpit new chair_6
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 75
+        width: 226
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290da9ce7d0e16b10800000000000000
+      internalID: 1973105329757147282
       vertices: []
       indices: 
       edges: []
