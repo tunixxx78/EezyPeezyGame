@@ -13,6 +13,8 @@ public class ElectricWireScript : MonoBehaviour
 
     ElectricWiresGameManager wireGameManager;
 
+    [SerializeField] Sprite filledPipe;
+
     private void Awake()
     {
         wireGameManager = GameObject.Find("ElectricWireGameManager").GetComponent<ElectricWiresGameManager>();
@@ -20,6 +22,7 @@ public class ElectricWireScript : MonoBehaviour
 
     private void Start()
     {
+        
         possibleRoations = correctRotation.Length;
         int rand = Random.Range(0, rotations.Length);
         transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
@@ -30,6 +33,7 @@ public class ElectricWireScript : MonoBehaviour
             {
                 isPlaced = true;
                 wireGameManager.CorrectMove();
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
             }
 
         }
@@ -39,6 +43,7 @@ public class ElectricWireScript : MonoBehaviour
             {
                 isPlaced = true;
                 wireGameManager.CorrectMove();
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
             }
         }
 
@@ -56,6 +61,8 @@ public class ElectricWireScript : MonoBehaviour
                 Debug.Log(transform.eulerAngles.z);
                 isPlaced = true;
                 wireGameManager.CorrectMove();
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
+
             }
             else if (isPlaced == true)
             {
@@ -71,6 +78,8 @@ public class ElectricWireScript : MonoBehaviour
                 Debug.Log(transform.eulerAngles.z);
                 isPlaced = true;
                 wireGameManager.CorrectMove();
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
+
             }
             else if (isPlaced == true)
             {
