@@ -126,6 +126,7 @@ MonoBehaviour:
   - 90
   - 270
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: 0544302e577524d2696fe99423d777b0, type: 3}
 --- !u!1 &2429665840571586054
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,6 +252,7 @@ MonoBehaviour:
   correctRotation:
   - 270
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: d64dd6b00868c46f2be9e943d6cca7a0, type: 3}
 --- !u!1 &2739782138399573983
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +378,7 @@ MonoBehaviour:
   correctRotation:
   - 270
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: d64dd6b00868c46f2be9e943d6cca7a0, type: 3}
 --- !u!1 &3652699269723483895
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,6 +505,7 @@ MonoBehaviour:
   - 0
   - 180
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: 0544302e577524d2696fe99423d777b0, type: 3}
 --- !u!1 &4048725063139616775
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +673,7 @@ MonoBehaviour:
   - 90
   - 270
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: 0544302e577524d2696fe99423d777b0, type: 3}
 --- !u!1 &6515654630187216178
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +800,7 @@ MonoBehaviour:
   - 90
   - 270
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: 0544302e577524d2696fe99423d777b0, type: 3}
 --- !u!1 &6522527719537855641
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +927,7 @@ MonoBehaviour:
   - 0
   - 180
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: 0544302e577524d2696fe99423d777b0, type: 3}
 --- !u!1 &7168888321793831869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1053,7 @@ MonoBehaviour:
   correctRotation:
   - 90
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: d64dd6b00868c46f2be9e943d6cca7a0, type: 3}
 --- !u!1 &7615842728172563903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,6 +1179,7 @@ MonoBehaviour:
   correctRotation:
   - 90
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: d64dd6b00868c46f2be9e943d6cca7a0, type: 3}
 --- !u!1 &7769794206539075874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,6 +1306,7 @@ MonoBehaviour:
   - 0
   - 180
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: 0544302e577524d2696fe99423d777b0, type: 3}
 --- !u!1 &9208362066978829951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,3 +1433,4 @@ MonoBehaviour:
   - 90
   - 270
   isPlaced: 0
+  filledPipe: {fileID: 21300000, guid: 0544302e577524d2696fe99423d777b0, type: 3}
