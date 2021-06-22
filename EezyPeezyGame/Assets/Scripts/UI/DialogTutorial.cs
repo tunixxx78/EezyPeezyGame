@@ -49,7 +49,7 @@ public class DialogTutorial : MonoBehaviour
 
     public void UIInputForDialog()
     {
-        //Tis is same as pressing Enter but for UI element
+        //This is same as pressing Enter but for UI element
         if (nextText == true)
         {
             nextText = false;
@@ -59,15 +59,16 @@ public class DialogTutorial : MonoBehaviour
 
     public void SkipTutorial()
     {
+        //For skip button, to skip all dialog texts and close the dialog panel
         index = dialogs.Length;
         dialogPanel.SetActive(false);
         ezAnimator.Play("EzIdle");
         pzAnimator.Play("PzIdle");
-
     }
 
     void NextDialog()
     {
+        //for next button, sets new index and calls the coroutine to star writing the next dialog line, if no index is bigger than the list of dialogs, the panel deactivates
         if (index < dialogs.Length)
         {
             dialogText.text = "";
@@ -82,6 +83,7 @@ public class DialogTutorial : MonoBehaviour
 
     IEnumerator WriteDialog()
     {
+        //activates the wanted animations for the for robots and UI elements at the wanted dialog index
         if(index < 2)
         {
             ezAnimator.Play("EzWave");
@@ -115,12 +117,13 @@ public class DialogTutorial : MonoBehaviour
             pzAnimator.Play("PzIdle");
         }
 
-
+        //this is the part of the coroutine that "animates" the text
         foreach (char Character in dialogs[index].ToCharArray())
         {
             dialogText.text += Character;
             yield return new WaitForSeconds(dialogSpeed);
         }
+        //growing index for new dialog text and changing the bool nextText so that enter or next button can be pressed again
         index++;
         nextText = true;
     }
