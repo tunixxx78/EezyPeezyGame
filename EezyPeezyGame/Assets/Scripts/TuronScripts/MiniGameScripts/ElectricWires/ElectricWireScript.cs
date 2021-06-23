@@ -24,7 +24,10 @@ public class ElectricWireScript : MonoBehaviour
     {
         
         possibleRoations = correctRotation.Length;
+        
         int rand = Random.Range(0, rotations.Length);
+
+
         transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
 
         if (possibleRoations > 1)
@@ -33,7 +36,7 @@ public class ElectricWireScript : MonoBehaviour
             {
                 isPlaced = true;
                 wireGameManager.CorrectMove();
-                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
+                //this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
             }
 
         }
@@ -43,7 +46,7 @@ public class ElectricWireScript : MonoBehaviour
             {
                 isPlaced = true;
                 wireGameManager.CorrectMove();
-                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
+                //this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
             }
         }
 
