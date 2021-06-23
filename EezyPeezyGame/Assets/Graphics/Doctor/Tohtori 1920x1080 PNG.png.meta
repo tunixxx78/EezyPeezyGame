@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: f38e5af0143acc141b28b9105e48f82f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3662972888913752168
+    second: Tohtori 1920x1080 PNG_0
+  - first:
+      213: -7022175750944980636
+    second: Tohtori 1920x1080 PNG_1
+  - first:
+      213: 2992400473735753855
+    second: Tohtori 1920x1080 PNG_2
+  - first:
+      213: 678518499230277290
+    second: Tohtori 1920x1080 PNG_3
+  - first:
+      213: -728718559558415400
+    second: Tohtori 1920x1080 PNG_4
+  - first:
+      213: 981584035243181356
+    second: Tohtori 1920x1080 PNG_5
+  - first:
+      213: -8048184333377981961
+    second: Tohtori 1920x1080 PNG_6
+  - first:
+      213: -2670522527255018585
+    second: Tohtori 1920x1080 PNG_7
+  - first:
+      213: -5600593377348560268
+    second: Tohtori 1920x1080 PNG_8
+  - first:
+      213: -4389160493138553009
+    second: Tohtori 1920x1080 PNG_9
+  - first:
+      213: 8059315591215670839
+    second: Tohtori 1920x1080 PNG_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 58
+        width: 815
+        height: 874
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fc86690918a2dc0800000000000000
+      internalID: -3662972888913752168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_1
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 906
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461009e0c583c8e90800000000000000
+      internalID: -7022175750944980636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_2
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 906
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70fabe5064278920800000000000000
+      internalID: 2992400473735753855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_3
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 870
+        width: 44
+        height: 101
+      alignment: 9
+      pivot: {x: 0.41834328, y: 0.20652604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaed628eaf49a6900800000000000000
+      internalID: 678518499230277290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_4
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 845
+        width: 71
+        height: 87
+      alignment: 9
+      pivot: {x: 0.18372957, y: 0.13865224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db494cb45213e5f0800000000000000
+      internalID: -728718559558415400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_5
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 559
+        width: 170
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254dd9ba794f9d00800000000000000
+      internalID: 981584035243181356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_6
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 578
+        width: 141
+        height: 190
+      alignment: 9
+      pivot: {x: 0.1623769, y: 0.083989516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1342a6dfa1f4090800000000000000
+      internalID: -8048184333377981961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_7
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 194
+        width: 225
+        height: 230
+      alignment: 9
+      pivot: {x: 0.11277452, y: 0.9178598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3494619e560fad0800000000000000
+      internalID: -2670522527255018585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_8
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 320
+        width: 121
+        height: 207
+      alignment: 9
+      pivot: {x: 0.07687806, y: 0.93825364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47adbbb1ff1b642b0800000000000000
+      internalID: -5600593377348560268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_9
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 98
+        width: 108
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5083155, y: 0.31416425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f475c4849c19613c0800000000000000
+      internalID: -4389160493138553009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tohtori 1920x1080 PNG_10
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 98
+        width: 108
+        height: 29
+      alignment: 9
+      pivot: {x: 0.52494866, y: 0.31416425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7366d2384d078df60800000000000000
+      internalID: 8059315591215670839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
