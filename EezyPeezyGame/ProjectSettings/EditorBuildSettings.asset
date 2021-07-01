@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/HeadQuarters.unity
     guid: a9f0a3a991e659443afa4b98e2b7e23f
   - enabled: 1
+    path: Assets/Scenes/MiniGames/Labyrinth.unity
+    guid: 2151d07842d436d4cb4ec08450f80bfe
+  - enabled: 1
     path: Assets/Scenes/MiniGames/DashboardAssembly.unity
     guid: 06f927640d4454deaacfd740741616ce
   - enabled: 1

@@ -64,7 +64,7 @@ public class DotsCounter : MonoBehaviour
 
     public void GuitThisGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("RocketLobby");
         ScoringSystem.theScore += 100;
         Debug.Log(ScoringSystem.theScore);
     }
