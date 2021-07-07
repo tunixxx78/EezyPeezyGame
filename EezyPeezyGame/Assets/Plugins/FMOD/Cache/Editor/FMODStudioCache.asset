@@ -15,12 +15,81 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637587454200000000
+  lastModified: 637612444910000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 742
+    Value: 926
   Exists: 1
+--- !u!114 &-4849231841170653247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ButtonClick
+  m_EditorClassIdentifier: 
+  Path: event:/ButtonClick
+  guid: 2e1f466d0cab614db20c09037af8fd77
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3237851637284956675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpaceAmpientNoise
+  m_EditorClassIdentifier: 
+  Path: event:/SpaceAmpientNoise
+  guid: 0127cbd739631b49b3e8d671c496fbb2
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2603170099122452281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GameMusic
+  m_EditorClassIdentifier: 
+  Path: event:/GameMusic
+  guid: b9a091f3357e7544a7039b947c1609b0
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2578307392881692099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,6 +113,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
+--- !u!114 &-2431412226573218746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RocketSound
+  m_EditorClassIdentifier: 
+  Path: event:/RocketSound
+  guid: bccaeaa70a32a94aba8c66ea5aee37bc
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,12 +153,16 @@ MonoBehaviour:
   - {fileID: 3964162935710638922}
   EditorEvents:
   - {fileID: -2578307392881692099}
+  - {fileID: -2603170099122452281}
+  - {fileID: -4849231841170653247}
+  - {fileID: -2431412226573218746}
+  - {fileID: -3237851637284956675}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3964162935710638922}
   StringsBanks:
   - {fileID: -5829100870083323475}
-  stringsBankWriteTime: 637587454200000000
+  stringsBankWriteTime: 637612444910000000
   cacheVersion: 6
 --- !u!114 &3964162935710638922
 MonoBehaviour:
@@ -83,7 +179,7 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637587454200000000
+  lastModified: 637612444910000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
