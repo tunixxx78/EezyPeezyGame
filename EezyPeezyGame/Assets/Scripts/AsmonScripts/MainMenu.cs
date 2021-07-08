@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour
      
     public void StartGame()
     {
-        PrefabUtility.SaveAsPrefabAsset(avatar, "assets/Prefabs/TestPrefabs/avatar.prefab");
+        //PrefabUtility.SaveAsPrefabAsset(avatar, "assets/Prefabs/TestPrefabs/avatar.prefab");
         SceneManager.LoadScene("HomePlanet");
     }
 

@@ -33,7 +33,7 @@ public class MoveToNextStage : MonoBehaviour
         ScoringSystem.theScore += 10;
         Debug.Log(ScoringSystem.theScore);
         
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("RocketCockpit");
     }
 
     

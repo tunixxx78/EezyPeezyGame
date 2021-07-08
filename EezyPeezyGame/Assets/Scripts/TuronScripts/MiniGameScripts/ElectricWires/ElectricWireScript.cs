@@ -24,10 +24,8 @@ public class ElectricWireScript : MonoBehaviour
     {
         
         possibleRoations = correctRotation.Length;
-        
+
         int rand = Random.Range(0, rotations.Length);
-
-
         transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
 
         if (possibleRoations > 1)

@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 8e4c2a28e1594ad4c95b23ea93ffe44e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1314839990590544508
+    second: Terve Newton osissa 1920x1080_0
+  - first:
+      213: -3121615672619725159
+    second: Terve Newton osissa 1920x1080_1
+  - first:
+      213: 5252717588493899412
+    second: Terve Newton osissa 1920x1080_2
+  - first:
+      213: 1032072250807855978
+    second: Terve Newton osissa 1920x1080_3
+  - first:
+      213: -825668213647488589
+    second: Terve Newton osissa 1920x1080_4
+  - first:
+      213: 8843737225680410584
+    second: Terve Newton osissa 1920x1080_5
+  - first:
+      213: 529600129962574157
+    second: Terve Newton osissa 1920x1080_6
+  - first:
+      213: -8415843384877064625
+    second: Terve Newton osissa 1920x1080_7
+  - first:
+      213: 584138926779044869
+    second: Terve Newton osissa 1920x1080_8
+  - first:
+      213: -9084085143190635148
+    second: Terve Newton osissa 1920x1080_9
+  - first:
+      213: 7577109295607951251
+    second: Terve Newton osissa 1920x1080_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 166
+        width: 508
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a90af41004f3210800000000000000
+      internalID: 1314839990590544508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_1
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1019
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e8534b51bcda4d0800000000000000
+      internalID: -3121615672619725159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_2
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 946
+        width: 87
+        height: 100
+      alignment: 9
+      pivot: {x: 0.8510223, y: 0.13173585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49610af01d665e840800000000000000
+      internalID: 5252717588493899412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_3
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 946
+        width: 91
+        height: 94
+      alignment: 9
+      pivot: {x: 0.14466539, y: 0.13689601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ba0f37e38a25e00800000000000000
+      internalID: 1032072250807855978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 807
+        width: 99
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9c53f5223aa84f0800000000000000
+      internalID: -825668213647488589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_5
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 622
+        width: 95
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7549f86244bba70800000000000000
+      internalID: 8843737225680410584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_6
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 516
+        width: 172
+        height: 143
+      alignment: 9
+      pivot: {x: 0.9073245, y: 0.8705871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d418b632384895700800000000000000
+      internalID: 529600129962574157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_7
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 495
+        width: 152
+        height: 163
+      alignment: 9
+      pivot: {x: 0.12771848, y: 0.8912417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ed41fc70be43b80800000000000000
+      internalID: -8415843384877064625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_8
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 439
+        width: 95
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504942e42474b1800800000000000000
+      internalID: 584138926779044869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_9
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 183
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47df7ba11b8dee180800000000000000
+      internalID: -9084085143190635148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terve Newton osissa 1920x1080_10
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 166
+        width: 99
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fa50552cc472960800000000000000
+      internalID: 7577109295607951251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
