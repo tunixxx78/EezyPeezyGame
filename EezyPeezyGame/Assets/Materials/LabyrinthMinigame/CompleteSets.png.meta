@@ -1,7 +1,109 @@
 fileFormatVersion: 2
-guid: 1b1b01868a0a3e44d9306f0305567241
+guid: 0938d0f239569d646ad0f2e586f8c8ca
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4937488949208166841
+    second: CompleteSets_18
+  - first:
+      213: -6391404217785578367
+    second: CompleteSets_20
+  - first:
+      213: -4900138639292386220
+    second: CompleteSets_22
+  - first:
+      213: -5380253347581866831
+    second: CompleteSets_24
+  - first:
+      213: 8867521036791321401
+    second: CompleteSets_26
+  - first:
+      213: 8253272863395600242
+    second: CompleteSets_28
+  - first:
+      213: 4207031100081697723
+    second: CompleteSets_30
+  - first:
+      213: -879507555296033930
+    second: CompleteSets_32
+  - first:
+      213: -6920470235065709372
+    second: CompleteSets_43
+  - first:
+      213: 720335944033061784
+    second: CompleteSets_45
+  - first:
+      213: 6316616886800740470
+    second: CompleteSets_47
+  - first:
+      213: 6868095686271887082
+    second: CompleteSets_49
+  - first:
+      213: -5104840749911858857
+    second: CompleteSets_52
+  - first:
+      213: 5674467784602309600
+    second: CompleteSets_54
+  - first:
+      213: 3631296252585184722
+    second: CompleteSets_56
+  - first:
+      213: 1056450813559785492
+    second: CompleteSets_58
+  - first:
+      213: -4244083761040685739
+    second: CompleteSets_80
+  - first:
+      213: 3265808748828314484
+    second: CompleteSets_81
+  - first:
+      213: -5900866693997158178
+    second: CompleteSets_83
+  - first:
+      213: -922900987418142920
+    second: CompleteSets_84
+  - first:
+      213: -313672398291559300
+    second: CompleteSets_86
+  - first:
+      213: -7072716123150263057
+    second: CompleteSets_87
+  - first:
+      213: 4840518296083622370
+    second: CompleteSets_88
+  - first:
+      213: -545266422076913323
+    second: CompleteSets_89
+  - first:
+      213: 3700119212348284831
+    second: CompleteSets_90
+  - first:
+      213: -209613279726668560
+    second: CompleteSets_91
+  - first:
+      213: 6532944986085371943
+    second: CompleteSets_102
+  - first:
+      213: 2790458286296150344
+    second: CompleteSets_103
+  - first:
+      213: 5013881609073753971
+    second: CompleteSets_105
+  - first:
+      213: 1757905753857735676
+    second: CompleteSets_106
+  - first:
+      213: 4588187079457622098
+    second: CompleteSets_108
+  - first:
+      213: -4702471955434882903
+    second: CompleteSets_109
+  - first:
+      213: 855199054564812252
+    second: CompleteSets_110
+  - first:
+      213: -8959146655846627333
+    second: CompleteSets_111
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +134,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +143,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +177,747 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CompleteSets_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ec70ce5f38a7bb0800000000000000
+      internalID: -4937488949208166841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c05fe1abb2d47a0800000000000000
+      internalID: -6391404217785578367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454bfce9ed53ffbb0800000000000000
+      internalID: -4900138639292386220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_24
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcc6cf06108555b0800000000000000
+      internalID: -5380253347581866831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_26
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933104c9663cf0b70800000000000000
+      internalID: 8867521036791321401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_28
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277d01901f3898270800000000000000
+      internalID: 8253272863395600242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3f367ee70626a30800000000000000
+      internalID: 4207031100081697723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_32
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1944
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ce4dc98c5bc3f0800000000000000
+      internalID: -879507555296033930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_43
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1836
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc8e38ccfc85ff90800000000000000
+      internalID: -6920470235065709372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_45
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1836
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b490f79b52ff900800000000000000
+      internalID: 720335944033061784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_47
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1836
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670fdf7779129a750800000000000000
+      internalID: 6316616886800740470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_49
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1836
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6e0af43a0605f50800000000000000
+      internalID: 6868095686271887082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_52
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1728
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751a0927266f729b0800000000000000
+      internalID: -5104840749911858857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_54
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1728
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e35e9ea262cfbe40800000000000000
+      internalID: 5674467784602309600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_56
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1728
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd0c89c3b4f46230800000000000000
+      internalID: 3631296252585184722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_58
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1728
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41847e8ea6449ae00800000000000000
+      internalID: 1056450813559785492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_80
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5558a223e4cf915c0800000000000000
+      internalID: -4244083761040685739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_81
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b464a01cb725d20800000000000000
+      internalID: 3265808748828314484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_83
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0ad558109eb1ea0800000000000000
+      internalID: -5900866693997158178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_84
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837951211723133f0800000000000000
+      internalID: -922900987418142920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_86
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c9cfb9d9c95abf0800000000000000
+      internalID: -313672398291559300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_87
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec537aa82aa8dd90800000000000000
+      internalID: -7072716123150263057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_88
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9e7de7eb9fc2340800000000000000
+      internalID: 4840518296083622370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_89
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559482cf313de68f0800000000000000
+      internalID: -545266422076913323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_90
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f1e9ec1d6795330800000000000000
+      internalID: 3700119212348284831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_91
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1512
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4ffa925dd471df0800000000000000
+      internalID: -209613279726668560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_102
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720b9c01adea9aa50800000000000000
+      internalID: 6532944986085371943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_103
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8413a33e603b9b620800000000000000
+      internalID: 2790458286296150344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_105
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f74be32c2e49540800000000000000
+      internalID: 5013881609073753971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_106
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb3e4728f5556810800000000000000
+      internalID: 1757905753857735676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_108
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258cb1ae6d38caf30800000000000000
+      internalID: 4588187079457622098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_109
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8311adba67dbeb0800000000000000
+      internalID: -4702471955434882903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_110
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5e59352074edb00800000000000000
+      internalID: 855199054564812252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompleteSets_111
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1296
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf702a78597baa380800000000000000
+      internalID: -8959146655846627333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
