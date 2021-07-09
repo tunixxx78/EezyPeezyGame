@@ -13,6 +13,11 @@ TagManager:
   - RocketDoor
   - HQDoor
   - ElevatorDoor
+  - Mask
+  - Needle
+  - Pill
+  - Stetoscope
+  - Thermometer
   layers:
   - Default
   - TransparentFX
