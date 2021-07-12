@@ -158,17 +158,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5573919688804508693, guid: ad209579b08749947a472af25bcce464, type: 3}
   m_PrefabInstance: {fileID: 1725535690}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &239291758 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 239291758, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-  m_PrefabInstance: {fileID: 617965731}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &255781668
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,8 +352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c182f6593403548a986a5be5051cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogText: {fileID: 239291758}
-  dialogPanel: {fileID: 2036660778}
+  dialogText: {fileID: 617965732}
+  dialogPanel: {fileID: 617965733}
   dialogs:
   - "Oh, wow! Can\u2019t wait to get on the road... erm, to space and go on all kinds
     of adventures!"
@@ -1397,12 +1386,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5958751755977552947, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 313636261}
+    - target: {fileID: 5958751755977552947, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UIInputForDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958751755977552947, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogController1, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8698239225561558547, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_Name
       value: Default_Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+--- !u!114 &617965732 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8018292571561060790, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_PrefabInstance: {fileID: 617965731}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &617965733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8910920710327546902, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_PrefabInstance: {fileID: 617965731}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &618781878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2983,11 +3000,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2036660778 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2036660778, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-  m_PrefabInstance: {fileID: 617965731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2124596325
 GameObject:
   m_ObjectHideFlags: 0
