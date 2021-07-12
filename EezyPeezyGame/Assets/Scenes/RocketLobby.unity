@@ -240,9 +240,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &201863130 stripped
+--- !u!114 &114612315 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 239291758, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8018292571561060790, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
   m_PrefabInstance: {fileID: 617965731}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -480,8 +480,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c182f6593403548a986a5be5051cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogText: {fileID: 201863130}
-  dialogPanel: {fileID: 1938103578}
+  dialogText: {fileID: 114612315}
+  dialogPanel: {fileID: 654179533}
   dialogs:
   - "It\u2019s starting to look very nice in here. We can go to different floors
     with that elevator."
@@ -934,6 +934,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5958751755977552947, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 313636261}
+    - target: {fileID: 5958751755977552947, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UIInputForDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958751755977552947, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogController1, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8187579631151506406, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1024,6 +1036,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &654179533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8910920710327546902, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_PrefabInstance: {fileID: 617965731}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1069156755 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1924155132194631407, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
@@ -1638,8 +1655,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Welcome
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a0805e3ce9a5cf644bf74c06cda09150, type: 2}
+  m_sharedMaterial: {fileID: -9124156689391278715, guid: a0805e3ce9a5cf644bf74c06cda09150, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1663,8 +1680,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1822,11 +1839,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1938103578 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2036660778, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
-  m_PrefabInstance: {fileID: 617965731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2106582804
 GameObject:
   m_ObjectHideFlags: 0

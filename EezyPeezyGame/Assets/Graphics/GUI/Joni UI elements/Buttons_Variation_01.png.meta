@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 4f1a4b23d101d0a42ba9bc4d83b07e67
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3457443203910545239
+    second: Buttons_Variation_01_0
+  - first:
+      213: 5750114585263162920
+    second: Buttons_Variation_01_1
+  - first:
+      213: -5046720099943441189
+    second: Buttons_Variation_01_2
+  - first:
+      213: 401993471464291524
+    second: Buttons_Variation_01_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Buttons_Variation_01_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 796
+        width: 480
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f2d20964e4bff20800000000000000
+      internalID: 3457443203910545239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_Variation_01_1
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 795
+        width: 1380
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8264768ffb28ccf40800000000000000
+      internalID: 5750114585263162920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_Variation_01_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 275
+        width: 542
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc1c0acec276f9b0800000000000000
+      internalID: -5046720099943441189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_Variation_01_3
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 275
+        width: 1443
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccb7a4beea249500800000000000000
+      internalID: 401993471464291524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
