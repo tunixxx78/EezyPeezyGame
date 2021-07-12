@@ -1597,7 +1597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &336478039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1610,9 +1610,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa6871fd37f77814eb9e69e0cf1fab84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loginScreen: {fileID: 0}
-  registerScreen: {fileID: 0}
-  startGameScreen: {fileID: 0}
+  loginScreen: {fileID: 1417007938}
+  registerScreen: {fileID: 682549069}
+  startGameScreen: {fileID: 1120137413}
   avatar: {fileID: 1518238668294916344}
 --- !u!224 &336478040
 RectTransform:
@@ -6944,7 +6944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1120137414
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10387,7 +10387,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1120137413}
+      - m_Target: {fileID: 336478038}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -10397,7 +10397,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1686836804
 MonoBehaviour:
