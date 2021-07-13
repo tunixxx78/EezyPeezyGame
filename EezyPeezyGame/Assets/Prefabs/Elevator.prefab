@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 7456395036844483560}
   - component: {fileID: 7456395036844483575}
   - component: {fileID: 4000292463627349286}
+  - component: {fileID: 2925818774029269830}
   m_Layer: 0
   m_Name: Elevator
   m_TagString: Untagged
@@ -271,6 +272,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elevatorPanel: {fileID: 0}
+--- !u!114 &2925818774029269830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7456395036844483572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcaf85607219e244910f96957966be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorDefault: {fileID: 2800000, guid: 2ddacd49f3616604a9ff8cf26263ab34, type: 3}
+  cursorInteractable: {fileID: 2800000, guid: 90f8ed06308361c48862426e5651b9a0, type: 3}
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &7456395037482504750
 GameObject:
   m_ObjectHideFlags: 0
