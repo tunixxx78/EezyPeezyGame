@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7456395035821429061}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.789, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0}
   m_Children: []
   m_Father: {fileID: 7456395036844483574}
@@ -107,7 +107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7456395035878889386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.761, z: 0}
   m_LocalScale: {x: 0.9, y: 0.89878416, z: 0}
   m_Children: []
   m_Father: {fileID: 7456395036844483574}
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 7456395036844483573}
   - component: {fileID: 7456395036844483560}
   - component: {fileID: 7456395036844483575}
-  - component: {fileID: 7456395036844483561}
+  - component: {fileID: 4000292463627349286}
   m_Layer: 0
   m_Name: Elevator
   m_TagString: Untagged
@@ -191,7 +191,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7456395036844483572}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.51, y: 0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -258,7 +258,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.331026, y: 7.526872}
   m_EdgeRadius: 0
---- !u!114 &7456395036844483561
+--- !u!114 &4000292463627349286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,11 +267,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7456395036844483572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 554168dd3405f774f81bd6e370acad3b, type: 3}
+  m_Script: {fileID: 11500000, guid: db28955e46330944a8294a5717e11575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toScene: RocketCockpit
-  confirmationPanel: {fileID: 0}
+  elevatorPanel: {fileID: 0}
 --- !u!1 &7456395037482504750
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7456395037482504750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.0912, z: 0}
+  m_LocalPosition: {x: 0, y: -0.66980004, z: 0}
   m_LocalScale: {x: 0.9, y: 0.8999999, z: 0}
   m_Children: []
   m_Father: {fileID: 7456395036844483574}

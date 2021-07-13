@@ -9,33 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: e920ede1e70f16643bd87e9ea6bd00bb
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/HomePlanet.unity
     guid: 468c5e0f83d76f9449d9b41c1442a3ed
   - enabled: 1
     path: Assets/Scenes/RocketLobby.unity
     guid: 24b99b4eb6243d94b80a94087c4d400e
   - enabled: 1
+    path: Assets/Scenes/MiniGames/ConnectDots.unity
+    guid: 7d92455d2de804a0fafec76aa4e8cfd7
+  - enabled: 1
     path: Assets/Scenes/RocketCockpit.unity
     guid: 48ffa505396bc304db26733ca67260fc
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/DashboardAssembly.unity
+    guid: 06f927640d4454deaacfd740741616ce
   - enabled: 1
     path: Assets/Scenes/HeadQuarters.unity
     guid: a9f0a3a991e659443afa4b98e2b7e23f
   - enabled: 1
     path: Assets/Scenes/MiniGames/Labyrinth.unity
     guid: 2151d07842d436d4cb4ec08450f80bfe
-  - enabled: 1
-    path: Assets/Scenes/MiniGames/DashboardAssembly.unity
-    guid: 06f927640d4454deaacfd740741616ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MiniGameArcade.unity
     guid: 0b20f851d93634aed8a3769f11676b2d
-  - enabled: 1
-    path: Assets/Scenes/MiniGames/ConnectDots.unity
-    guid: 7d92455d2de804a0fafec76aa4e8cfd7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MiniGames/HelpByteHome.unity
     guid: 54bc93b4bbb534d4295876c5309ddaeb
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

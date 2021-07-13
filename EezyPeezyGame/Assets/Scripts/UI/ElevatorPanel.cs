@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+public class ElevatorPanel : MonoBehaviour
 {
-    // name of the scene you want the player to go
-    public string toScene;
-    
+
+    public GameObject elevatorPanel;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        elevatorPanel.SetActive(false);
     }
 
     private void OnMouseOver()
@@ -21,14 +20,15 @@ public class SceneChanger : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             Debug.Log("klik");
-            GoToScene();
+            elevatorPanel.SetActive(true);
+            StartCoroutine(ElevatorWait());
         }
     }
 
-    public void GoToScene()
+    IEnumerator ElevatorWait()
     {
-        //button action for scene changing
-        SceneManager.LoadScene(toScene);
+        //this coroutine will shut the panel after a while if neither of the buttons have been pressed
+        yield return new WaitForSeconds(7f);
+        elevatorPanel.SetActive(false);
     }
-
 }
