@@ -64,6 +64,9 @@ public class DialogTutorial : MonoBehaviour
         dialogPanel.SetActive(false);
         ezAnimator.Play("EzIdle");
         pzAnimator.Play("PzIdle");
+        taskAnimator.SetBool("show", false);
+        mapAnimator.SetBool("show", false);
+        menuAnimator.SetBool("show", false);
     }
 
     void NextDialog()

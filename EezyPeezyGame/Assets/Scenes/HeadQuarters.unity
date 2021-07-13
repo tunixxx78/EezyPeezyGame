@@ -1255,6 +1255,7 @@ GameObject:
   - component: {fileID: 1026777252}
   - component: {fileID: 1026777251}
   - component: {fileID: 1026777253}
+  - component: {fileID: 1026777254}
   m_Layer: 0
   m_Name: RobotHQ_Door_animation
   m_TagString: Untagged
@@ -1348,6 +1349,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61d757cea67bfd842a691a2ae8a4858a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1026777254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026777248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcaf85607219e244910f96957966be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorDefault: {fileID: 2800000, guid: 2ddacd49f3616604a9ff8cf26263ab34, type: 3}
+  cursorInteractable: {fileID: 2800000, guid: 90f8ed06308361c48862426e5651b9a0, type: 3}
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &1267529876
 GameObject:
   m_ObjectHideFlags: 0
