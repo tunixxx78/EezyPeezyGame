@@ -1,40 +1,37 @@
 fileFormatVersion: 2
-guid: 8e4c2a28e1594ad4c95b23ea93ffe44e
+guid: b45b0000177000545a193b824de5905f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1314839990590544508
-    second: Healthy Newton body
+      213: 5131775804241043565
+    second: Electra left hair
   - first:
-      213: -3121615672619725159
-    second: Healthy Newton iris 2
+      213: -4896259208921822468
+    second: Electra body
   - first:
-      213: 5252717588493899412
-    second: Healthy Newton left ear
+      213: -4577703815636997549
+    second: Electra front hair
   - first:
-      213: 1032072250807855978
-    second: Healthy Newton right ear
+      213: 6982829767934521662
+    second: Electra right hair
   - first:
-      213: -825668213647488589
-    second: Healthy Newton left eye
+      213: -8310666587877547229
+    second: Electra 1920x1080 PNG_4
   - first:
-      213: 8843737225680410584
-    second: Healthy Newton right eyebrow
+      213: 6740170145720540914
+    second: Electra 1920x1080 PNG_5
   - first:
-      213: 529600129962574157
-    second: Healthy Newton right hand
+      213: -6479796275905513119
+    second: Electra left arm
   - first:
-      213: -8415843384877064625
-    second: Healthy Newton left hand
+      213: 6219574712269974607
+    second: Electra right arm
   - first:
-      213: 584138926779044869
-    second: Healthy Newton left eyebrow
+      213: -443726669163175719
+    second: Electra left fringe
   - first:
-      213: -9084085143190635148
-    second: Healthy Newton iris 1
-  - first:
-      213: 7577109295607951251
-    second: Healthy Newton right eye
+      213: -6866012566932098929
+    second: Electra right fringe
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -136,232 +133,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Healthy Newton body
+      name: Electra left hair
       rect:
         serializedVersion: 2
-        x: 46
-        y: 166
-        width: 508
-        height: 914
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7a90af41004f3210800000000000000
-      internalID: 1314839990590544508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthy Newton iris 2
-      rect:
-        serializedVersion: 2
-        x: 779
-        y: 1019
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99e8534b51bcda4d0800000000000000
-      internalID: -3121615672619725159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthy Newton left ear
-      rect:
-        serializedVersion: 2
-        x: 1382
-        y: 946
-        width: 87
-        height: 100
+        x: 113
+        y: 704
+        width: 263
+        height: 341
       alignment: 9
-      pivot: {x: 0.8510223, y: 0.13173585}
+      pivot: {x: 0.9385941, y: 0.94316036}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49610af01d665e840800000000000000
-      internalID: 5252717588493899412
+      spriteID: d606bb697eab73740800000000000000
+      internalID: 5131775804241043565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthy Newton right ear
+      name: Electra body
       rect:
         serializedVersion: 2
-        x: 1679
-        y: 946
-        width: 91
-        height: 94
+        x: 635
+        y: 98
+        width: 658
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfacaf3e03efc0cb0800000000000000
+      internalID: -4896259208921822468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electra front hair
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 746
+        width: 86
+        height: 140
       alignment: 9
-      pivot: {x: 0.14466539, y: 0.13689601}
+      pivot: {x: 0.12568983, y: 0.06567993}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6ba0f37e38a25e00800000000000000
-      internalID: 1032072250807855978
+      spriteID: 35aa10622aab870c0800000000000000
+      internalID: -4577703815636997549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthy Newton left eye
+      name: Electra right hair
       rect:
         serializedVersion: 2
-        x: 762
-        y: 807
-        width: 99
-        height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b9c53f5223aa84f0800000000000000
-      internalID: -825668213647488589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthy Newton right eyebrow
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 622
-        width: 95
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d7549f86244bba70800000000000000
-      internalID: 8843737225680410584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthy Newton right hand
-      rect:
-        serializedVersion: 2
-        x: 1304
-        y: 516
-        width: 172
-        height: 143
+        x: 1573
+        y: 685
+        width: 264
+        height: 341
       alignment: 9
-      pivot: {x: 0.9073245, y: 0.8705871}
+      pivot: {x: 0.052906845, y: 0.9510273}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d418b632384895700800000000000000
-      internalID: 529600129962574157
+      spriteID: e31b2c46daef7e060800000000000000
+      internalID: 6982829767934521662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthy Newton left hand
+      name: Electra 1920x1080 PNG_4
       rect:
         serializedVersion: 2
-        x: 1679
-        y: 495
-        width: 152
-        height: 163
+        x: 1551
+        y: 683
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323e9d625c49aac80800000000000000
+      internalID: -8310666587877547229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electra 1920x1080 PNG_5
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 626
+        width: 51
+        height: 51
       alignment: 9
-      pivot: {x: 0.12771848, y: 0.8912417}
+      pivot: {x: 0.009073894, y: 0.28960225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4ed41fc70be43b80800000000000000
-      internalID: -8415843384877064625
+      spriteID: 2fe9d5d5905e98d50800000000000000
+      internalID: 6740170145720540914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthy Newton left eyebrow
+      name: Electra left arm
       rect:
         serializedVersion: 2
-        x: 764
-        y: 440
-        width: 95
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 216
+        y: 431
+        width: 233
+        height: 165
+      alignment: 9
+      pivot: {x: 0.9451751, y: 0.84141695}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 504942e42474b1800800000000000000
-      internalID: 584138926779044869
+      spriteID: 169b0c55e932316a0800000000000000
+      internalID: -6479796275905513119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthy Newton iris 1
+      name: Electra right arm
       rect:
         serializedVersion: 2
-        x: 1305
-        y: 183
-        width: 59
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1343
+        y: 338
+        width: 233
+        height: 162
+      alignment: 9
+      pivot: {x: 0.08552728, y: 0.8201411}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47df7ba11b8dee180800000000000000
-      internalID: -9084085143190635148
+      spriteID: f4caad28f3e505650800000000000000
+      internalID: 6219574712269974607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthy Newton right eye
+      name: Electra left fringe
       rect:
         serializedVersion: 2
-        x: 1554
-        y: 166
-        width: 99
-        height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 172
+        y: 85
+        width: 93
+        height: 144
+      alignment: 9
+      pivot: {x: 0.77883285, y: 0.88499737}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39fa50552cc472960800000000000000
-      internalID: 7577109295607951251
+      spriteID: 9d0692302f097d9f0800000000000000
+      internalID: -443726669163175719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electra right fringe
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 76
+        width: 93
+        height: 144
+      alignment: 9
+      pivot: {x: 0.23078246, y: 0.9222548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80f4a4b2f507b0a0800000000000000
+      internalID: -6866012566932098929
       vertices: []
       indices: 
       edges: []
