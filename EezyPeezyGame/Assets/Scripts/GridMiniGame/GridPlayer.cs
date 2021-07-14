@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GridPlayer : MonoBehaviour
 {
@@ -11,15 +12,23 @@ public class GridPlayer : MonoBehaviour
     [SerializeField] private LayerMask stopMovement;
 
     [SerializeField] private List<Vector3> playerPositions = new List<Vector3>();
+    
     [SerializeField] private Vector3 oldPos;
-    [SerializeField] private bool setNewLocation;
+    [SerializeField] private bool setNewLocation, allowMove;
+    [SerializeField] private GameObject leftArrow, rightArrow, upArrow, downArrow;
+  
+
+    [SerializeField] private GameObject moves;
+
     public int nextSpot = 0;
     // Start is called before the first frame update
     void Start()
     {
+        allowMove = true;
         movePoint.parent = null;
         oldPos = movePoint.position;
-       
+      
+      
     }
 
     // Update is called once per frame
@@ -48,37 +57,71 @@ public class GridPlayer : MonoBehaviour
                 }
             }
         }
-        //Depending on player input, move empty object in scene and add its position to positions list
-        if (Vector3.Distance(oldPos, movePoint.position) <= 0.05f)
+        if (allowMove && playerPositions.Count < 5)
         {
-            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
+            //Depending on player input, move empty object in scene and add its position to positions list
+            if (Vector3.Distance(oldPos, movePoint.position) <= 0.05f)
             {
-                movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f)*4;
-                playerPositions.Add(movePoint.position);
-                setNewLocation = true;
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    Instantiate(rightArrow, moves.transform);
 
+                }
+                if (Input.GetKeyDown(KeyCode.D))
+                {
+                    Instantiate(leftArrow, moves.transform);
+
+
+                }
+                if (Input.GetKeyDown(KeyCode.W))
+                {
+                    Instantiate(upArrow, moves.transform);
+
+
+                }
+                if (Input.GetKeyDown(KeyCode.S))
+                {
+                    Instantiate(downArrow, moves.transform);
+
+                }
+                if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
+                {
+                   
+                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f) * 2f;
+                    playerPositions.Add(movePoint.position);
+                    setNewLocation = true;
+                   
+
+                    
+
+                }
+                else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
+                {
+                   
+                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f) * 2.5f;
+                    playerPositions.Add(movePoint.position);
+                    setNewLocation = true;
+                    
+                    
+                }
+                //Wait a moment to set new position or else there is multiple inputs to positions list
+                if (setNewLocation)
+                {
+                    StartCoroutine(Wait());
+                   
+                }
             }
-            else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
-            {
-                movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f)*4;
-                playerPositions.Add(movePoint.position);
-                setNewLocation = true;
-            }
-            
-        }
-        //Wait a moment to set new position or else there is multiple inputs to positions list
-        if(setNewLocation)
-        {
-            StartCoroutine(Wait());
         }
         
     }
 
     IEnumerator Wait()
     {
+        allowMove = false;
         setNewLocation = false;
-        yield return new WaitForSeconds(0.3f);
-        oldPos = movePoint.position; 
+        yield return new WaitForSeconds(0.4f);
+        oldPos = movePoint.position;
+        allowMove = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
