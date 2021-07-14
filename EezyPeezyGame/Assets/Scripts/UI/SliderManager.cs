@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class SliderManager : MonoBehaviour
 {
-    public GameObject PanelMenu;
+    public GameObject panel;
 
-    public void ShowHideMenu()
+    public void ShowHidePanel()
     {
-        if(PanelMenu != null)
+        if(panel != null)
         {
-            Animator animator = PanelMenu.GetComponent<Animator>();
+            Animator animator = panel.GetComponent<Animator>();
             if(animator != null)
             {
                 bool isOpen = animator.GetBool("show");
