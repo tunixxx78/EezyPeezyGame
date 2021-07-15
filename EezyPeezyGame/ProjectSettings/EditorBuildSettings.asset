@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames/Labyrinth.unity
     guid: 2151d07842d436d4cb4ec08450f80bfe
   - enabled: 0
-    path: Assets/Scenes/MiniGameArcade.unity
+    path: Assets/Scenes/RocketArcade.unity
     guid: 0b20f851d93634aed8a3769f11676b2d
   - enabled: 0
     path: Assets/Scenes/MiniGames/HelpByteHome.unity
