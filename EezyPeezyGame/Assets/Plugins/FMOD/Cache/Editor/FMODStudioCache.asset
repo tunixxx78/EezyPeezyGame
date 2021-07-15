@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637612469330000000
+  lastModified: 637618479370000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -188,7 +188,7 @@ MonoBehaviour:
   - {fileID: 3964162935710638922}
   StringsBanks:
   - {fileID: -5829100870083323475}
-  stringsBankWriteTime: 637612469330000000
+  stringsBankWriteTime: 637618479370000000
   cacheVersion: 6
 --- !u!114 &2689330156559073358
 MonoBehaviour:
@@ -228,7 +228,7 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637612469330000000
+  lastModified: 637618479370000000
   LoadResult: 0
   FileSizes: []
   Exists: 1

@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: cc9e41e5478ecd1448362a10f98d0b51
+guid: 71a582f6d6c7441419c6d3a03f607870
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6436146101121658342
-    second: Head
+      213: 1791811567483193546
+    second: AvatarArm_1
   - first:
-      213: -8457598622071731027
-    second: Screw
+      213: -5667164801037745040
+    second: AvatarArm_2
   - first:
-      213: -7352486864590678252
-    second: Neck
+      213: -3670017504390906637
+    second: AvatarArm_3
   - first:
-      213: 6878966828923749904
-    second: Arm
+      213: 1146446230358565104
+    second: AvatarArm_4
   - first:
-      213: 436603539694431452
-    second: Body
+      213: -6210388411563997792
+    second: AvatarNeck
   - first:
-      213: 4697679914136663528
-    second: Leg
+      213: 403949782458812761
+    second: AvatarLeg_1
+  - first:
+      213: 9145408424807387930
+    second: AvatarLeg_2
+  - first:
+      213: -6807172933813200802
+    second: AvatarLeg_3
+  - first:
+      213: 1860540139561445571
+    second: AvatarLeg_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,127 +118,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Head
+      name: AvatarArm_1
       rect:
         serializedVersion: 2
-        x: 106
-        y: 526
-        width: 399
-        height: 434
+        x: 25
+        y: 321
+        width: 88
+        height: 270
       alignment: 9
-      pivot: {x: 0.4999999, y: 0.014814807}
+      pivot: {x: 0.33471525, y: 0.99303544}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12d020a8373ea6a0800000000000000
-      internalID: -6436146101121658342
+      spriteID: ac88540902bcdd810800000000000000
+      internalID: 1791811567483193546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Screw
+      name: AvatarArm_2
       rect:
         serializedVersion: 2
-        x: 617
-        y: 922
-        width: 76
-        height: 49
+        x: 165
+        y: 321
+        width: 84
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5024305, y: 0.99322534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0744c8ea3af2a51b0800000000000000
+      internalID: -5667164801037745040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarArm_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 324
+        width: 62
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9913986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc705b368a711dc0800000000000000
+      internalID: -3670017504390906637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarArm_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 326
+        width: 82
+        height: 270
+      alignment: 9
+      pivot: {x: 0.49157268, y: 0.9913986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0ab9ab5cef8ef00800000000000000
+      internalID: 1146446230358565104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarNeck
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 425
+        width: 38
+        height: 123
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dacc49e0dd290aa80800000000000000
-      internalID: -8457598622071731027
+      spriteID: 0a5868bc4a440d9a0800000000000000
+      internalID: -6210388411563997792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neck
+      name: AvatarLeg_1
       rect:
         serializedVersion: 2
-        x: 878
-        y: 814
-        width: 47
-        height: 133
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 417d85cd628b6f990800000000000000
-      internalID: -7352486864590678252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arm
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 442
-        width: 219
-        height: 245
+        x: 19
+        y: 14
+        width: 122
+        height: 199
       alignment: 9
-      pivot: {x: 0.108405404, y: 0.89776933}
+      pivot: {x: 0.49628833, y: 0.9897454}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01602b372eff67f50800000000000000
-      internalID: 6878966828923749904
+      spriteID: 959cd8adf2e1b9500800000000000000
+      internalID: 403949782458812761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body
+      name: AvatarLeg_2
       rect:
         serializedVersion: 2
-        x: 171
-        y: 88
-        width: 257
-        height: 273
+        x: 225
+        y: 9
+        width: 130
+        height: 204
       alignment: 9
-      pivot: {x: 0.50505584, y: 0.51903844}
+      pivot: {x: 0.5, y: 0.9949942}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdc2a2b2b902f0600800000000000000
-      internalID: 436603539694431452
+      spriteID: a13528602840bee70800000000000000
+      internalID: 9145408424807387930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leg
+      name: AvatarLeg_3
       rect:
         serializedVersion: 2
-        x: 791
-        y: 56
-        width: 81
-        height: 212
+        x: 434
+        y: 11
+        width: 73
+        height: 202
       alignment: 9
-      pivot: {x: 0.49197802, y: 0.9596866}
+      pivot: {x: 0.4948693, y: 0.99412477}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e57a961ef2813140800000000000000
-      internalID: 4697679914136663528
+      spriteID: e58196b58401881a0800000000000000
+      internalID: -6807172933813200802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarLeg_4
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 10
+        width: 86
+        height: 203
+      alignment: 9
+      pivot: {x: 0.58710074, y: 0.99538064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c86aec3667f1d910800000000000000
+      internalID: 1860540139561445571
       vertices: []
       indices: 
       edges: []
