@@ -18,7 +18,7 @@ public class GridPlayer : MonoBehaviour
     [SerializeField] private GameObject leftArrow, rightArrow, upArrow, downArrow;
   
 
-    [SerializeField] private GameObject moves;
+    [SerializeField] private GameObject moves, instructions;
 
     public int nextSpot = 0;
     // Start is called before the first frame update
@@ -138,5 +138,15 @@ public class GridPlayer : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         }
+        
+    }
+    public void OpenInstructions()
+    {
+        instructions.SetActive(true);
+    }
+
+    public void CloseInstructions()
+    {
+        instructions.SetActive(false);
     }
 }
