@@ -1,0 +1,1392 @@
+fileFormatVersion: 2
+guid: 1557f4025dd02cd4286516ffaa4382ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3284297426600483065
+    second: Pipes_And_BG_tile_0
+  - first:
+      213: -1382904877357558698
+    second: Pipes_And_BG_tile_1
+  - first:
+      213: 4475683969257086320
+    second: Pipes_And_BG_tile_2
+  - first:
+      213: -7108228145635520349
+    second: Pipes_And_BG_tile_3
+  - first:
+      213: 6815809813573175787
+    second: Pipes_And_BG_tile_4
+  - first:
+      213: 8003366247408146979
+    second: Pipes_And_BG_tile_5
+  - first:
+      213: 7266367571144616711
+    second: Pipes_And_BG_tile_6
+  - first:
+      213: -5932817742823649659
+    second: Pipes_And_BG_tile_7
+  - first:
+      213: 1128963569978167576
+    second: Pipes_And_BG_tile_8
+  - first:
+      213: 1164128481904693730
+    second: Pipes_And_BG_tile_9
+  - first:
+      213: -7995481336151210499
+    second: Pipes_And_BG_tile_10
+  - first:
+      213: -5353031856268642691
+    second: Pipes_And_BG_tile_11
+  - first:
+      213: -1112919715348096709
+    second: Pipes_And_BG_tile_13
+  - first:
+      213: -4363117262282859541
+    second: Pipes_And_BG_tile_14
+  - first:
+      213: -8048149583971468385
+    second: Pipes_And_BG_tile_15
+  - first:
+      213: 80972164452690675
+    second: Pipes_And_BG_tile_16
+  - first:
+      213: -5339565286054881542
+    second: Pipes_And_BG_tile_17
+  - first:
+      213: 8749200763798929065
+    second: Pipes_And_BG_tile_21
+  - first:
+      213: -8519796224926798858
+    second: Pipes_And_BG_tile_22
+  - first:
+      213: -3889060173991423027
+    second: Pipes_And_BG_tile_23
+  - first:
+      213: -8072468675754886476
+    second: Pipes_And_BG_tile_25
+  - first:
+      213: 3957745916419608598
+    second: Pipes_And_BG_tile_27
+  - first:
+      213: -8519922671549620841
+    second: Pipes_And_BG_tile_28
+  - first:
+      213: 6968146115246983139
+    second: Pipes_And_BG_tile_29
+  - first:
+      213: 6087957871111180695
+    second: Pipes_And_BG_tile_30
+  - first:
+      213: -5148519134234806486
+    second: Pipes_And_BG_tile_31
+  - first:
+      213: 3357816955144914327
+    second: Pipes_And_BG_tile_32
+  - first:
+      213: -585814967578296121
+    second: Pipes_And_BG_tile_33
+  - first:
+      213: 1309209899219164474
+    second: Pipes_And_BG_tile_34
+  - first:
+      213: 643571384674169060
+    second: Pipes_And_BG_tile_35
+  - first:
+      213: -3694342844253198875
+    second: Pipes_And_BG_tile_36
+  - first:
+      213: -1888963341286575322
+    second: Pipes_And_BG_tile_37
+  - first:
+      213: 1241330073643157471
+    second: Pipes_And_BG_tile_38
+  - first:
+      213: 7278480045038926492
+    second: Pipes_And_BG_tile_39
+  - first:
+      213: -5970223692100712441
+    second: Pipes_And_BG_tile_40
+  - first:
+      213: -1674392368165124801
+    second: Pipes_And_BG_tile_41
+  - first:
+      213: 8923449237255947672
+    second: Pipes_And_BG_tile_42
+  - first:
+      213: -8337405236059121470
+    second: Pipes_And_BG_tile_43
+  - first:
+      213: 5063258814381603198
+    second: Pipes_And_BG_tile_44
+  - first:
+      213: 2997137092824711103
+    second: Pipes_And_BG_tile_45
+  - first:
+      213: -2650315587528201842
+    second: Pipes_And_BG_tile_47
+  - first:
+      213: -7504415722062951048
+    second: Pipes_And_BG_tile_48
+  - first:
+      213: 6191931909835551937
+    second: Pipes_And_BG_tile_49
+  - first:
+      213: -3551042628654645318
+    second: Pipes_And_BG_tile_50
+  - first:
+      213: 6595139662068822698
+    second: Pipes_And_BG_tile_52
+  - first:
+      213: 3678474923436260872
+    second: Pipes_And_BG_tile_53
+  - first:
+      213: -9192448276791309638
+    second: Pipes_And_BG_tile_54
+  - first:
+      213: -3090937838829253769
+    second: Pipes_And_BG_tile_56
+  - first:
+      213: -1964318212745142773
+    second: Pipes_And_BG_tile_57
+  - first:
+      213: -8617970955905519538
+    second: Pipes_And_BG_tile_58
+  - first:
+      213: 714074314123823612
+    second: Pipes_And_BG_tile_60
+  - first:
+      213: -5439413484792556941
+    second: Pipes_And_BG_tile_61
+  - first:
+      213: 8754488739102525877
+    second: Pipes_And_BG_tile_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2032
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707afb634e4db62d0800000000000000
+      internalID: -3284297426600483065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2032
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65492fa475feecce0800000000000000
+      internalID: -1382904877357558698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2032
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d9a7a5bd2dc1e30800000000000000
+      internalID: 4475683969257086320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a016fc99208a5d90800000000000000
+      internalID: -7108228145635520349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be986aae9ee969e50800000000000000
+      internalID: 6815809813573175787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a1d18c23ba11f60800000000000000
+      internalID: 8003366247408146979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2e7d9ec257d460800000000000000
+      internalID: 7266367571144616711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8cd142b56aada0800000000000000
+      internalID: -5932817742823649659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811d7e8a262eaaf00800000000000000
+      internalID: 1128963569978167576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1776
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e118dcbfa0d72010800000000000000
+      internalID: 1164128481904693730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1776
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5017e26185a0190800000000000000
+      internalID: -7995481336151210499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1776
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76f1c763e536b5b0800000000000000
+      internalID: -5353031856268642691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1776
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39d5275a6d1e80f0800000000000000
+      internalID: -1112919715348096709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1776
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb514c77f71373c0800000000000000
+      internalID: -4363117262282859541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b3c24289a3f4090800000000000000
+      internalID: -8048149583971468385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1648
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faa5ea21cbaf1100800000000000000
+      internalID: 80972164452690675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1648
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af611bd99ad06e5b0800000000000000
+      internalID: -5339565286054881542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aebfca4db76b6970800000000000000
+      internalID: 8749200763798929065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1520
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb2686297a93c980800000000000000
+      internalID: -8519796224926798858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1520
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc35f1b7068470ac0800000000000000
+      internalID: -3889060173991423027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1520
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba79295284d8ff80800000000000000
+      internalID: -8072468675754886476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1392
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610917321fcbce630800000000000000
+      internalID: 3957745916419608598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1392
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ddc70887723c980800000000000000
+      internalID: -8519922671549620841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1392
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7805619f3d3b060800000000000000
+      internalID: 6968146115246983139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791102bad65cc7450800000000000000
+      internalID: 6087957871111180695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27f1ac1029cc88b0800000000000000
+      internalID: -5148519134234806486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7954230fabc599e20800000000000000
+      internalID: 3357816955144914327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c083690464ced7f0800000000000000
+      internalID: -585814967578296121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d1263877f3b2210800000000000000
+      internalID: 1309209899219164474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03c1bb3cc6ee800800000000000000
+      internalID: 643571384674169060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e528c1b1ce0bbcc0800000000000000
+      internalID: -3694342844253198875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623f0e869dd09c5e0800000000000000
+      internalID: -1888963341286575322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1008
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7828800271a3110800000000000000
+      internalID: 1241330073643157471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1008
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a7055b90b520560800000000000000
+      internalID: 7278480045038926492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70847b20f21852da0800000000000000
+      internalID: -5970223692100712441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 880
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3584e0330d53c8e0800000000000000
+      internalID: -1674392368165124801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 880
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8950fd58dc576db70800000000000000
+      internalID: 8923449237255947672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8d63c7c169b4c80800000000000000
+      internalID: -8337405236059121470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79b41db01f444640800000000000000
+      internalID: 5063258814381603198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfb6f07e48f79920800000000000000
+      internalID: 2997137092824711103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8963bed300383bd0800000000000000
+      internalID: -2650315587528201842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 624
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dc49f29a5fad790800000000000000
+      internalID: -7504415722062951048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 624
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4772704492ee550800000000000000
+      internalID: 6191931909835551937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf35c02b8928bec0800000000000000
+      internalID: -3551042628654645318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2b3b18494a68b50800000000000000
+      internalID: 6595139662068822698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eb99614719c0330800000000000000
+      internalID: 3678474923436260872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abac3b5fefcdd6080800000000000000
+      internalID: -9192448276791309638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bc4cd7968ca15d0800000000000000
+      internalID: -3090937838829253769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ede7f2ef65db4e0800000000000000
+      internalID: -1964318212745142773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e403e985311d66880800000000000000
+      internalID: -8617970955905519538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9c49c2ec6e8e900800000000000000
+      internalID: 714074314123823612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372587c31425384b0800000000000000
+      internalID: -5439413484792556941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_And_BG_tile_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b90d5cff113e7970800000000000000
+      internalID: 8754488739102525877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
