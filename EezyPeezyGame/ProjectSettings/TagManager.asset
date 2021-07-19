@@ -16,6 +16,12 @@ TagManager:
   - Pipe
   - Wall
   - LevelEnd
+  - Stetoscope
+  - Pill
+  - Needle
+  - Thermometer
+  - Mask
+  - Goal
   layers:
   - Default
   - TransparentFX
