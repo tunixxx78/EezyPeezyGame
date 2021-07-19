@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     public bool isMoving = false;
 
+    Vector2 movement;
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -54,4 +57,13 @@ public class Player : MonoBehaviour
         }
     }
 
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Goal"))
+        {
+           // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
 }
