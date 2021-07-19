@@ -34,7 +34,7 @@ public class ElectricWireScript : MonoBehaviour
             {
                 isPlaced = true;
                 wireGameManager.CorrectMove();
-                //this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
             }
 
         }
@@ -44,7 +44,7 @@ public class ElectricWireScript : MonoBehaviour
             {
                 isPlaced = true;
                 wireGameManager.CorrectMove();
-                //this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = filledPipe;
             }
         }
 

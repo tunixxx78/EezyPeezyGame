@@ -6,7 +6,7 @@ public class Collectables : MonoBehaviour
 {
     public GameObject[] collectedItem;
 
-    public bool collected;
+    
 
 
     private void OnTriggerEnter2D(Collider2D collision)
