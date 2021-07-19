@@ -31,4 +31,10 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(toScene);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Trigger entered.");
+        SceneManager.LoadScene(toScene);
+    }
+
 }

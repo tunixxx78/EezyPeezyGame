@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 294198920399539015}
   - component: {fileID: 294198920399539014}
-  - component: {fileID: 294198920399539016}
   - component: {fileID: 294198920399539017}
   m_Layer: 0
   m_Name: Pill
@@ -84,20 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &294198920399539016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 294198920399539012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 899c2454748823e4781ca77982250cac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectedItem: []
-  collected: 0
 --- !u!60 &294198920399539017
 PolygonCollider2D:
   m_ObjectHideFlags: 0

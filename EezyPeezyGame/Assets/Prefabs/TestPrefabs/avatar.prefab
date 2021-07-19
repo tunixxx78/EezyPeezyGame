@@ -169,7 +169,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 9123226201535883925, guid: c6cf657a72e265d43aafdc520d75ca23, type: 3}
+  m_Sprite: {fileID: 7521114391726765746, guid: c6cf657a72e265d43aafdc520d75ca23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -347,7 +347,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
+<<<<<<< HEAD
   m_Sprite: {fileID: -4621456689493017945, guid: c6cf657a72e265d43aafdc520d75ca23, type: 3}
+=======
+  m_Sprite: {fileID: -2853863529503649245, guid: c6cf657a72e265d43aafdc520d75ca23, type: 3}
+>>>>>>> parent of 9595d98 (Revert "Small fix for Labyrinth game and scene changer to labyrinth door")
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -561,7 +565,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
+<<<<<<< HEAD
   m_Sprite: {fileID: -5046131592235994261, guid: bf2871d736b37874186c6c197b6a2a96, type: 3}
+=======
+  m_Sprite: {fileID: -6436146101121658342, guid: cc9e41e5478ecd1448362a10f98d0b51, type: 3}
+>>>>>>> parent of 9595d98 (Revert "Small fix for Labyrinth game and scene changer to labyrinth door")
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -601,7 +609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2476448842416457374
 Transform:
   m_ObjectHideFlags: 0
@@ -697,7 +705,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
+<<<<<<< HEAD
   m_Sprite: {fileID: 1383046631239845639, guid: 67cacd4bdcb8f3147aaff9dc8a2c065f, type: 3}
+=======
+  m_Sprite: {fileID: 436603539694431452, guid: cc9e41e5478ecd1448362a10f98d0b51, type: 3}
+>>>>>>> parent of 9595d98 (Revert "Small fix for Labyrinth game and scene changer to labyrinth door")
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
