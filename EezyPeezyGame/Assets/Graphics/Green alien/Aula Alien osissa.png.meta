@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: b4ca82b8b7a5a2a44a92dbedf0eef286
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8084952019629841883
+    second: Green alien big eye
+  - first:
+      213: 5018608827490803435
+    second: Green alien big eye shut
+  - first:
+      213: 4738660167458533097
+    second: Green alien big iris
+  - first:
+      213: 4208710812675066526
+    second: Green alien big lower eyelid
+  - first:
+      213: -8604242737642493374
+    second: Green alien body
+  - first:
+      213: -6500549213913085751
+    second: Green alien big upper eyelid
+  - first:
+      213: 8598574674412745970
+    second: Green alien small upper eyelid
+  - first:
+      213: -2592279708328509595
+    second: Green alien small eye
+  - first:
+      213: 193069627530585260
+    second: Green alien small eye shut
+  - first:
+      213: 4752929945091468737
+    second: Green alien small iris
+  - first:
+      213: 3323887478599379381
+    second: Green alien small lower eyelid
+  - first:
+      213: 7247154401939848923
+    second: Green alien medium upper eyelid
+  - first:
+      213: -8531311981513472845
+    second: Green alien fan
+  - first:
+      213: 3266663657012727880
+    second: Green alien medium eye
+  - first:
+      213: -1911065202106612101
+    second: Green alien medium eye shut
+  - first:
+      213: 1675732224865401230
+    second: Green alien medium iris
+  - first:
+      213: -3453170829274757892
+    second: Green alien medium lower eyelid
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green alien big eye
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 896
+        width: 179
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd1d14a605833070800000000000000
+      internalID: 8084952019629841883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien big eye shut
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 867
+        width: 227
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee9a3d832ea5a540800000000000000
+      internalID: 5018608827490803435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien big iris
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 951
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eea8a8d05a13c140800000000000000
+      internalID: 4738660167458533097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien big lower eyelid
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 933
+        width: 175
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ac7d77f28586a30800000000000000
+      internalID: 4208710812675066526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien body
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 229
+        width: 486
+        height: 849
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aa59d31d6979880800000000000000
+      internalID: -8604242737642493374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien big upper eyelid
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 661
+        width: 259
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c804cb6ee869c5a0800000000000000
+      internalID: -6500549213913085751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien small upper eyelid
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 757
+        width: 206
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4ba03fb16445770800000000000000
+      internalID: 8598574674412745970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien small eye
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 482
+        width: 138
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f30aaf65f560cd0800000000000000
+      internalID: -2592279708328509595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien small eye shut
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 448
+        width: 184
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4a0e5adcbeda200800000000000000
+      internalID: 193069627530585260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien small iris
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 448
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd6e7b5a9cc5f140800000000000000
+      internalID: 4752929945091468737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien small lower eyelid
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 514
+        width: 138
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e8431d02d02e20800000000000000
+      internalID: 3323887478599379381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien medium upper eyelid
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 229
+        width: 212
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde78001880139460800000000000000
+      internalID: 7247154401939848923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien fan
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 66
+        width: 199
+        height: 190
+      alignment: 9
+      pivot: {x: 0.43229514, y: 0.25890335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b40bd124f0ba9980800000000000000
+      internalID: -8531311981513472845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien medium eye
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11
+        width: 162
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8401cecd945855d20800000000000000
+      internalID: 3266663657012727880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien medium eye shut
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1
+        width: 191
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7643dde2588a75e0800000000000000
+      internalID: -1911065202106612101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien medium iris
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 37
+        width: 107
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89f6c18495614710800000000000000
+      internalID: 1675732224865401230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien medium lower eyelid
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 42
+        width: 139
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4465c2d6fd310d0800000000000000
+      internalID: -3453170829274757892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
