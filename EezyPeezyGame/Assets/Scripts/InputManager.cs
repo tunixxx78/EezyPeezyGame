@@ -31,6 +31,14 @@ public class InputManager : MonoBehaviour
             {
                 SceneManager.LoadScene("HomePlanet");
             }
+            else if (scene.name == "RocketArcade")
+            {
+                SceneManager.LoadScene("RocketLobby");
+            }
+            else if (scene.name == "RocketEngineFloor")
+            {
+                SceneManager.LoadScene("RocketLobby");
+            }
             else
             {
                 SceneManager.LoadScene(scene.buildIndex - 1);

@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames/ConnectDots.unity
     guid: 7d92455d2de804a0fafec76aa4e8cfd7
   - enabled: 1
+    path: Assets/Scenes/RocketArcade.unity
+    guid: 0b20f851d93634aed8a3769f11676b2d
+  - enabled: 1
+    path: Assets/Scenes/RocketEngineFloor.unity
+    guid: 1603838612a47fe4a90c91dd10c88722
+  - enabled: 1
     path: Assets/Scenes/RocketCockpit.unity
     guid: 48ffa505396bc304db26733ca67260fc
   - enabled: 1
@@ -29,9 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGames/Labyrinth.unity
     guid: 2151d07842d436d4cb4ec08450f80bfe
-  - enabled: 0
-    path: Assets/Scenes/RocketArcade.unity
-    guid: 0b20f851d93634aed8a3769f11676b2d
   - enabled: 0
     path: Assets/Scenes/MiniGames/HelpByteHome.unity
     guid: 54bc93b4bbb534d4295876c5309ddaeb
