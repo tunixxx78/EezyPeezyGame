@@ -38,12 +38,35 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637618479370000000
+  lastModified: 637625451870000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1060
+    Value: 1180
   Exists: 1
+--- !u!114 &-4859407048215096787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door
+  m_EditorClassIdentifier: 
+  Path: event:/Door
+  guid: 3a8c106b2d67f348be5f93af69f9a063
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 809
 --- !u!114 &-4849231841170653247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,6 +182,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1153636492017346855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Typing
+  m_EditorClassIdentifier: 
+  Path: event:/Typing
+  guid: 9e0472a58bbfa74a98ba40490c82a549
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2560
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,12 +229,15 @@ MonoBehaviour:
   - {fileID: 7393365776828400865}
   - {fileID: 2689330156559073358}
   - {fileID: -8605055705712589243}
+  - {fileID: -4859407048215096787}
+  - {fileID: 7760723293477893326}
+  - {fileID: -1153636492017346855}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3964162935710638922}
   StringsBanks:
   - {fileID: -5829100870083323475}
-  stringsBankWriteTime: 637618479370000000
+  stringsBankWriteTime: 637625451870000000
   cacheVersion: 6
 --- !u!114 &2689330156559073358
 MonoBehaviour:
@@ -228,7 +277,7 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637618479370000000
+  lastModified: 637625451870000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -255,3 +304,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7760723293477893326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Factory machines
+  m_EditorClassIdentifier: 
+  Path: event:/Factory machines
+  guid: a030a4ff962ff644a6c3fb2249467e90
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27062
