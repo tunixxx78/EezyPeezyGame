@@ -22,6 +22,7 @@ public class SceneChanger : MonoBehaviour
         {
             Debug.Log("klik");
             GoToScene();
+            FMODUnity.RuntimeManager.PlayOneShot("event:/ButtonClick", GetComponent<Transform>().position);   // Turo add sound for text!
         }
     }
 
