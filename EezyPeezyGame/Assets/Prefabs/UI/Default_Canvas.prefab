@@ -92,7 +92,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 146886204210614431}
-  elevator: {fileID: 0}
 --- !u!95 &2002751986701706987
 Animator:
   serializedVersion: 3
@@ -1074,7 +1073,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 2041317306606412061}
-  elevator: {fileID: 0}
 --- !u!95 &3493845246354677802
 Animator:
   serializedVersion: 3
@@ -2861,7 +2859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 6848613891219362011}
-  elevator: {fileID: 0}
 --- !u!95 &4487724237007726811
 Animator:
   serializedVersion: 3
