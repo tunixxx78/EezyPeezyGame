@@ -33,6 +33,7 @@ public class PhoneDialogController : MonoBehaviour
         electra.SetActive(false);
         newton.SetActive(false);
         doctorBag.SetActive(false);
+        doctorBag.SetActive(false);
         callIcon.SetActive(false);
         callWaves.SetActive(false);
     }
@@ -111,7 +112,9 @@ public class PhoneDialogController : MonoBehaviour
         }
         else if  (index > 3)
         {
-            //menuAnimator.SetBool("show", false);
+            newton.SetActive(false);
+            doctorBag.SetActive(true);
+            
         }
 
         if (index >= 2)
