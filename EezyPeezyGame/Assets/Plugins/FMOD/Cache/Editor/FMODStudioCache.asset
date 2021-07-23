@@ -38,11 +38,11 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637625451870000000
+  lastModified: 637626385910000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1180
+    Value: 1226
   Exists: 1
 --- !u!114 &-4859407048215096787
 MonoBehaviour:
@@ -81,6 +81,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ButtonClick
   guid: 2e1f466d0cab614db20c09037af8fd77
+  Banks:
+  - {fileID: 3964162935710638922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3645729250503263255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RocketSoundLoop
+  m_EditorClassIdentifier: 
+  Path: event:/RocketSoundLoop
+  guid: bcf018b6f9f82e4b9c76b14d1a5e70c5
   Banks:
   - {fileID: 3964162935710638922}
   IsStream: 0
@@ -232,12 +255,13 @@ MonoBehaviour:
   - {fileID: -4859407048215096787}
   - {fileID: 7760723293477893326}
   - {fileID: -1153636492017346855}
+  - {fileID: -3645729250503263255}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3964162935710638922}
   StringsBanks:
   - {fileID: -5829100870083323475}
-  stringsBankWriteTime: 637625451870000000
+  stringsBankWriteTime: 637626385910000000
   cacheVersion: 6
 --- !u!114 &2689330156559073358
 MonoBehaviour:
@@ -277,7 +301,7 @@ MonoBehaviour:
   Path: ../../../../../Users/turovaarti/Desktop/EasyPeasyGameFMOD/EasyPeasyGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637625451870000000
+  lastModified: 637626385910000000
   LoadResult: 0
   FileSizes: []
   Exists: 1

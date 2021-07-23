@@ -22,6 +22,11 @@ TagManager:
   - Thermometer
   - Mask
   - Goal
+  - Destroyer
+  - Rocket
+  - Obstacle
+  - Asteroid
+  - PlanetIzzy
   layers:
   - Default
   - TransparentFX
