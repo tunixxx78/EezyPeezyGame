@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class SliderManager : MonoBehaviour
 {
-    public GameObject panel;
+    public GameObject panel, elevator;
 
+    public void Start()
+    {
+        elevator.GetComponent<Collider2D>();
+    }
     public void ShowHidePanel()
     {
         if(panel != null)
