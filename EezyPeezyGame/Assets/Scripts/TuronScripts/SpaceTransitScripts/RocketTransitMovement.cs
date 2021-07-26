@@ -10,6 +10,7 @@ public class RocketTransitMovement : MonoBehaviour
     Vector3 targetPosition;
     bool isMoving = false;
     [SerializeField] private Animator rocketAnimator;
+    [SerializeField] GameObject endText;
 
     private void Start()
     {
@@ -52,7 +53,8 @@ public class RocketTransitMovement : MonoBehaviour
     {
         if (collision.CompareTag("PlanetIzzy"))
         {
-            Invoke("GoToIzzy", 0.1f);
+            Invoke("GoToIzzy", 2f);
+            endText.SetActive(true);
         }
     }
 

@@ -10,7 +10,7 @@ public class ForceField : MonoBehaviour
 
     private void Start()
     {
-        theForceField = 3;
+        theForceField = 4;
     }
 
     private void Update()
@@ -20,20 +20,26 @@ public class ForceField : MonoBehaviour
             PlayerPrefs.SetInt("StreghtOfField", theForceField);
         }
 
-        if(theForceField == 3)
+        if(theForceField == 4)
         {
             fullField.SetActive(true);
         }
-        if(theForceField == 2)
+        if(theForceField == 3)
         {
             fullField.SetActive(false);
             mediumFiel.SetActive(true);
         }
-        if(theForceField == 1)
+        if(theForceField == 2)
         {
             fullField.SetActive(false);
             mediumFiel.SetActive(false);
             lowField.SetActive(true);
+        }
+        if (theForceField == 1)
+        {
+            fullField.SetActive(false);
+            mediumFiel.SetActive(false);
+            lowField.SetActive(false);
         }
         if (theForceField == 0)
         {
