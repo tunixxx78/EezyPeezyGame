@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 public class GameManager : MonoBehaviour
 {
     public SpriteRenderer[] colors;
+    public AudioSource[] buttonSounds;
 
     private int colorSelect;
 
@@ -25,6 +26,9 @@ public class GameManager : MonoBehaviour
     private int inputInSequence;
 
     private bool gameActive = false;
+
+    public AudioSource correct;
+    public AudioSource incorrect;
     
 
     
@@ -42,6 +46,7 @@ public class GameManager : MonoBehaviour
             if(stayLitCounter < 0)
             {
                 colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 0.5f);
+                buttonSounds[activeSequence[positionInSequence]].Stop();
                 shouldBeLit = false;
 
                 shouldBeDark = true;
@@ -66,6 +71,7 @@ public class GameManager : MonoBehaviour
 
 
                     colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
+                    buttonSounds[activeSequence[positionInSequence]].Play();
 
                     stayLitCounter = stayLit;
                     shouldBeLit = true;
@@ -87,6 +93,7 @@ public class GameManager : MonoBehaviour
         activeSequence.Add(colorSelect);
 
         colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
+        buttonSounds[activeSequence[positionInSequence]].Play();
 
         stayLitCounter = stayLit;
         shouldBeLit = true;
@@ -98,7 +105,7 @@ public class GameManager : MonoBehaviour
         {
             if (activeSequence[inputInSequence] == whichButton)
             {
-                Debug.Log("Correct");
+                Debug.Log("Correct");  
 
                 inputInSequence++;
 
@@ -112,18 +119,20 @@ public class GameManager : MonoBehaviour
                     activeSequence.Add(colorSelect);
 
                     colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
+                    buttonSounds[activeSequence[positionInSequence]].Play();
 
                     stayLitCounter = stayLit;
                     shouldBeLit = true;
 
                     gameActive = false;
 
+                    correct.Play();
                 }
             }
             else
             {
                 Debug.Log("Wrong");
-
+                incorrect.Play();
                 gameActive = false;
             }
         }   
