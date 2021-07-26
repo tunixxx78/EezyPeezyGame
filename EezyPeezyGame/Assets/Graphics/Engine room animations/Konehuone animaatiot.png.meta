@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 484bc2e08858aba489068afc32785c8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3485800880155019810
+    second: Engine room left arm
+  - first:
+      213: -3522350808452998091
+    second: Engine room robot right arm
+  - first:
+      213: -198617754932830786
+    second: Engine room medium gear 2
+  - first:
+      213: 3154363151761166750
+    second: Engine room outline to the big gear
+  - first:
+      213: -8226855520909860643
+    second: Engine room gear backgroung black
+  - first:
+      213: 242756483898346426
+    second: Engine room  scoop hand
+  - first:
+      213: -502761491643588581
+    second: Engine room big gear
+  - first:
+      213: -2195292663762047797
+    second: Engine room small gear
+  - first:
+      213: -6612303458760624977
+    second: Engine room robot body
+  - first:
+      213: -5504840677519935702
+    second: Engine room  medium gear
+  - first:
+      213: -7291314474179351928
+    second: Engine room gear
+  - first:
+      213: -4980127404689007915
+    second: Konehuone animaatiot_11
+  - first:
+      213: 3472671040064491870
+    second: Engine room left scoop
+  - first:
+      213: -8776964834417790005
+    second: Engine room right scoop
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Engine room left arm
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 884
+        width: 136
+        height: 116
+      alignment: 9
+      pivot: {x: 0.8484702, y: 0.16853385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5bd9c6192ff9fc0800000000000000
+      internalID: -3485800880155019810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room robot right arm
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 883
+        width: 136
+        height: 116
+      alignment: 9
+      pivot: {x: 0.14495513, y: 0.2070765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c59d71a981e1fc0800000000000000
+      internalID: -3522350808452998091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room medium gear 2
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 951
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd9427443e5e3df0800000000000000
+      internalID: -198617754932830786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room outline to the big gear
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 850
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e915e41f29c86cb20800000000000000
+      internalID: 3154363151761166750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room gear backgroung black
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 597
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0e4b1dd7654dd80800000000000000
+      internalID: -8226855520909860643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room  scoop hand
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 502
+        width: 82
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb0fa56cb17e5300800000000000000
+      internalID: 242756483898346426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room big gear
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 602
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10a6db4615d509f0800000000000000
+      internalID: -502761491643588581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room small gear
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 471
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc217614f0c881e0800000000000000
+      internalID: -2195292663762047797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room robot body
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 29
+        width: 285
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa47c79a9016c34a0800000000000000
+      internalID: -6612303458760624977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room  medium gear
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 318
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27bd47d190ea93b0800000000000000
+      internalID: -5504840677519935702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room gear
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 62
+        width: 135
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49337643, y: 0.46663448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a20e4ed1c00da90800000000000000
+      internalID: -7291314474179351928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Konehuone animaatiot_11
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 84
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dad253e28803eab0800000000000000
+      internalID: -4980127404689007915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room left scoop
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 44
+        width: 95
+        height: 136
+      alignment: 9
+      pivot: {x: 0.87650084, y: 0.91421866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5194d479e7613030800000000000000
+      internalID: 3472671040064491870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engine room right scoop
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 42
+        width: 96
+        height: 136
+      alignment: 9
+      pivot: {x: 0.118108116, y: 0.89449453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3be664cf4f13680800000000000000
+      internalID: -8776964834417790005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

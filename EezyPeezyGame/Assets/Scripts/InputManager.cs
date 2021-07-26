@@ -39,6 +39,10 @@ public class InputManager : MonoBehaviour
             {
                 SceneManager.LoadScene("RocketLobby");
             }
+            else if (scene.name == "FuelPipes")
+            {
+                SceneManager.LoadScene("RocketEngineFloor");
+            }
             else
             {
                 SceneManager.LoadScene(scene.buildIndex - 1);

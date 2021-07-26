@@ -2203,6 +2203,107 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 36.2
+--- !u!1001 &612509039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1396551258}
+    m_Modifications:
+    - target: {fileID: 4179050737722172892, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050737764272096, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.66334164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050737764272099, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050737924960778, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050737962922333, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738313800512, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738540372089, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738634395754, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784892, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_Name
+      value: Flower pot animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179050738646475182, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
 --- !u!1001 &617965731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3268,6 +3369,7 @@ Transform:
   - {fileID: 500379117}
   - {fileID: 1166634350}
   - {fileID: 1748250177}
+  - {fileID: 2024304096}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5012,6 +5114,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2796829719269292674, guid: 3a3f353afb0d39845b9fe1778cbb6f6c, type: 3}
   m_PrefabInstance: {fileID: 493566995}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2024304095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4179050738635784892, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+  m_PrefabInstance: {fileID: 612509039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2024304096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4179050738635784894, guid: 32ec452744a7f684b9e7d704415e1a2b, type: 3}
+  m_PrefabInstance: {fileID: 612509039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2024304097
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024304095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 13, y: -1.3574297}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.4099998, y: 2.141273}
+  m_EdgeRadius: 0
+--- !u!114 &2024304098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024304095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcaf85607219e244910f96957966be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorDefault: {fileID: 2800000, guid: 2ddacd49f3616604a9ff8cf26263ab34, type: 3}
+  cursorInteractable: {fileID: 2800000, guid: 90f8ed06308361c48862426e5651b9a0, type: 3}
+  hotSpot: {x: 0, y: 0}
+--- !u!114 &2024304099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024304095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a038d8baae95f44a3556dc08431b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animClip: {fileID: 7400000, guid: 1c9e1328b634b73409aed78deb7d6add, type: 2}
+  animName: Flower pot animation
 --- !u!1 &2094695014
 GameObject:
   m_ObjectHideFlags: 0
