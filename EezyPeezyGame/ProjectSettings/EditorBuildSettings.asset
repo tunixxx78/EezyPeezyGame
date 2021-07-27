@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames/FuelPipes.unity
     guid: 38be16e77969b44aeb6f1142bf48bf5a
   - enabled: 1
+    path: Assets/Scenes/MiniGames/SimonSays.unity
+    guid: 067b893e7139b7542b22df93ec1b21e1
+  - enabled: 1
     path: Assets/Scenes/PlanetIzzy.unity
     guid: b065484aa090244228a8b522297f05af
   - enabled: 0
