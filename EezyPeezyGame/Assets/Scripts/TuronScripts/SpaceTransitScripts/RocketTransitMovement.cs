@@ -53,7 +53,7 @@ public class RocketTransitMovement : MonoBehaviour
     {
         if (collision.CompareTag("PlanetIzzy"))
         {
-            Invoke("GoToIzzy", 2f);
+            Invoke("GoToIzzy", 1f);
             endText.SetActive(true);
         }
     }
