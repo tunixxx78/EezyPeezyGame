@@ -18,6 +18,7 @@ public class MoveToNextStage : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
+            DataHolder.dataHolder.dashboardDone = true;
             Invoke("GoBack", 2f);
             FindObjectOfType<SFXManager>().PlanetExplotion();
             MoveOn.SetActive(true);

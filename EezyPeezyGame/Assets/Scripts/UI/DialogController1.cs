@@ -13,9 +13,23 @@ public class DialogController1 : MonoBehaviour
     public TextMeshProUGUI dialogText;
     public GameObject dialogPanel;
     public string[] dialogs;
+    public string dialogPart;
     private int index = 0;
     public float dialogSpeed;
     private bool nextText = true;
+
+
+    private void Start()
+    {
+        if(dialogPart == "Lobby" && DataHolder.dataHolder.lobbyDone)
+        {
+            dialogPanel.SetActive(false);
+        }
+        if(dialogPart == "Cockpit" && DataHolder.dataHolder.dashboardDone)
+        {
+            dialogPanel.SetActive(false);
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -27,7 +41,6 @@ public class DialogController1 : MonoBehaviour
             {
                 nextText = false;
                 NextDialog();
-
             }
         }
     }
@@ -47,6 +60,7 @@ public class DialogController1 : MonoBehaviour
         //For skip button, to skip all dialog texts and close the dialog panel
         index = dialogs.Length;
         dialogPanel.SetActive(false);
+        CheckDialog();
     }
 
     void NextDialog()
@@ -61,6 +75,7 @@ public class DialogController1 : MonoBehaviour
         else
         {
             dialogPanel.SetActive(false);
+            CheckDialog();
         }
     }
 
@@ -76,8 +91,36 @@ public class DialogController1 : MonoBehaviour
         }
         //growing index for new dialog text and changing the bool nextText so that enter or next button can be pressed again
         index++;
-        nextText = true;
-        
+        nextText = true; 
+    }
+
+    public void CheckDialog()
+    {
+        if(dialogPart == "Lobby")
+        {
+            DataHolder.dataHolder.lobbyDone = true;
+        }
+        if (dialogPart == "Cockpit")
+        {
+            DataHolder.dataHolder.cockpitDone = true;
+        }
+        if (dialogPart == "Dashboard")
+        {
+            DataHolder.dataHolder.dashboardDone = true;
+        }
+        if (dialogPart == "PhoneCall")
+        {
+            DataHolder.dataHolder.phoneCallDone = true;
+        }
+        if (dialogPart == "Labyrinth")
+        {
+            DataHolder.dataHolder.labyrinthDone = true;
+        }
+        else
+        {
+            return;
+        }
+        dialogPanel.SetActive(false);
     }
 
     

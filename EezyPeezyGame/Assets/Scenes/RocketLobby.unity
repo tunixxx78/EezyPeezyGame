@@ -555,6 +555,7 @@ MonoBehaviour:
   - "I think there are some problems with the control panel of the rocket\u2019s
     cockpit. Can you help us fix it?"
   - Click on the elevator to choose the floor.
+  dialogPart: Lobby
   dialogSpeed: 0.02
 --- !u!4 &313636262
 Transform:
@@ -1013,6 +1014,18 @@ PrefabInstance:
     - target: {fileID: 98753031821523867, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -183.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395411601424546943, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 313636261}
+    - target: {fileID: 1395411601424546943, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SkipDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395411601424546943, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogController1, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1796340505476719342, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_RootOrder

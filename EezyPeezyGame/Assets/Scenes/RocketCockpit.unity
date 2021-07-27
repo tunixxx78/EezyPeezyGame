@@ -766,6 +766,7 @@ MonoBehaviour:
   - "Oh, wow! Can\u2019t wait to get on the road... erm, to space and go on all kinds
     of adventures!"
   - "Let\u2019s get to work, the control panel needs some assembling."
+  dialogPart: Cockpit
   dialogSpeed: 0.02
 --- !u!4 &313636262
 Transform:
@@ -4723,7 +4724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1665111845
 Transform:
   m_ObjectHideFlags: 0

@@ -25,17 +25,25 @@ public class PhoneDialogController : MonoBehaviour
 
     private void Start()
     {
-        dialogPanel.SetActive(true);
-        phoneConsoleAnimator = phoneConsole.GetComponent<Animator>();
-        ezAnimator = ez.GetComponent<Animator>();
-        pzAnimator = pz.GetComponent<Animator>();
-        chatBubble.SetActive(false);
-        electra.SetActive(false);
-        newton.SetActive(false);
-        doctorBag.SetActive(false);
-        doctorBag.SetActive(false);
-        callIcon.SetActive(false);
-        callWaves.SetActive(false);
+        if(DataHolder.dataHolder.cockpitDone && DataHolder.dataHolder.phoneCallDone == false)
+        {
+            dialogPanel.SetActive(true);
+            phoneConsoleAnimator = phoneConsole.GetComponent<Animator>();
+            ezAnimator = ez.GetComponent<Animator>();
+            pzAnimator = pz.GetComponent<Animator>();
+            chatBubble.SetActive(false);
+            electra.SetActive(false);
+            newton.SetActive(false);
+            doctorBag.SetActive(false);
+            doctorBag.SetActive(false);
+            callIcon.SetActive(false);
+            callWaves.SetActive(false);
+        }
+        else
+        {
+            return;
+        }
+        
     }
 
     // Update is called once per frame
@@ -72,6 +80,7 @@ public class PhoneDialogController : MonoBehaviour
         pzAnimator.Play("PzIdle");
         phoneConsoleAnimator.Play("Idle");
         index = dialogs.Length + 1;
+        DataHolder.dataHolder.phoneCallDone = true;
     }
 
     void NextDialog()
@@ -89,6 +98,7 @@ public class PhoneDialogController : MonoBehaviour
             callWaves.SetActive(false);
             phoneConsoleAnimator.Play("Idle");
             chatBubble.SetActive(false);
+            DataHolder.dataHolder.phoneCallDone = true;
         }
         
     }

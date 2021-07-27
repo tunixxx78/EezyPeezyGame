@@ -30,6 +30,11 @@ public class DialogTutorial : MonoBehaviour
         menuAnimator = menuPanel.GetComponent<Animator>();
         ezAnimator = ez.GetComponent<Animator>();
         pzAnimator = pz.GetComponent<Animator>();
+
+        if(DataHolder.dataHolder.tutorialDone)
+        {
+            dialogPanel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -67,6 +72,7 @@ public class DialogTutorial : MonoBehaviour
         taskAnimator.SetBool("show", false);
         mapAnimator.SetBool("show", false);
         menuAnimator.SetBool("show", false);
+        DataHolder.dataHolder.tutorialDone = true;
     }
 
     void NextDialog()
@@ -80,6 +86,7 @@ public class DialogTutorial : MonoBehaviour
         else
         {
             dialogPanel.SetActive(false);
+            DataHolder.dataHolder.tutorialDone = true;
         }
         
     }
