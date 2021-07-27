@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17dfc7b0ac8f40aeaecc582a851d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroid: {fileID: 7692764144442313754, guid: 5779de56f71aa496faeb12927e61e08d, type: 3}
+  asteroid: {fileID: 7692764144442313754, guid: 9a3367535401c43228f7a7832da94b46, type: 3}
 --- !u!1 &7021348102040875346
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,4 +119,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17dfc7b0ac8f40aeaecc582a851d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroid: {fileID: 7692764144442313754, guid: 5779de56f71aa496faeb12927e61e08d, type: 3}
+  asteroid: {fileID: 7692764144442313754, guid: 09888bac8974b4c3f8150ff94ff917db, type: 3}

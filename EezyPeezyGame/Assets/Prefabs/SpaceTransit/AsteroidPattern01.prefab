@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17dfc7b0ac8f40aeaecc582a851d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroid: {fileID: 3401039570130485935, guid: 5b8c828a586e74613b54fde5bed09066, type: 3}
+  asteroid: {fileID: 3401039570130485935, guid: d1cd29f37e9b94108b7474b71bda5b5a, type: 3}
 --- !u!1 &3277530347615507999
 GameObject:
   m_ObjectHideFlags: 0

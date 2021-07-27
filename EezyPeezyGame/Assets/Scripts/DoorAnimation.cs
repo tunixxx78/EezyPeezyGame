@@ -31,6 +31,7 @@ public class DoorAnimation : MonoBehaviour
             Debug.Log("Opening the door, since it's not open and mouse is over.");
             animator.Play("Open");
             animator.SetBool("Open", true);
+            FindObjectOfType<SFXManager>().OpeningDoorSound();
             
         }
     }
@@ -46,7 +47,8 @@ public class DoorAnimation : MonoBehaviour
             Debug.Log("Closing the door, since it's open and mouse is not over.");
             animator.Play("Close");
             animator.SetBool("Open", false);
-            
+            FindObjectOfType<SFXManager>().OpeningDoorSound();
+
         }
     }
 }

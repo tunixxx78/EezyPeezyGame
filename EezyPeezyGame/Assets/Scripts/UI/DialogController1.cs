@@ -27,7 +27,7 @@ public class DialogController1 : MonoBehaviour
             {
                 nextText = false;
                 NextDialog();
-                
+
             }
         }
     }
@@ -56,6 +56,7 @@ public class DialogController1 : MonoBehaviour
         {
             dialogText.text = "";
             StartCoroutine(WriteDialog());
+            
         }
         else
         {
@@ -71,10 +72,12 @@ public class DialogController1 : MonoBehaviour
             dialogText.text += Character;
             
             yield return new WaitForSeconds(dialogSpeed);
+            
         }
         //growing index for new dialog text and changing the bool nextText so that enter or next button can be pressed again
         index++;
         nextText = true;
+        
     }
 
     

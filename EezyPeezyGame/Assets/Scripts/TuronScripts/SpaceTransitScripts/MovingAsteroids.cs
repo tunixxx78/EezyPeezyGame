@@ -19,5 +19,12 @@ public class MovingAsteroids : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        if (collision.CompareTag("Rocket"))
+        {
+            FindObjectOfType<SFXManager>().PlanetExplotion();
+            Destroy(this.gameObject);
+        }
     }
+
+    
 }

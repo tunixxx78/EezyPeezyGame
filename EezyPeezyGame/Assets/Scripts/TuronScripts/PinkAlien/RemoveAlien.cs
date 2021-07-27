@@ -23,6 +23,7 @@ public class RemoveAlien : MonoBehaviour
             {
                 ScoringSystem.numberOfAliens += 1;
                 animator.SetTrigger("DeathOfPiggy");
+                FindObjectOfType<SFXManager>().YouFindLittlePiggy();
                 Destroy(gameObject, 1f);
             }
             else
