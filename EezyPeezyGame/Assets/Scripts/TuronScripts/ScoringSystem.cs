@@ -9,6 +9,17 @@ public class ScoringSystem : MonoBehaviour
     public static int numberOfAliens;
     public static int theDots;
 
+    public int theGameScore;
+    public int numberOfAliensFound;
+
+    [SerializeField] Text aliensCount, pointsCount;
+    private void Start()
+    {
+        theGameScore = theScore;
+        numberOfAliensFound = numberOfAliens;
+        NumberOfAliens();
+        PlayerScore();
+    }
 
     private void Update()
     {
@@ -24,5 +35,41 @@ public class ScoringSystem : MonoBehaviour
         {
             PlayerPrefs.SetInt("DotsCollected", theDots);
         }
+    }
+
+    private void NumberOfAliens()
+    {
+        int numberOfAliens = PlayerPrefs.GetInt("NumberOfAliens");
+        aliensCount.text = numberOfAliensFound.ToString();
+      
+
+
+    }
+
+    private void PlayerScore()
+    {
+        int theScore = PlayerPrefs.GetInt("HighScore");
+        pointsCount.text = theGameScore.ToString();
+        
+    }
+
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(this);
+    }
+
+    public void LoadPlayer()
+    {
+        PLRData data = SaveSystem.LoadPlayer();
+
+        theGameScore = data.score;
+        numberOfAliensFound = data.aliensFound;
+
+        
+        
+
+        NumberOfAliens();
+        PlayerScore();
+        
     }
 }
