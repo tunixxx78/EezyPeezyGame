@@ -3103,6 +3103,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1396551258}
     m_Modifications:
+    - target: {fileID: 3932772249534449278, guid: a9744219171ce3842aa3d546da610685, type: 3}
+      propertyPath: elevatorPanel
+      value: 
+      objectReference: {fileID: 1340979879}
     - target: {fileID: 4000292463627349286, guid: a9744219171ce3842aa3d546da610685, type: 3}
       propertyPath: elevatorPanel
       value: 
