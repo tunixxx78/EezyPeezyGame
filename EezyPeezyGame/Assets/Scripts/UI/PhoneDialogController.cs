@@ -25,7 +25,7 @@ public class PhoneDialogController : MonoBehaviour
 
     private void Start()
     {
-        if(DataHolder.dataHolder.cockpitDone && DataHolder.dataHolder.phoneCallDone == false)
+        if(DataHolder.dataHolder.dashboardDone && DataHolder.dataHolder.phoneCallDone == false)
         {
             dialogPanel.SetActive(true);
             phoneConsoleAnimator = phoneConsole.GetComponent<Animator>();

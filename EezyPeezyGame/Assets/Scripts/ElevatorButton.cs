@@ -34,6 +34,7 @@ public class ElevatorButton : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0) && elevatorOpen == false)
         {
             animator.Play("Open");
+            FindObjectOfType<SFXManager>().OpeningDoorSound();
             elevatorPanel.SetActive(true);
             elevatorOpen = true;
             StartCoroutine(ElevatorWait());
@@ -41,6 +42,7 @@ public class ElevatorButton : MonoBehaviour
         // if clicked the button and elevator bool is true, playing the close animation and changing bool to false
         else if (Input.GetKey(KeyCode.Mouse0) && elevatorOpen == true)
         {
+            FindObjectOfType<SFXManager>().OpeningDoorSound();
             animator.Play("Close");
             elevatorOpen = false;
         }

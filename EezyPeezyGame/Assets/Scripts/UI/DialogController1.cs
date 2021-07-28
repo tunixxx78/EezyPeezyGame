@@ -12,7 +12,9 @@ public class DialogController1 : MonoBehaviour
 
     public TextMeshProUGUI dialogText;
     public GameObject dialogPanel;
-    public string[] dialogs;
+    public string[] dialog1;
+    public string[] dialog2;
+    private string[] currentDialog;
     public string dialogPart;
     private int index = 0;
     public float dialogSpeed;
@@ -28,6 +30,15 @@ public class DialogController1 : MonoBehaviour
         if(dialogPart == "Cockpit" && DataHolder.dataHolder.dashboardDone)
         {
             dialogPanel.SetActive(false);
+        }
+
+        if(dialogPart == "Headquarters" && DataHolder.dataHolder.labyrinthDone == true)
+        {
+            currentDialog = dialog2;
+        }
+        else
+        {
+            currentDialog = dialog1;
         }
     }
 
@@ -58,7 +69,7 @@ public class DialogController1 : MonoBehaviour
     public void SkipDialog()
     {
         //For skip button, to skip all dialog texts and close the dialog panel
-        index = dialogs.Length;
+        index = currentDialog.Length;
         dialogPanel.SetActive(false);
         CheckDialog();
     }
@@ -66,7 +77,7 @@ public class DialogController1 : MonoBehaviour
     void NextDialog()
     {
         //for next button, sets new index and calls the coroutine to star writing the next dialog line, if no index is bigger than the list of dialogs, the panel deactivates
-        if (index < dialogs.Length)
+        if (index < currentDialog.Length)
         {
             dialogText.text = "";
             StartCoroutine(WriteDialog());
@@ -82,7 +93,7 @@ public class DialogController1 : MonoBehaviour
     IEnumerator WriteDialog()
     {
         //this is the part of the coroutine that "animates" the text
-        foreach (char Character in dialogs[index].ToCharArray())
+        foreach (char Character in currentDialog[index].ToCharArray())
         {
             dialogText.text += Character;
             
@@ -111,6 +122,10 @@ public class DialogController1 : MonoBehaviour
         if (dialogPart == "PhoneCall")
         {
             DataHolder.dataHolder.phoneCallDone = true;
+        }
+        if (dialogPart == "Headquarters")
+        {
+            DataHolder.dataHolder.headquartersDone = true;
         }
         if (dialogPart == "Labyrinth")
         {

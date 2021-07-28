@@ -50,6 +50,10 @@ public class InputManager : MonoBehaviour
         {
             SceneManager.LoadScene("RocketCockpit");
         }
+        else if (scene.name == "SpaceTransit")
+        {
+            SceneManager.LoadScene("HomePlanet");
+        }
         else
         {
             SceneManager.LoadScene(scene.buildIndex - 1);

@@ -8,6 +8,7 @@ public class SceneChanger : MonoBehaviour
 {
     // name of the scene you want the player to go
     public string toScene;
+    public AudioSource sceneDenied;
     
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class SceneChanger : MonoBehaviour
     private void OnMouseOver()
     {
         //if the mouse clicks the area (e.g. doorway), the continue panel activates and starts a couroutine 
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Debug.Log("klik");
             GoToScene();
@@ -28,8 +29,16 @@ public class SceneChanger : MonoBehaviour
 
     public void GoToScene()
     {
-        //button action for scene changing
-        SceneManager.LoadScene(toScene);
+        if (SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.phoneCallDone == false)
+        {
+            sceneDenied.Play();
+        }
+        else
+        {
+            //button action for scene changing
+            SceneManager.LoadScene(toScene);
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

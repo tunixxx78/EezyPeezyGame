@@ -10,10 +10,12 @@ public class DataHolder : MonoBehaviour
 {
     public static DataHolder dataHolder;
     public string currentScene;
-    public int score;
+    public int score, foundAliens;
 
     public bool tutorialDone, lobbyDone, cockpitDone, dashboardDone,
-        phoneCallDone, labyrinthDone, engineFloorDone, FuelPipesDone, engineStartDone;
+        phoneCallDone, headquartersDone, labyrinthDone, engineFloorDone, 
+        FuelPipesDone, engineStartDone, spaceTransitDone, gridNavigationDone, 
+        medicineMeasureDone, newtonTreatedDone;
 
     private void Awake()
     {
@@ -41,8 +43,10 @@ public class DataHolder : MonoBehaviour
 class PlayerData
 {
     public string currentScene;
-    public int score;
+    public int score, foundAliens;
 
     public bool tutorialDone, lobbyDone, cockpitDone, dashboardDone,
-        phoneCallDone, labyrinthDone, engineFloorDone, FuelPipesDone, engineStartDone;
+        phoneCallDone, headquartersDone, labyrinthDone, engineFloorDone, 
+        FuelPipesDone, engineStartDone, spaceTransitDone, gridNavigationDone,
+        medicineMeasureDone, newtonTreatedDone;
 }
