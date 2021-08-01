@@ -9,11 +9,12 @@ public class ArcadeManager : MonoBehaviour
 
     private void Start()
     {
-        if (ScoringSystem.theScore >= 10 && ScoringSystem.theScore <= 100)
+
+        if (ScoringSystem.theScore >= 10 && ScoringSystem.theScore < 100)
         {
             gameOne.SetActive(true);
         }
-        if (ScoringSystem.theScore >= 100 && ScoringSystem.theScore <= 500)
+        if (ScoringSystem.theScore >= 100 && ScoringSystem.theScore < 500)
         { 
             gameOne.SetActive(true);
             game2.SetActive(true);

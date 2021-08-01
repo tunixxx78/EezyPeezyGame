@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ScoringSystem : MonoBehaviour
 {
+    public static ScoringSystem scoringInstance;
+
     public static int theScore;
     public static int numberOfAliens;
     public static int theDots;
@@ -12,17 +14,33 @@ public class ScoringSystem : MonoBehaviour
     public int theGameScore;
     public int numberOfAliensFound;
 
-    [SerializeField] Text aliensCount, pointsCount;
+    //[SerializeField] Text aliensCount, pointsCount;
+
+    private void Awake()
+    {
+        if (scoringInstance != null && scoringInstance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
+        scoringInstance = this;
+        DontDestroyOnLoad(this);
+    }
+
     private void Start()
     {
         theGameScore = theScore;
         numberOfAliensFound = numberOfAliens;
-        NumberOfAliens();
-        PlayerScore();
+        //NumberOfAliens();
+        //PlayerScore();
     }
 
     private void Update()
     {
+        NumberOfAliens();
+        PlayerScore();
+
         if (theScore > PlayerPrefs.GetInt("HighScore", 0))
         {
             PlayerPrefs.SetInt("HighScore", theScore);
@@ -40,8 +58,8 @@ public class ScoringSystem : MonoBehaviour
     private void NumberOfAliens()
     {
         int numberOfAliens = PlayerPrefs.GetInt("NumberOfAliens");
-        aliensCount.text = numberOfAliensFound.ToString();
-      
+        //aliensCount.text = numberOfAliensFound.ToString();
+        numberOfAliensFound = numberOfAliens;
 
 
     }
@@ -49,7 +67,8 @@ public class ScoringSystem : MonoBehaviour
     private void PlayerScore()
     {
         int theScore = PlayerPrefs.GetInt("HighScore");
-        pointsCount.text = theGameScore.ToString();
+        //pointsCount.text = theGameScore.ToString();
+        theGameScore = theScore;
         
     }
 
@@ -65,11 +84,14 @@ public class ScoringSystem : MonoBehaviour
         theGameScore = data.score;
         numberOfAliensFound = data.aliensFound;
 
-        
-        
-
         NumberOfAliens();
         PlayerScore();
+
+        theScore = theGameScore;
+        numberOfAliens = numberOfAliensFound;
+
+        Debug.Log(theScore);
+        Debug.Log(numberOfAliens);
         
     }
 }

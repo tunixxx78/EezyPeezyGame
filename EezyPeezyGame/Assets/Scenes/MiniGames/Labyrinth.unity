@@ -4027,6 +4027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toScene: Headquarters
+  sceneDenied: {fileID: 0}
 --- !u!1001 &1957377186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8212,6 +8213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toScene: Headquarters
+  sceneDenied: {fileID: 0}
 --- !u!1 &2093578684
 GameObject:
   m_ObjectHideFlags: 0
