@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2476551762497610031}
   - component: {fileID: 2476551762497610030}
   - component: {fileID: 2476551762497610028}
-  - component: {fileID: 2476551762497610027}
   - component: {fileID: 5630503010075542883}
+  - component: {fileID: 3567150923912151847}
   m_Layer: 0
   m_Name: Circle
   m_TagString: PlanetIzzy
@@ -106,19 +106,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2476551762497610027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2476551762497610026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7d340de7574a4806a72ace6d05252af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  asteroidSpeed: 2
 --- !u!61 &5630503010075542883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,3 +132,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.960102, y: 0.24033108}
   m_EdgeRadius: 0
+--- !u!114 &3567150923912151847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2476551762497610026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bad89aa6f6f4f9eaadfc97dfb2c998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetSpeed: 2

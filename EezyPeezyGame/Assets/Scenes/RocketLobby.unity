@@ -607,7 +607,6 @@ GameObject:
   - component: {fileID: 547480291}
   - component: {fileID: 547480290}
   - component: {fileID: 547480293}
-  - component: {fileID: 547480294}
   - component: {fileID: 547480296}
   m_Layer: 0
   m_Name: Main Camera
@@ -713,24 +712,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &547480294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547480289}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 262687045b2e2427b9ee44936dd7bbfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  avatarPrefabs:
-  - {fileID: 331006444763185019, guid: 9ff2c4ef714cc4fada9b65868a18f4c4, type: 3}
-  - {fileID: 2575102230683381057, guid: f60b60f820ba14e8aa4c12ef95e454e0, type: 3}
-  - {fileID: 4842963459710446966, guid: 9ec54310e7b984f72b48b153d891ac44, type: 3}
-  - {fileID: 5196454837350721048, guid: 283e18c9392ed4244a2069bb5df3d7a1, type: 3}
-  - {fileID: 5889841232024631426, guid: a6a933c1cb7ed4530953b08094e831cd, type: 3}
 --- !u!82 &547480296
 AudioSource:
   m_ObjectHideFlags: 0

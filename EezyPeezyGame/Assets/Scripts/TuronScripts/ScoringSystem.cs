@@ -18,6 +18,9 @@ public class ScoringSystem : MonoBehaviour
 
     private void Awake()
     {
+        theGameScore = theScore;
+        numberOfAliensFound = numberOfAliens;
+
         if (scoringInstance != null && scoringInstance != this)
         {
             Destroy(this.gameObject);
@@ -30,16 +33,14 @@ public class ScoringSystem : MonoBehaviour
 
     private void Start()
     {
-        theGameScore = theScore;
-        numberOfAliensFound = numberOfAliens;
+        //theGameScore = theScore;
+        //numberOfAliensFound = numberOfAliens;
         //NumberOfAliens();
         //PlayerScore();
     }
 
     private void Update()
     {
-        NumberOfAliens();
-        PlayerScore();
 
         if (theScore > PlayerPrefs.GetInt("HighScore", 0))
         {
@@ -53,6 +54,9 @@ public class ScoringSystem : MonoBehaviour
         {
             PlayerPrefs.SetInt("DotsCollected", theDots);
         }
+
+        NumberOfAliens();
+        PlayerScore();
     }
 
     private void NumberOfAliens()
@@ -87,11 +91,14 @@ public class ScoringSystem : MonoBehaviour
         NumberOfAliens();
         PlayerScore();
 
-        theScore = theGameScore;
-        numberOfAliens = numberOfAliensFound;
+        //theScore = theGameScore;
+        //numberOfAliens = numberOfAliensFound;
 
-        Debug.Log(theScore);
-        Debug.Log(numberOfAliens);
+        theGameScore = theScore;
+        numberOfAliensFound = numberOfAliens;
+
+        Debug.Log("Loaded from " + theScore);
+        Debug.Log("Loaded from " + numberOfAliens);
         
     }
 }
