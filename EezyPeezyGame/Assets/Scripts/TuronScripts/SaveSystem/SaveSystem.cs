@@ -18,7 +18,7 @@ public class SaveSystem
         formatter.Serialize(stream, data);
         stream.Close();
 
-        Debug.Log("Game Saved");
+        Debug.Log("Game Saved" +data);
     }
 
     public static PLRData LoadPlayer()
