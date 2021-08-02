@@ -12,6 +12,7 @@ public class InteractableObject2 : MonoBehaviour
     private Animator animator;
     public AnimationClip animClip;
     public string animName;
+    public AudioSource sound;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class InteractableObject2 : MonoBehaviour
         {
             Debug.Log("klik");
             animator.Play(animName);
+            sound.Play();
         }
     }
 }

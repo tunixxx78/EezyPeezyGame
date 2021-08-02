@@ -13,12 +13,12 @@ public class MiniGameManager : MonoBehaviour
     {
         
        
-        if (ScoringSystem.theScore >= 10 && ScoringSystem.theScore <= 100)
+        if (ScoringSystem.theScore >= 10 && ScoringSystem.theScore < 100)
         {
             minigameOne.SetActive(false);
             minigameTwo.SetActive(true);
         }
-        else if (ScoringSystem.theScore >= 100 && ScoringSystem.theScore <= 500)
+        else if (ScoringSystem.theScore >= 100 && ScoringSystem.theScore < 500)
         {
             minigameOne.SetActive(false);
             minigameTwo.SetActive(false);
