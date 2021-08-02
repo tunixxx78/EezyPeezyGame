@@ -47,12 +47,13 @@ public class GameManager : MonoBehaviour
             {
                 colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 0.5f);
                 buttonSounds[activeSequence[positionInSequence]].Stop();
+
                 shouldBeLit = false;
 
                 shouldBeDark = true;
                 waitBetweenCounter = waitBetweenLights;
 
-                positionInSequence++;
+                positionInSequence++; 
             }
         }
         if (shouldBeDark)
@@ -68,8 +69,6 @@ public class GameManager : MonoBehaviour
             {
                 if(waitBetweenCounter < 0)
                 {
-
-
                     colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
                     buttonSounds[activeSequence[positionInSequence]].Play();
 
@@ -105,12 +104,14 @@ public class GameManager : MonoBehaviour
         {
             if (activeSequence[inputInSequence] == whichButton)
             {
-                Debug.Log("Correct");  
+                Debug.Log("Correct");
 
                 inputInSequence++;
+                
 
-                if(inputInSequence >= activeSequence.Count)
+                if (inputInSequence >= activeSequence.Count)
                 {
+                    
                     positionInSequence = 0;
                     inputInSequence = 0;
 
@@ -126,7 +127,7 @@ public class GameManager : MonoBehaviour
 
                     gameActive = false;
 
-                    correct.Play();
+                    correct.Play();   
                 }
             }
             else
@@ -136,5 +137,11 @@ public class GameManager : MonoBehaviour
                 gameActive = false;
             }
         }   
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(2);
+        print("sekunnit kului");
     }
 }
