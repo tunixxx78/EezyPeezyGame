@@ -35,7 +35,8 @@ public class ElectricWiresGameManager : MonoBehaviour
         correctWires += 1;
         if(correctWires == totalWires)
         {
-            SceneManager.LoadScene("SampleScene");
+            DataHolder.dataHolder.FuelPipesDone = true;
+            SceneManager.LoadScene("RocketEngineFloor");
         }
     }
 

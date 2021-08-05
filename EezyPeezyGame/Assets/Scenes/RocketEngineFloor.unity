@@ -196,6 +196,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -183.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1395411601424546943, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 839134046}
+    - target: {fileID: 1395411601424546943, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SkipDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395411601424546943, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogController1, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1924155132194631407, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -307,6 +319,10 @@ PrefabInstance:
     - target: {fileID: 8698239225561558547, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_Name
       value: Default_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698239225561558547, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
@@ -829,7 +845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &281487767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1901,9 +1917,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogText: {fileID: 79966631}
   dialogPanel: {fileID: 79966632}
-  dialog1: []
-  dialog2: []
-  dialogPart: 
+  dialog1:
+  - I can barely see a thing here! I think there should be a light switch.
+  - Ok little robot, we are here to help you out with the fuel pipes.
+  - "Let\u2019s have a look, open the closet."
+  dialog2:
+  - You made it! Now the fuel can run to the engine.
+  - "Come and have a look at the arcade room inside\_the rocket."
+  - "It\u2019s so cool, you can play games there. It\u2019s on the 2nd floor."
+  - "If you are ready, let\u2019s go see the Pilot in the cockpit and start the engines!"
+  dialogPart: EngineFloor
   dialogSpeed: 0.02
 --- !u!4 &839134047
 Transform:
@@ -2132,7 +2155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverSprite: {fileID: -1453176794412677239, guid: 7e631980d025e9e4f871e1e5d0617768, type: 3}
   sprite: {fileID: -7792399705120831029, guid: 7e631980d025e9e4f871e1e5d0617768, type: 3}
-  light: {fileID: 281487766}
+  lights: {fileID: 281487766}
 --- !u!212 &917123628
 SpriteRenderer:
   m_ObjectHideFlags: 0

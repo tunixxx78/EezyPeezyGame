@@ -27,12 +27,19 @@ public class DialogController1 : MonoBehaviour
         {
             dialogPanel.SetActive(false);
         }
-        if(dialogPart == "Cockpit" && DataHolder.dataHolder.dashboardDone)
+        else if(dialogPart == "Cockpit" && DataHolder.dataHolder.dashboardDone && DataHolder.dataHolder.FuelPipesDone == false)
         {
             dialogPanel.SetActive(false);
         }
-
-        if(dialogPart == "Headquarters" && DataHolder.dataHolder.labyrinthDone == true)
+        else if(dialogPart == "Headquarters" && DataHolder.dataHolder.labyrinthDone == true)
+        {
+            currentDialog = dialog2;
+        }
+        else if (dialogPart == "EngineFloor" && DataHolder.dataHolder.FuelPipesDone == true)
+        {
+            currentDialog = dialog2;
+        }
+        else if (dialogPart == "Cockpit" && DataHolder.dataHolder.FuelPipesDone == true)
         {
             currentDialog = dialog2;
         }
@@ -130,6 +137,10 @@ public class DialogController1 : MonoBehaviour
         if (dialogPart == "Labyrinth")
         {
             DataHolder.dataHolder.labyrinthDone = true;
+        }
+        if (dialogPart == "EngineFloor")
+        {
+            DataHolder.dataHolder.engineFloorDone = true;
         }
         else
         {

@@ -21,6 +21,7 @@ public class PhoneDialogController : MonoBehaviour
     public bool isOpen;
     public GameObject chatBubble, electra, newton, doctorBag, ez, pz, phoneConsole, callIcon, callWaves;
     private Animator phoneConsoleAnimator, ezAnimator, pzAnimator;
+    public GameObject dashboardGame, simonSaysGame, pilot;
 
 
     private void Start()
@@ -43,7 +44,7 @@ public class PhoneDialogController : MonoBehaviour
         {
             return;
         }
-        
+ 
     }
 
     // Update is called once per frame
@@ -58,6 +59,29 @@ public class PhoneDialogController : MonoBehaviour
                 nextText = false;
                 NextDialog();
             }
+        }
+
+        if (DataHolder.dataHolder.labyrinthDone && DataHolder.dataHolder.FuelPipesDone && DataHolder.dataHolder.engineStartDone == false)
+        {
+            simonSaysGame.SetActive(true);
+            pilot.SetActive(true);
+            dashboardGame.SetActive(false);
+        }
+        else if (DataHolder.dataHolder.dashboardDone == false)
+        {
+            dashboardGame.SetActive(true);
+            simonSaysGame.SetActive(false);
+        }
+        else if (DataHolder.dataHolder.engineStartDone)
+        {
+            pilot.SetActive(true);
+            simonSaysGame.SetActive(false);
+            dashboardGame.SetActive(false);
+        }
+        else
+        {
+            simonSaysGame.SetActive(false);
+            dashboardGame.SetActive(false);
         }
     }
 

@@ -5,11 +5,11 @@ using UnityEngine;
 public class LightSwitch : MonoBehaviour
 {
     public Sprite hoverSprite, sprite;
-    public GameObject light;
+    public GameObject lights;
     // Start is called before the first frame update
     void Start()
     {
-        light.SetActive(false);
+        lights.SetActive(false);
     }
 
     private void OnMouseOver()
@@ -25,13 +25,13 @@ public class LightSwitch : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (Input.GetKey(KeyCode.Mouse0) && light.activeSelf == false)
+        if (Input.GetKey(KeyCode.Mouse0) && lights.activeSelf == false)
         {
-            light.SetActive(true);
+            lights.SetActive(true);
         }
         else
         {
-            light.SetActive(false);
+            lights.SetActive(false);
         }
     }
 

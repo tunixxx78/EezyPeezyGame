@@ -9,7 +9,6 @@ public class TaskPanelManager : MonoBehaviour
     public TextMeshProUGUI task1, task2, task3, task4, task5, task6, task7;
     public Image taskImage1, taskImage2, taskImage3, taskImage4, taskImage5,
         taskImage6, taskImage7;
-    public GameObject toSimonSays, dashboardAssemble;
 
     // Update is called once per frame
     void Update()
@@ -48,8 +47,7 @@ public class TaskPanelManager : MonoBehaviour
         {
             task4.text = "Start the rocket's engine with the dashboard in the rocket";
             taskImage3.color = Color.green;
-            toSimonSays.SetActive(true);
-            dashboardAssemble.SetActive(false);
+            
         }
         else
         {
