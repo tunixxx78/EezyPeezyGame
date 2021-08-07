@@ -7,7 +7,10 @@ TextureImporter:
     second: Ufo_ornament
   - first:
       213: 1718874812544640900
-    second: Small alien ship PNG 1920X1080_1
+    second: chainUP
+  - first:
+      213: -7665240848631516889
+    second: chainDOWN
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -178,22 +181,43 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small alien ship PNG 1920X1080_1
+      name: chainUP
       rect:
         serializedVersion: 2
         x: 1289
-        y: 589
+        y: 866
         width: 26
-        height: 381
+        height: 101
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 223, z: 0, w: 108}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 487e617f88baad710800000000000000
       internalID: 1718874812544640900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chainDOWN
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 588
+        width: 31
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72131837f089f9590800000000000000
+      internalID: -7665240848631516889
       vertices: []
       indices: 
       edges: []
