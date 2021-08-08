@@ -10,7 +10,7 @@ public class DataHolder : MonoBehaviour
 {
     public static DataHolder dataHolder;
     public string currentScene;
-    public int score, foundAliens;
+    // public int score, foundAliens;
 
     public bool tutorialDone, lobbyDone, cockpitDone, dashboardDone,
         phoneCallDone, headquartersDone, labyrinthDone, engineFloorDone, 

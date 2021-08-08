@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoringSystem : MonoBehaviour
 {
@@ -14,29 +15,29 @@ public class ScoringSystem : MonoBehaviour
     public int theGameScore;
     public int numberOfAliensFound;
 
-    //[SerializeField] Text aliensCount, pointsCount;
+    [SerializeField] Text aliensCount, pointsCount;
 
     private void Awake()
     {
         theGameScore = theScore;
         numberOfAliensFound = numberOfAliens;
 
-        if (scoringInstance != null && scoringInstance != this)
+        /*if (scoringInstance != null && scoringInstance != this)
         {
             Destroy(this.gameObject);
             return;
         }
 
         scoringInstance = this;
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(this);*/
     }
 
     private void Start()
     {
         //theGameScore = theScore;
         //numberOfAliensFound = numberOfAliens;
-        //NumberOfAliens();
-        //PlayerScore();
+        NumberOfAliens();
+        PlayerScore();
     }
 
     private void Update()
@@ -55,14 +56,17 @@ public class ScoringSystem : MonoBehaviour
             PlayerPrefs.SetInt("DotsCollected", theDots);
         }
 
-        NumberOfAliens();
-        PlayerScore();
+        theGameScore = theScore;
+        numberOfAliensFound = numberOfAliens;
+
+        //NumberOfAliens();
+        //PlayerScore();
     }
 
     private void NumberOfAliens()
     {
         int numberOfAliens = PlayerPrefs.GetInt("NumberOfAliens");
-        //aliensCount.text = numberOfAliensFound.ToString();
+        aliensCount.text = numberOfAliensFound.ToString();
         numberOfAliensFound = numberOfAliens;
 
 
@@ -71,7 +75,7 @@ public class ScoringSystem : MonoBehaviour
     private void PlayerScore()
     {
         int theScore = PlayerPrefs.GetInt("HighScore");
-        //pointsCount.text = theGameScore.ToString();
+        pointsCount.text = theGameScore.ToString();
         theGameScore = theScore;
         
     }
@@ -88,17 +92,21 @@ public class ScoringSystem : MonoBehaviour
         theGameScore = data.score;
         numberOfAliensFound = data.aliensFound;
 
-        NumberOfAliens();
-        PlayerScore();
+        pointsCount.text = theGameScore.ToString();
+        aliensCount.text = numberOfAliensFound.ToString();
+        //NumberOfAliens();
+        //PlayerScore();
 
-        //theScore = theGameScore;
-        //numberOfAliens = numberOfAliensFound;
+        theScore = theGameScore;
+        numberOfAliens = numberOfAliensFound;
 
-        theGameScore = theScore;
-        numberOfAliensFound = numberOfAliens;
+        //theGameScore = theScore;
+        //numberOfAliensFound = numberOfAliens;
 
         Debug.Log("Loaded from " + theScore);
         Debug.Log("Loaded from " + numberOfAliens);
+
+        SceneManager.LoadScene("HomePlanet");
         
     }
 }
