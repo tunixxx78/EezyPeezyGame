@@ -14,14 +14,7 @@ public class TaskPanelManager : MonoBehaviour
     void Update()
     {
 
-        if (DataHolder.dataHolder.tutorialDone == true)
-        {
-            task1.text = "Fix the dashboard inside the rocket";
-        }
-        else
-        {
-            task1.text = "???";
-        }
+        task1.text = "Fix the dashboard inside the rocket";
 
         if (DataHolder.dataHolder.tutorialDone == true && DataHolder.dataHolder.dashboardDone == true)
         {

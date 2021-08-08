@@ -143,6 +143,7 @@ public class PhoneDialogController : MonoBehaviour
         {
             electra.SetActive(false);
             newton.SetActive(true);
+            
         }
         else if  (index > 3)
         {
