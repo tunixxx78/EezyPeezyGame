@@ -82,12 +82,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (inputInSequence == 2 || positionInSequence == 2)
-        {
-            gameCompleted = true;
-            Debug.Log("HYVÄÄ TYÖTÄ");
-            Completed();
-        }
+        //if (inputInSequence == 2 || positionInSequence == 2)
+        //{
+        //    gameCompleted = true;
+        //    Debug.Log("HYVÄÄ TYÖTÄ");
+        //    Completed();
+        //}
     }
 
     public void StartGame()
@@ -154,8 +154,8 @@ public class GameManager : MonoBehaviour
         positionInSequence = 0;
     }
 
-    public void Completed()
-    {
+    //public void Completed()
+    //{
         
-    }
+    //}
 }
