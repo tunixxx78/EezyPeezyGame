@@ -22,6 +22,7 @@ public class DialogTutorial : MonoBehaviour
     public GameObject taskPanel, mapPanel, menuPanel, ez, pz;
     private Animator taskAnimator, mapAnimator, menuAnimator, ezAnimator, pzAnimator;
 
+    
 
     private void Start()
     {
@@ -32,6 +33,8 @@ public class DialogTutorial : MonoBehaviour
         pzAnimator = pz.GetComponent<Animator>();
 
         if(DataHolder.dataHolder.tutorialDone)
+
+        //if(ScoringSystem.scoringInstance.tutorialDialogDone)
         {
             dialogPanel.SetActive(false);
         }

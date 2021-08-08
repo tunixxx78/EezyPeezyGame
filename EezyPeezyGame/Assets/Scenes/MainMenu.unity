@@ -6158,6 +6158,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784732657}
   m_CullTransparentMesh: 1
+--- !u!1 &785152364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 785152366}
+  - component: {fileID: 785152365}
+  m_Layer: 0
+  m_Name: DataHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &785152365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785152364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055f5095393d48f40916a883fea4723a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene: 
+  tutorialDone: 0
+  lobbyDone: 0
+  cockpitDone: 0
+  dashboardDone: 0
+  phoneCallDone: 0
+  headquartersDone: 0
+  labyrinthDone: 0
+  engineFloorDone: 0
+  FuelPipesDone: 0
+  engineStartDone: 0
+  spaceTransitDone: 0
+  gridNavigationDone: 0
+  medicineMeasureDone: 0
+  newtonTreatedDone: 0
+--- !u!4 &785152366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785152364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 422.42456, y: -41.29055, z: -5862.5923}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &786606758
 GameObject:
   m_ObjectHideFlags: 0
@@ -8791,64 +8849,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092534387}
   m_CullTransparentMesh: 1
---- !u!1 &1117429188
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1117429190}
-  - component: {fileID: 1117429189}
-  m_Layer: 0
-  m_Name: DataHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1117429189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117429188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 055f5095393d48f40916a883fea4723a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentScene: 
-  tutorialDone: 0
-  lobbyDone: 0
-  cockpitDone: 0
-  dashboardDone: 0
-  phoneCallDone: 0
-  headquartersDone: 0
-  labyrinthDone: 0
-  engineFloorDone: 0
-  FuelPipesDone: 0
-  engineStartDone: 0
-  spaceTransitDone: 0
-  gridNavigationDone: 0
-  medicineMeasureDone: 0
-  newtonTreatedDone: 0
---- !u!4 &1117429190
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117429188}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 170.41603, y: 81.91294, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120137413
 GameObject:
   m_ObjectHideFlags: 0
@@ -17159,6 +17159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theGameScore: 0
   numberOfAliensFound: 0
+  currentScene: 
+  tutorialDialogDone: 0
   aliensCount: {fileID: 896698537}
   pointsCount: {fileID: 1886145941}
 --- !u!81 &2036410864

@@ -14,6 +14,9 @@ public class ScoringSystem : MonoBehaviour
 
     public int theGameScore;
     public int numberOfAliensFound;
+    public string currentScene;
+
+    public bool tutorialDialogDone;
 
     [SerializeField] Text aliensCount, pointsCount;
 
@@ -59,6 +62,14 @@ public class ScoringSystem : MonoBehaviour
         theGameScore = theScore;
         numberOfAliensFound = numberOfAliens;
 
+        currentScene = SceneManager.GetActiveScene().name;
+
+        if (DataHolder.dataHolder.tutorialDone)
+        {
+            tutorialDialogDone = true;
+            GameProgress();
+        }
+
         //NumberOfAliens();
         //PlayerScore();
     }
@@ -80,6 +91,11 @@ public class ScoringSystem : MonoBehaviour
         
     }
 
+    public void GameProgress()
+    {
+        tutorialDialogDone = true;
+    }
+
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
@@ -91,6 +107,8 @@ public class ScoringSystem : MonoBehaviour
 
         theGameScore = data.score;
         numberOfAliensFound = data.aliensFound;
+        currentScene = data.activeScene;
+        tutorialDialogDone = data.tutorial;
 
         pointsCount.text = theGameScore.ToString();
         aliensCount.text = numberOfAliensFound.ToString();
@@ -106,7 +124,7 @@ public class ScoringSystem : MonoBehaviour
         Debug.Log("Loaded from " + theScore);
         Debug.Log("Loaded from " + numberOfAliens);
 
-        SceneManager.LoadScene("HomePlanet");
+        SceneManager.LoadScene(currentScene);
         
     }
 }
