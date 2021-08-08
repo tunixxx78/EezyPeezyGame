@@ -6,10 +6,14 @@ using UnityEngine;
 public class PLRData
 {
     public int score, aliensFound;
+    public string activeScene;
+    public bool tutorial;
 
     public PLRData (ScoringSystem player)
     { 
         score = player.theGameScore;
         aliensFound = player.numberOfAliensFound;
+        activeScene = player.currentScene;
+        tutorial = player.tutorialDialogDone;
     }
 }
