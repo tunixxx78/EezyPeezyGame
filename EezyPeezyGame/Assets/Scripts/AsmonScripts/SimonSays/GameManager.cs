@@ -27,6 +27,9 @@ public class GameManager : MonoBehaviour
 
     private bool gameActive = false;
 
+    private bool gameCompleted = false;
+
+
     public AudioSource correct;
     public AudioSource incorrect;
     
@@ -52,7 +55,7 @@ public class GameManager : MonoBehaviour
 
                 shouldBeDark = true;
                 waitBetweenCounter = waitBetweenLights;
-
+                
                 positionInSequence++; 
             }
         }
@@ -60,7 +63,7 @@ public class GameManager : MonoBehaviour
         {
             waitBetweenCounter -= Time.deltaTime;
 
-            if(positionInSequence >= activeSequence.Count)
+            if (positionInSequence >= activeSequence.Count)
             {
                 shouldBeDark = false;
                 gameActive = true;
@@ -68,7 +71,7 @@ public class GameManager : MonoBehaviour
             else
             {
                 if(waitBetweenCounter < 0)
-                {
+                { 
                     colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
                     buttonSounds[activeSequence[positionInSequence]].Play();
 
@@ -77,6 +80,13 @@ public class GameManager : MonoBehaviour
                     shouldBeDark = false;
                 }
             }
+        }
+
+        if (inputInSequence == 2 || positionInSequence == 2)
+        {
+            gameCompleted = true;
+            Debug.Log("HYVÄÄ TYÖTÄ");
+            Completed();
         }
     }
 
@@ -105,13 +115,13 @@ public class GameManager : MonoBehaviour
             if (activeSequence[inputInSequence] == whichButton)
             {
                 Debug.Log("Correct");
-
+                
                 inputInSequence++;
                 
 
                 if (inputInSequence >= activeSequence.Count)
                 {
-                    
+                    Invoke("DelayFirstLight", 1f);
                     positionInSequence = 0;
                     inputInSequence = 0;
 
@@ -127,8 +137,9 @@ public class GameManager : MonoBehaviour
 
                     gameActive = false;
 
-                    correct.Play();   
+                    correct.Play();
                 }
+            }
             }
             else
             {
@@ -136,12 +147,15 @@ public class GameManager : MonoBehaviour
                 incorrect.Play();
                 gameActive = false;
             }
-        }   
+        }
+
+    public void DelayFirstLight()
+    {
+        positionInSequence = 0;
     }
 
-    IEnumerator Wait()
+    public void Completed()
     {
-        yield return new WaitForSeconds(2);
-        print("sekunnit kului");
+        
     }
 }
