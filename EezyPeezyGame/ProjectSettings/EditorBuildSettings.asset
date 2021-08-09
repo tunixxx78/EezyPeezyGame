@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames/SimonSays.unity
     guid: 067b893e7139b7542b22df93ec1b21e1
   - enabled: 1
+    path: Assets/Scenes/SpaceTransit.unity
+    guid: a3ae2bd4a188f44f3acd24b6e24b9fb7
+  - enabled: 1
     path: Assets/Scenes/PlanetIzzy.unity
     guid: b065484aa090244228a8b522297f05af
   - enabled: 0
@@ -50,7 +53,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/SpaceTransit.unity
-    guid: a3ae2bd4a188f44f3acd24b6e24b9fb7
   m_configObjects: {}

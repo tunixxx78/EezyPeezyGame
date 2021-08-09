@@ -23,7 +23,7 @@ public class SceneChanger : MonoBehaviour
 
     public void GoToScene()
     {
-        if (SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.phoneCallDone == false)
+        if (SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.phoneCallDone == false || SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.labyrinthDone == true)
         {
             if(sceneDenied != null)
             {

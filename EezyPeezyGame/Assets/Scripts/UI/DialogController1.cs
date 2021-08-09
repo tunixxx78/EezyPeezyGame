@@ -31,9 +31,17 @@ public class DialogController1 : MonoBehaviour
         {
             dialogPanel.SetActive(false);
         }
+        else if (dialogPart == "Headquarters" && DataHolder.dataHolder.dashboardDone == false)
+        {
+            dialogPanel.SetActive(false);
+        }
         else if(dialogPart == "Headquarters" && DataHolder.dataHolder.labyrinthDone == true)
         {
             currentDialog = dialog2;
+        }
+        else if (dialogPart == "EngineFloor" && DataHolder.dataHolder.labyrinthDone == false)
+        {
+            dialogPanel.SetActive(false);
         }
         else if (dialogPart == "EngineFloor" && DataHolder.dataHolder.FuelPipesDone == true)
         {
