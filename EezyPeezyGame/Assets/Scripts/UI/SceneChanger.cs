@@ -10,12 +10,6 @@ public class SceneChanger : MonoBehaviour
     public string toScene;
     public AudioSource sceneDenied;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnMouseOver()
     {
         //if the mouse clicks the area (e.g. doorway), the continue panel activates and starts a couroutine 
@@ -31,7 +25,15 @@ public class SceneChanger : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.phoneCallDone == false)
         {
-            sceneDenied.Play();
+            if(sceneDenied != null)
+            {
+                sceneDenied.Play();
+            }
+            else
+            {
+                return;
+            }
+            
         }
         else
         {
@@ -43,8 +45,23 @@ public class SceneChanger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger entered.");
-        SceneManager.LoadScene(toScene);
+        if (collision.gameObject.CompareTag("Player") && DataHolder.dataHolder.labyrinthDone == true)
+        {
+            Debug.Log("Trigger entered.");
+            SceneManager.LoadScene(toScene);
+        }
+        else
+        {
+            if (sceneDenied != null)
+            {
+                sceneDenied.Play();
+            }
+            else
+            {
+                return;
+            }
+        }
+        
     }
 
 }

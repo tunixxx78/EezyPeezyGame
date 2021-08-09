@@ -15,10 +15,6 @@ public class LightFormation : MonoBehaviour
         index = 0;
     }
 
-    private void Update()
-    {
-        Debug.Log("formation index:" + index);
-    }
 
     private void OnMouseDown()
     {

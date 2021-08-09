@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
@@ -32,6 +33,8 @@ public class GameManager : MonoBehaviour
 
     public AudioSource correct;
     public AudioSource incorrect;
+
+    [SerializeField] private GameObject moveOn;
     
 
     
@@ -82,12 +85,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        //if (inputInSequence == 2 || positionInSequence == 2)
-        //{
-        //    gameCompleted = true;
-        //    Debug.Log("HYVÄÄ TYÖTÄ");
-        //    Completed();
-        //}
+        if (inputInSequence == 4 || positionInSequence == 4)
+        {
+            gameCompleted = true;
+            Debug.Log("HYVÄÄ TYÖTÄ");
+            Completed();
+        }
     }
 
     public void StartGame()
@@ -154,8 +157,16 @@ public class GameManager : MonoBehaviour
         positionInSequence = 0;
     }
 
-    //public void Completed()
-    //{
-        
-    //}
+    public void Completed()
+    {
+            DataHolder.dataHolder.engineStartDone = true;
+            Invoke("HomePlanetScene", 2f);
+            FindObjectOfType<SFXManager>().PlanetExplotion();
+            moveOn.SetActive(true);
+    }
+
+    public void HomePlanetScene()
+    {
+        SceneManager.LoadScene("HomePlanet");
+    }
 }

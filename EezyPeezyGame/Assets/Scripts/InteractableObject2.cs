@@ -18,6 +18,7 @@ public class InteractableObject2 : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+
     }
 
     private void OnMouseOver()
@@ -26,7 +27,15 @@ public class InteractableObject2 : MonoBehaviour
         {
             Debug.Log("klik");
             animator.Play(animName);
-            sound.Play();
+            if(sound != null)
+            {
+                sound.Play();
+            }
+            else
+            {
+                return;
+            }
+            
         }
     }
 }
