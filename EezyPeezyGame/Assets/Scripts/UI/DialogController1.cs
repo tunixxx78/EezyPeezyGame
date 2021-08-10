@@ -23,7 +23,11 @@ public class DialogController1 : MonoBehaviour
 
     private void Start()
     {
-        if(dialogPart == "Lobby" && DataHolder.dataHolder.lobbyDone)
+        if (dialogPart == "HomePlanet" && DataHolder.dataHolder.dashboardDone)
+        {
+            dialogPanel.SetActive(false);
+        }
+        else if(dialogPart == "Lobby" && DataHolder.dataHolder.lobbyDone || dialogPart == "Lobby" && DataHolder.dataHolder.dashboardDone)
         {
             dialogPanel.SetActive(false);
         }
@@ -39,7 +43,7 @@ public class DialogController1 : MonoBehaviour
         {
             currentDialog = dialog2;
         }
-        else if (dialogPart == "EngineFloor" && DataHolder.dataHolder.labyrinthDone == false)
+        else if (dialogPart == "EngineFloor" && DataHolder.dataHolder.labyrinthDone == false || dialogPart == "EngineFloor" && DataHolder.dataHolder.engineStartDone)
         {
             dialogPanel.SetActive(false);
         }

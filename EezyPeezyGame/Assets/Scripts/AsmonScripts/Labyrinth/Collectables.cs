@@ -6,6 +6,7 @@ public class Collectables : MonoBehaviour
 {
     public GameObject[] collectedItem;
     public int items;
+    public AudioSource collectSound;
 
     private void Start()
     {
@@ -17,6 +18,7 @@ public class Collectables : MonoBehaviour
         if(items == 5)
         {
             DataHolder.dataHolder.labyrinthDone = true;
+            FindObjectOfType<SFXManager>().PlanetExplotion();
         }
         
     }
@@ -29,30 +31,35 @@ public class Collectables : MonoBehaviour
             collectedItem[0].SetActive(true);
             Destroy(collision.gameObject);
             items++;
+            collectSound.Play();
         }
         if (collision.CompareTag("Needle"))
         {
             collectedItem[1].SetActive(true);
             Destroy(collision.gameObject);
             items++;
+            collectSound.Play();
         }
         if (collision.CompareTag("Pill"))
         {
             collectedItem[2].SetActive(true);
             Destroy(collision.gameObject);
             items++;
+            collectSound.Play();
         }
         if (collision.CompareTag("Stetoscope"))
         {
             collectedItem[3].SetActive(true);
             Destroy(collision.gameObject);
             items++;
+            collectSound.Play();
         }
         if (collision.CompareTag("Thermometer"))
         {
             collectedItem[4].SetActive(true);
             Destroy(collision.gameObject);
             items++;
+            collectSound.Play();
         }
     }
 }
