@@ -28,9 +28,6 @@ public class GameManager : MonoBehaviour
 
     private bool gameActive = false;
 
-    private bool gameCompleted = false;
-
-
     public AudioSource correct;
     public AudioSource incorrect;
     
@@ -86,12 +83,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (inputInSequence == 4 || positionInSequence == 4)
-        {
-            gameCompleted = true;
-            Debug.Log("HYVÄÄ TYÖTÄ");
-            Completed();
-        }
+        
     }
 
     public void StartGame()
@@ -125,23 +117,30 @@ public class GameManager : MonoBehaviour
 
                 if (inputInSequence >= activeSequence.Count)
                 {
-                    Invoke("DelayFirstLight", 1f);
-                    positionInSequence = 0;
-                    inputInSequence = 0;
+                    //Invoke("DelayFirstLight", 1f);
+                    //positionInSequence = 0;
+                    //inputInSequence = 0;
 
-                    colorSelect = Random.Range(0, colors.Length);
+                    //colorSelect = Random.Range(0, colors.Length);
 
-                    activeSequence.Add(colorSelect);
+                    //activeSequence.Add(colorSelect);
 
-                    colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
-                    buttonSounds[activeSequence[positionInSequence]].Play();
+                    //colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
+                    //buttonSounds[activeSequence[positionInSequence]].Play();
 
-                    stayLitCounter = stayLit;
-                    shouldBeLit = true;
+                    //stayLitCounter = stayLit;
+                    //shouldBeLit = true;
 
-                    gameActive = false;
-
+                    //gameActive = false;
                     correct.Play();
+                    StartCoroutine(WaitBetweenSequences());
+
+                    if (inputInSequence == 6)
+                    {
+                        gameActive = false;
+                        Debug.Log("HYVÄÄ TYÖTÄ");
+                        Completed();
+                    }
                 }
             }
             }
@@ -153,10 +152,6 @@ public class GameManager : MonoBehaviour
             }
         }
 
-    public void DelayFirstLight()
-    {
-        positionInSequence = 0;
-    }
 
     public void Completed()
     {
@@ -169,5 +164,27 @@ public class GameManager : MonoBehaviour
     public void HomePlanetScene()
     {
         SceneManager.LoadScene("HomePlanet");
+    }
+
+    IEnumerator WaitBetweenSequences()
+    {
+        yield return new WaitForSeconds(waitBetweenLights);
+
+        positionInSequence = 0;
+        inputInSequence = 0;
+
+        colorSelect = Random.Range(0, colors.Length);
+
+        activeSequence.Add(colorSelect);
+
+        colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
+        buttonSounds[activeSequence[positionInSequence]].Play();
+
+        stayLitCounter = stayLit;
+        shouldBeLit = true;
+
+        gameActive = false;
+
+        
     }
 }
