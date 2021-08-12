@@ -408,6 +408,8 @@ MonoBehaviour:
   gameSheets:
   - {fileID: 8661769710618627050, guid: 612997073628b41ccaa859d67b2f9e5f, type: 3}
   - {fileID: 4048725063139616775, guid: d121a1b173e6e47bbb8a9ff34f5cccda, type: 3}
+  - {fileID: 8661769710618627050, guid: ba4302792230b4cda894c85ac3d3a4a7, type: 3}
+  - {fileID: 8661769710618627050, guid: 0512191326c6d4b3d8f78c7973dedd6d, type: 3}
 --- !u!1 &205267954
 GameObject:
   m_ObjectHideFlags: 0
