@@ -15,6 +15,7 @@ public class CursorChange : MonoBehaviour
     private void OnMouseEnter()
     {
         Cursor.SetCursor(cursorInteractable, hotSpot, CursorMode.ForceSoftware);
+        FindObjectOfType<SFXManager>().CursorChange();
     }
 
     private void OnMouseOver()

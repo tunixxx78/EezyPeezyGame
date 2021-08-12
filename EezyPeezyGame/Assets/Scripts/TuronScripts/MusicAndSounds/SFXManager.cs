@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 public class SFXManager : MonoBehaviour
 {
 
-    public AudioSource button, doorOpening, typing, fireworks, littlePiggy;
+    public AudioSource button, doorOpening, typing, fireworks, littlePiggy, cursor;
 
     public static SFXManager sfxInstance;
 
@@ -44,6 +44,11 @@ public class SFXManager : MonoBehaviour
     public void YouFindLittlePiggy()
     {
         littlePiggy.Play();
+    }
+
+    public void CursorChange()
+    {
+        cursor.Play();
     }
 
 }

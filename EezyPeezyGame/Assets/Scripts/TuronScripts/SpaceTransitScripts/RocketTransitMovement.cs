@@ -51,7 +51,7 @@ public class RocketTransitMovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlanetIzzy"))
+        if (collision.CompareTag("Planet Izzy"))
         {
             Invoke("GoToIzzy", 1f);
             endText.SetActive(true);

@@ -26,21 +26,13 @@ public class InputManager : MonoBehaviour
 
     public void BackToPreviousScene()
     {
-        if (scene.name == "RocketCockpit")
+        if (scene.name == "RocketCockpit" || scene.name == "RocketArcade" || scene.name == "RocketEngineFloor" || scene.name == "Planet Izzy")
         {
             SceneManager.LoadScene("RocketLobby");
         }
         else if (scene.name == "HeadQuarters")
         {
             SceneManager.LoadScene("HomePlanet");
-        }
-        else if (scene.name == "RocketArcade")
-        {
-            SceneManager.LoadScene("RocketLobby");
-        }
-        else if (scene.name == "RocketEngineFloor")
-        {
-            SceneManager.LoadScene("RocketLobby");
         }
         else if (scene.name == "FuelPipes")
         {
@@ -53,6 +45,10 @@ public class InputManager : MonoBehaviour
         else if (scene.name == "SpaceTransit")
         {
             SceneManager.LoadScene("HomePlanet");
+        }
+        else if (scene.name == "MapNavigation")
+        {
+            SceneManager.LoadScene("Planet Izzy");
         }
         else
         {

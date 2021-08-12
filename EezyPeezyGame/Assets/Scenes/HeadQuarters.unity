@@ -348,7 +348,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7003477675205327226, guid: 2691acce827d5cd47a06378a083ad715, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7003477675205327226, guid: 2691acce827d5cd47a06378a083ad715, type: 3}
       propertyPath: m_LocalPosition.x
@@ -407,6 +407,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5318b28d776333d4e984982d8a5794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &259236166 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 482274893073658854, guid: 2772412c8451bcb4f8616552cda5422a, type: 3}
+  m_PrefabInstance: {fileID: 120874603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &313636260
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,7 +510,7 @@ Transform:
   - {fileID: 1965495625}
   - {fileID: 1982649410}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &437054345
 GameObject:
@@ -599,7 +604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 466849475}
   - component: {fileID: 466849476}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,8 +663,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -1
   m_Sprite: {fileID: -8811817346959097994, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -672,6 +677,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &542500570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542500571}
+  - component: {fileID: 542500572}
+  m_Layer: 0
+  m_Name: Back Global Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &542500571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542500570}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 637.2854, y: 594.01166, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1531228360}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &542500572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542500570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 4
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.52954787, g: 0.6266568, b: 0.9433962, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 4d46c8f4
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &547480289
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +1068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 618124597}
   - component: {fileID: 618124598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_Part_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1050,8 +1127,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -3
   m_Sprite: {fileID: -2987929499733286155, guid: 9a9a08351d6ce5d4d8a9ee1e5cb42220, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1075,7 +1152,7 @@ GameObject:
   - component: {fileID: 618781880}
   - component: {fileID: 618781879}
   m_Layer: 0
-  m_Name: Global Light 2D
+  m_Name: FrontGlobal Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1096,7 +1173,7 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.733633, g: 0.8113208, b: 0.70033824, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
@@ -1129,13 +1206,85 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618781878}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 637.2854, y: 594.01166, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1531228360}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &650415879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650415880}
+  - component: {fileID: 650415881}
+  m_Layer: 0
+  m_Name: Ceiling Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &650415880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650415879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.63, y: 3.89, z: 0}
+  m_LocalScale: {x: 4.14, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1531228360}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &650415881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650415879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.77
+  m_Color: {r: 0.8705883, g: 0.8196079, b: 0.73333335, a: 1}
+  m_Intensity: 0.4
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.9
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -1.7877805, y: -9.688973, z: 0}
+  - {x: 2.209017, y: -9.508444, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &726544291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,7 +1295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 726544292}
   - component: {fileID: 726544293}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1205,8 +1354,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 4495481776920085590, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1438,7 +1587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 861795256}
   - component: {fileID: 861795257}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_Part_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1497,8 +1646,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -2
   m_Sprite: {fileID: -5708270415042395211, guid: 9a9a08351d6ce5d4d8a9ee1e5cb42220, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1521,6 +1670,18 @@ PrefabInstance:
     - target: {fileID: 3153472060316483143, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
       propertyPath: m_SortingOrder
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153472060381824775, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153472060381824775, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
+      propertyPath: m_Color.g
+      value: 0.31132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153472060381824775, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
+      propertyPath: m_Color.r
+      value: 0.31132078
       objectReference: {fileID: 0}
     - target: {fileID: 3153472060381824775, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
       propertyPath: m_SortingOrder
@@ -1552,7 +1713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3153472060879215304, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3153472060879215304, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
       propertyPath: m_LocalScale.x
@@ -1773,7 +1934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022658841}
   - component: {fileID: 1022658842}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_02_Chairs_Table_Vending_machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1831,8 +1992,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ab1236c520e441d47b5c8e732d995b6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2060,7 +2221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1142309875}
   - component: {fileID: 1142309876}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2119,8 +2280,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -4
   m_Sprite: {fileID: -5461828427085498979, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2133,6 +2294,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1154462542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1154462543}
+  - component: {fileID: 1154462544}
+  m_Layer: 0
+  m_Name: Ceiling Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1154462543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154462542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.35, y: 3.89, z: 0}
+  m_LocalScale: {x: 4.14, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1531228360}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1154462544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154462542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.77
+  m_Color: {r: 0.8705883, g: 0.8196079, b: 0.73333335, a: 1}
+  m_Intensity: 0.4
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.9
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -1.7877805, y: -9.688973, z: 0}
+  - {x: 2.209017, y: -9.508444, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1001 &1239463563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2550,6 +2783,18 @@ PrefabInstance:
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 9154725001704309819, guid: 6d17c75f93cbcb5489f5118c73cc2d8b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154725001704309819, guid: 6d17c75f93cbcb5489f5118c73cc2d8b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.31132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154725001704309819, guid: 6d17c75f93cbcb5489f5118c73cc2d8b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.31132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154725001704309819, guid: 6d17c75f93cbcb5489f5118c73cc2d8b, type: 3}
       propertyPath: m_SortingOrder
       value: 17
       objectReference: {fileID: 0}
@@ -2587,7 +2832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9154725002522432939, guid: 6d17c75f93cbcb5489f5118c73cc2d8b, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9154725002522432939, guid: 6d17c75f93cbcb5489f5118c73cc2d8b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2767,7 +3012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1401823463}
   - component: {fileID: 1401823464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2825,8 +3070,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: -4872744217310492495, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2834,6 +3079,88 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.72, y: 2.74}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1419616516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1419616517}
+  - component: {fileID: 1419616518}
+  m_Layer: 0
+  m_Name: Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1419616517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419616516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.47, y: -4.15, z: 0}
+  m_LocalScale: {x: 2.65, y: 2.9, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259236166}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1419616518
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419616516}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 9
+  m_Sprite: {fileID: -3892559261929288065, guid: 21cd21cbdcbe992468e2c9506bd2bf3f, type: 3}
+  m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.72, y: 0.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2849,7 +3176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1450587344}
   - component: {fileID: 1450587345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2908,8 +3235,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -3
   m_Sprite: {fileID: 2037450535706023035, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2932,7 +3259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1497695278}
   - component: {fileID: 1497695279}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_Part_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2992,8 +3319,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -4
   m_Sprite: {fileID: 6895387492046946461, guid: 9a9a08351d6ce5d4d8a9ee1e5cb42220, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3088,6 +3415,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1531228359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1531228360}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1531228360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531228359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 618781880}
+  - {fileID: 650415880}
+  - {fileID: 1154462543}
+  - {fileID: 542500571}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590089182
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,7 +3561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1604245147}
   - component: {fileID: 1604245148}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3258,8 +3619,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 4665061320591442009, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3282,7 +3643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620855967}
   - component: {fileID: 1620855968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_04_Door_Behind_Storage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3364,7 +3725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1675314301}
   - component: {fileID: 1675314302}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3424,8 +3785,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_Sprite: {fileID: 6681409092611154471, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3448,7 +3809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707093968}
   - component: {fileID: 1707093969}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3507,8 +3868,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -2
   m_Sprite: {fileID: -2511339511299020381, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3639,7 +4000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1779075614}
   - component: {fileID: 1779075615}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_Part_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3697,8 +4058,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -5
   m_Sprite: {fileID: -2463797106397502522, guid: 9a9a08351d6ce5d4d8a9ee1e5cb42220, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4130,7 +4491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1940959592}
   - component: {fileID: 1940959593}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_01__Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4188,8 +4549,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 2bf5639438ae7df4d97a24e1ecd09592, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4212,7 +4573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1961555431}
   - component: {fileID: 1961555432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_Part_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4270,8 +4631,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -5
   m_Sprite: {fileID: 7104669624934682601, guid: 9a9a08351d6ce5d4d8a9ee1e5cb42220, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4380,7 +4741,7 @@ GameObject:
   - component: {fileID: 1965495629}
   - component: {fileID: 1965495628}
   - component: {fileID: 1965495627}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_02_Parts_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4424,8 +4785,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -5
   m_Sprite: {fileID: 8744902090051443602, guid: 050d743240c60924083cb70b0c1ffbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4542,7 +4903,7 @@ GameObject:
   - component: {fileID: 1982649413}
   - component: {fileID: 1982649412}
   - component: {fileID: 1982649411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RobotHQ_Robot_Part_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4605,8 +4966,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -188201395
+  m_SortingLayer: -1
   m_SortingOrder: -4
   m_Sprite: {fileID: 6424090068100753535, guid: 9a9a08351d6ce5d4d8a9ee1e5cb42220, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4972,7 +5333,7 @@ AudioSource:
   m_GameObject: {fileID: 2084154066}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b657f59565f8f4bfc85da95caad29298, type: 2}
   m_audioClip: {fileID: 8300000, guid: 323b7932b6b294ab48cfb1e9d2740324, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.05
@@ -5071,7 +5432,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6472064505249828247
 PrefabInstance:
@@ -5082,7 +5443,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6472064507146817298, guid: f165504bd3ade9644a6e6c1d472b4a2f, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6472064507146817298, guid: f165504bd3ade9644a6e6c1d472b4a2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5124,6 +5485,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6472064507146817299, guid: f165504bd3ade9644a6e6c1d472b4a2f, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 25f74d62f3f5f45af9385fc1ca7102c3, type: 2}
     - target: {fileID: 6472064507146817300, guid: f165504bd3ade9644a6e6c1d472b4a2f, type: 3}
       propertyPath: m_Name
       value: SceneDenied

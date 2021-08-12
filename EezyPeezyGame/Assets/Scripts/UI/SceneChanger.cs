@@ -16,8 +16,7 @@ public class SceneChanger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Debug.Log("klik");
-            GoToScene();
-            
+            GoToScene(); 
         }
     }
 
