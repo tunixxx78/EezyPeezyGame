@@ -22,7 +22,11 @@ public class ButtonController : MonoBehaviour
     
     void Update()
     {
-        
+        if(theGM.inputInSequence == 6)
+        {
+            Destroy(theSound);
+            return;
+        }
     }
 
     void OnMouseDown()

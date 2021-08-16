@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     public List<int> activeSequence;
     private int positionInSequence;
-    private int inputInSequence;
+    public int inputInSequence;
 
     private bool gameActive = false;
 
@@ -137,6 +137,7 @@ public class GameManager : MonoBehaviour
 
                     if (inputInSequence == 6)
                     {
+                        
                         gameActive = false;
                         Debug.Log("HYVÄÄ TYÖTÄ");
                         Completed();
@@ -152,13 +153,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-
     public void Completed()
     {
             DataHolder.dataHolder.engineStartDone = true;
-            Invoke("HomePlanetScene", 2f);
-            FindObjectOfType<SFXManager>().PlanetExplotion();
             moveOn.SetActive(true);
+            Invoke("HomePlanetScene", 3f);
+            FindObjectOfType<SFXManager>().PlanetExplotion();
     }
 
     public void HomePlanetScene()
