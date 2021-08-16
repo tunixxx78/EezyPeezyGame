@@ -51,7 +51,7 @@ public class RocketTransitMovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Planet Izzy"))
+        if (collision.CompareTag("PlanetIzzy"))
         {
             Invoke("GoToIzzy", 1f);
             endText.SetActive(true);
@@ -60,6 +60,6 @@ public class RocketTransitMovement : MonoBehaviour
 
     private void GoToIzzy()
     {
-        SceneManager.LoadScene("PlanetIzzy");
+        SceneManager.LoadScene("Planet Izzy");
     }
 }
