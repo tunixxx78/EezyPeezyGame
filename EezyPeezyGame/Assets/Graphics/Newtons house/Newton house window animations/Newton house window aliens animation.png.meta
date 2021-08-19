@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: df3b533158711ef419f5e3f7d564a2d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1126590564290020419
+    second: Orange alien head
+  - first:
+      213: -6321249383026854641
+    second: Green alien head
+  - first:
+      213: 6659841786546365718
+    second: Newton house window aliens animation_2
+  - first:
+      213: -6814623816434293907
+    second: Yellow alien head
+  - first:
+      213: 2162709313392567126
+    second: Blue alien left eye
+  - first:
+      213: 1099848370094084117
+    second: blue alien right eye
+  - first:
+      213: -7953364983782611607
+    second: Yellow alien left eye
+  - first:
+      213: 708038553073507325
+    second: Yellow alien right eye
+  - first:
+      213: 486136527688455203
+    second: Orange alien hand
+  - first:
+      213: 5881410522835961897
+    second: Green alien hand
+  - first:
+      213: -2594560291700716422
+    second: Blue alien right head piece
+  - first:
+      213: 8051607106682010408
+    second: Blue alien left head piece
+  - first:
+      213: -4177777985728397105
+    second: Newton house back wall
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orange alien head
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 891
+        width: 127
+        height: 144
+      alignment: 9
+      pivot: {x: 0.48585498, y: 0.39396158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34440d7362472af00800000000000000
+      internalID: 1126590564290020419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien head
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 918
+        width: 83
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5865736, y: 0.13073799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05f6047d296648a0800000000000000
+      internalID: -6321249383026854641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newton house window aliens animation_2
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 860
+        width: 134
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615266bc1d28c6c50800000000000000
+      internalID: 6659841786546365718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow alien head
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 873
+        width: 142
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63648f8eb79d61a0800000000000000
+      internalID: -6814623816434293907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue alien left eye
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 747
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653613979ac730e10800000000000000
+      internalID: 2162709313392567126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue alien right eye
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 747
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510104ee342734f00800000000000000
+      internalID: 1099848370094084117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow alien left eye
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 732
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9656b9c9fa8ff9190800000000000000
+      internalID: -7953364983782611607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow alien right eye
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 721
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb5a3b005573d900800000000000000
+      internalID: 708038553073507325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange alien hand
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 626
+        width: 53
+        height: 66
+      alignment: 9
+      pivot: {x: 0.1775677, y: 0.16133294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3245635a89a1fb600800000000000000
+      internalID: 486136527688455203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green alien hand
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 629
+        width: 35
+        height: 44
+      alignment: 9
+      pivot: {x: 0.52566266, y: 0.2754489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928c1ef95b7fe9150800000000000000
+      internalID: 5881410522835961897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue alien right head piece
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 563
+        width: 52
+        height: 70
+      alignment: 9
+      pivot: {x: 0.25817636, y: 0.16638096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c48d849254efbd0800000000000000
+      internalID: -2594560291700716422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue alien left head piece
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 560
+        width: 52
+        height: 70
+      alignment: 9
+      pivot: {x: 0.75909656, y: 0.15354963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bbac8110e0dbf60800000000000000
+      internalID: 8051607106682010408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newton house back wall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0463a8e0d8506c0800000000000000
+      internalID: -4177777985728397105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
