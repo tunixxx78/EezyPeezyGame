@@ -50,6 +50,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGames/MapNavigation.unity
     guid: f1d980e4cbd289f428bc3efcd6f4c147
+  - enabled: 1
+    path: Assets/Scenes/NewtonsHouse.unity
+    guid: 19d851f4112b7f140860e160e324a662
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/MedicineMeasuring.unity
+    guid: b880b29565e538a4d84278bca63aedaa
   - enabled: 0
     path: Assets/Scenes/MiniGames/HelpByteHome.unity
     guid: 54bc93b4bbb534d4295876c5309ddaeb

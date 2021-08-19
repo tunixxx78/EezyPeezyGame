@@ -46,7 +46,7 @@ public class InputManager : MonoBehaviour
         {
             SceneManager.LoadScene("HomePlanet");
         }
-        else if (scene.name == "MapNavigation")
+        else if (scene.name == "NewtonsHouse")
         {
             SceneManager.LoadScene("Planet Izzy");
         }

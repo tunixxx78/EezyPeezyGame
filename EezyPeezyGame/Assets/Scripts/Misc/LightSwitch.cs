@@ -16,13 +16,19 @@ public class LightSwitch : MonoBehaviour
 
     private void OnMouseOver()
     {
-        //changing the highlight sprite
-        gameObject.GetComponent<SpriteRenderer>().sprite = hoverSprite;
+        if (hoverSprite != null && sprite != null)
+        {
+            //changing the highlight sprite
+            gameObject.GetComponent<SpriteRenderer>().sprite = hoverSprite;
+        }
     }
     private void OnMouseExit()
     {
-        //changing to the original sprite
-        gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+        if (hoverSprite != null && sprite != null)
+        {
+            //changing to the original sprite
+            gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+        }
     }
 
     private void OnMouseDown()

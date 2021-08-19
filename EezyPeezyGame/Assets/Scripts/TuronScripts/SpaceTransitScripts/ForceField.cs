@@ -43,7 +43,7 @@ public class ForceField : MonoBehaviour
         }
         if (theForceField == 0)
         {
-            Invoke("TryAgain", 2f);
+            Invoke("TryAgain", 3f);
             spaceShip.SetActive(false);
             tryAgainMessage.SetActive(true);
         }

@@ -634,10 +634,10 @@ TextureImporter:
       name: Symbols_17
       rect:
         serializedVersion: 2
-        x: 1725
-        y: 1798
-        width: 150
-        height: 160
+        x: 1663
+        y: 1767
+        width: 295
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +676,10 @@ TextureImporter:
       name: Symbols_21
       rect:
         serializedVersion: 2
-        x: 3562
-        y: 1800
-        width: 154
-        height: 159
+        x: 3496
+        y: 1771
+        width: 295
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
