@@ -15598,7 +15598,7 @@ MonoBehaviour:
   input: {fileID: 281883953}
   rocket: {fileID: 1574815370}
   ez: {fileID: 170704541}
-  pz: {fileID: 0}
+  pz: {fileID: 131807503}
   rocketAnimator: {fileID: 0}
   launchClip: {fileID: 7400000, guid: 96edded3a4fb117419bdb302772acdba, type: 2}
 --- !u!4 &1808081768
