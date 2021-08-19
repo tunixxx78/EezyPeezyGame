@@ -8,6 +8,9 @@ public class StartMiniGame : MonoBehaviour
 
     public void StartThisGame()
     {
-        startScreen.SetActive(false);
+        if (startScreen.activeSelf == true)
+        {
+            startScreen.SetActive(false);
+        }
     }
 }
