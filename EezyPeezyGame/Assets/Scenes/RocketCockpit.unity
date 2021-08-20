@@ -5148,7 +5148,7 @@ MonoBehaviour:
   newton: {fileID: 1451896321}
   doctorBag: {fileID: 464758239}
   ez: {fileID: 1538855451}
-  pz: {fileID: 0}
+  pz: {fileID: 1691451828}
   phoneConsole: {fileID: 1748250176}
   callIcon: {fileID: 1267048242}
   callWaves: {fileID: 783790805}
@@ -5220,6 +5220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
+--- !u!1 &1691451828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3153472060879215305, guid: 734216fcf2b3b2643a592598bfeea2bd, type: 3}
+  m_PrefabInstance: {fileID: 1691451827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1705636098
 GameObject:
   m_ObjectHideFlags: 0

@@ -48,7 +48,8 @@ public class DoorAnimation : MonoBehaviour
             animator.Play("Close");
             animator.SetBool("Open", false);
             FindObjectOfType<SFXManager>().OpeningDoorSound();
-
+            
         }
     }
+
 }
