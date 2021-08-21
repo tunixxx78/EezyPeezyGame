@@ -19,8 +19,7 @@ public class GridPlayer : MonoBehaviour
 
     [SerializeField] private GameObject[] locations;
     [SerializeField] private GameObject[] buildings;
-    [SerializeField] private GameObject moves, instructions;
-
+    
     public int nextSpot = 0;
     // Start is called before the first frame update
     void Start()
@@ -83,25 +82,38 @@ public class GridPlayer : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
                 {
-                    Instantiate(rightArrow, moves.transform);
+                    Instantiate(rightArrow, movePoint.transform);
+                    if(movePoint.childCount>1)
+                    {
+                        Destroy(movePoint.GetChild(0).gameObject);
+                    }
 
                 }
                 if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
                 {
-                    Instantiate(leftArrow, moves.transform);
-
+                    Instantiate(leftArrow, movePoint.transform);
+                    if (movePoint.childCount > 1)
+                    {
+                        Destroy(movePoint.GetChild(0).gameObject);
+                    }
 
                 }
                 if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
                 {
-                    Instantiate(upArrow, moves.transform);
-
+                    Instantiate(upArrow, movePoint.transform);
+                    if (movePoint.childCount > 1)
+                    {
+                        Destroy(movePoint.GetChild(0).gameObject);
+                    }
 
                 }
                 if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
                 {
-                    Instantiate(downArrow, moves.transform);
-
+                    Instantiate(downArrow, movePoint.transform);
+                    if (movePoint.childCount > 1)
+                    {
+                        Destroy(movePoint.GetChild(0).gameObject);
+                    }
                 }
                 if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
                 {
@@ -159,13 +171,5 @@ public class GridPlayer : MonoBehaviour
         }
         
     }
-    public void OpenInstructions()
-    {
-        instructions.SetActive(true);
-    }
 
-    public void CloseInstructions()
-    {
-        instructions.SetActive(false);
-    }
 }
