@@ -16,8 +16,9 @@ public class GridPlayer : MonoBehaviour
     [SerializeField] private Vector3 oldPos;
     [SerializeField] private bool setNewLocation, allowMove;
     [SerializeField] private GameObject leftArrow, rightArrow, upArrow, downArrow;
-  
 
+    [SerializeField] private GameObject[] locations;
+    [SerializeField] private GameObject[] buildings;
     [SerializeField] private GameObject moves, instructions;
 
     public int nextSpot = 0;
@@ -27,8 +28,26 @@ public class GridPlayer : MonoBehaviour
         allowMove = true;
         movePoint.parent = null;
         oldPos = movePoint.position;
+
+        Reshuffle(locations);
+
+        for (int i = 0; i < locations.Length; i++)
+        {
+            buildings[i].transform.position = locations[i].transform.position;
+        }
       
       
+    }
+    void Reshuffle(GameObject[] locations)
+    {
+        // Knuth shuffle algorithm :: courtesy of Wikipedia :)
+        for (int t = 0; t < locations.Length; t++)
+        {
+            var tmp = locations[t];
+            int r = Random.Range(t, locations.Length);
+            locations[t] = locations[r];
+            locations[r] = tmp;
+        }
     }
 
     // Update is called once per frame
@@ -135,7 +154,7 @@ public class GridPlayer : MonoBehaviour
         if (collision.gameObject.CompareTag("LevelEnd"))
         {
             Debug.Log("Level finished");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("NewtonsHouse");
 
         }
         
