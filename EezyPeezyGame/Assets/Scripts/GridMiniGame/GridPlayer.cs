@@ -62,24 +62,24 @@ public class GridPlayer : MonoBehaviour
             //Depending on player input, move empty object in scene and add its position to positions list
             if (Vector3.Distance(oldPos, movePoint.position) <= 0.05f)
             {
-                if (Input.GetKeyDown(KeyCode.A))
+                if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
                 {
                     Instantiate(rightArrow, moves.transform);
 
                 }
-                if (Input.GetKeyDown(KeyCode.D))
+                if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
                 {
                     Instantiate(leftArrow, moves.transform);
 
 
                 }
-                if (Input.GetKeyDown(KeyCode.W))
+                if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
                 {
                     Instantiate(upArrow, moves.transform);
 
 
                 }
-                if (Input.GetKeyDown(KeyCode.S))
+                if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
                 {
                     Instantiate(downArrow, moves.transform);
 
