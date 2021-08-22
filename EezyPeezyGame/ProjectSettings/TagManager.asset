@@ -30,6 +30,7 @@ TagManager:
   - Blue
   - Red
   - Yellow
+  - Empty
   layers:
   - Default
   - TransparentFX

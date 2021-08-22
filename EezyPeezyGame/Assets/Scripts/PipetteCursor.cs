@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MedicineMeasureManager : MonoBehaviour
+public class PipetteCursor : MonoBehaviour
 {
     public Texture2D pipetteEmpty, pipetteRed, pipetteBlue, pipetteYellow;
     public Vector2 hotSpot = Vector2.zero;
@@ -15,12 +15,14 @@ public class MedicineMeasureManager : MonoBehaviour
 
     private void Update()
     {
-        RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-  
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        if (Input.GetMouseButtonDown(0))
         {
-            if (hit.collider.gameObject.CompareTag("Red"))
+            Vector2 origin = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
+                                          Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+            RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.zero, 0f);
+        
+
+            if (hit.transform.gameObject.CompareTag("Red"))
             {
                 Debug.Log("rayhit red");
                 if (Input.GetMouseButtonDown(0))
@@ -30,7 +32,7 @@ public class MedicineMeasureManager : MonoBehaviour
                 }
             }
 
-            if (hit.collider.gameObject.CompareTag("Blue"))
+            if (hit.transform.gameObject.CompareTag("Blue"))
             {
                 Debug.Log("rayhit blue");
                 if (Input.GetMouseButtonDown(0))
@@ -40,7 +42,7 @@ public class MedicineMeasureManager : MonoBehaviour
                 }
             }
 
-            if (hit.collider.gameObject.CompareTag("Yellow"))
+            if (hit.transform.gameObject.CompareTag("Yellow"))
             {
                 Debug.Log("rayhit Yellow");
                 if (Input.GetMouseButtonDown(0))
@@ -50,8 +52,16 @@ public class MedicineMeasureManager : MonoBehaviour
                 }
             }
 
+            if (hit.transform.gameObject.CompareTag("Empty"))
+            {
+                Debug.Log("rayhit Empty");
+                if (Input.GetMouseButtonDown(0))
+                {
+                    Debug.Log("Clicked Empty");
+                    Cursor.SetCursor(pipetteEmpty, hotSpot, CursorMode.ForceSoftware);
+                }
+            }
         }
-
     }
 
 }

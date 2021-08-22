@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManagerMedicine : MonoBehaviour
 {
-    [SerializeField] private Image glassOfWater;
-    [SerializeField] private Text[] medicineText;
+    [SerializeField] private GameObject emptyVial;
+    [SerializeField] private TMP_Text[] medicineText;
     [SerializeField] private Button[] medicineJar;
     [SerializeField] private Button[] whichJar;
 
@@ -42,15 +43,15 @@ public class GameManagerMedicine : MonoBehaviour
     public void JarDropCount()
     {
         blueDropCount = Random.Range(1, 7);
-        medicineText[1].text = blueDropCount.ToString("Blue: " + blueDropCount);
+        medicineText[1].text = blueDropCount.ToString();
         blueDropsNeeded = blueDropCount;
 
         redDropCount = Random.Range(1, 7);
-        medicineText[0].text = redDropCount.ToString("Red: " + redDropCount);
+        medicineText[0].text = redDropCount.ToString();
         redDropsNeeded = redDropCount;
 
         yellowDropCount = Random.Range(1, 7);
-        medicineText[2].text = yellowDropCount.ToString("Yellow: " + yellowDropCount);
+        medicineText[2].text = yellowDropCount.ToString();
         yellowDropsNeeded = yellowDropCount;
     }
 
@@ -80,6 +81,5 @@ public class GameManagerMedicine : MonoBehaviour
         }
     }
 
-    
         
 }
