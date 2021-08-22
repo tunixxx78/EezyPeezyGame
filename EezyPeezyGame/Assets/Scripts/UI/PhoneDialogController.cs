@@ -22,6 +22,7 @@ public class PhoneDialogController : MonoBehaviour
     public GameObject chatBubble, electra, newton, doctorBag, ez, pz, phoneConsole, callIcon, callWaves;
     private Animator phoneConsoleAnimator, ezAnimator, pzAnimator;
     public GameObject dashboardGame, simonSaysGame, pilot;
+    public AudioSource sneeze;
 
 
     private void Start()
@@ -105,6 +106,13 @@ public class PhoneDialogController : MonoBehaviour
         phoneConsoleAnimator.Play("Idle");
         index = dialogs.Length + 1;
         DataHolder.dataHolder.phoneCallDone = true;
+        chatBubble.SetActive(false);
+        electra.SetActive(false);
+        newton.SetActive(false);
+        doctorBag.SetActive(false);
+        doctorBag.SetActive(false);
+        callIcon.SetActive(false);
+        callWaves.SetActive(false);
     }
 
     void NextDialog()
@@ -143,7 +151,7 @@ public class PhoneDialogController : MonoBehaviour
         {
             electra.SetActive(false);
             newton.SetActive(true);
-            
+            sneeze.Play();
         }
         else if  (index > 3)
         {

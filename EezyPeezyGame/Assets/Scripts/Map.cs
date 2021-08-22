@@ -6,34 +6,39 @@ using UnityEngine.UI;
 
 public class Map : MonoBehaviour
 {
-    public bool newScene;
-    public GameObject playerOnMap, planets;
-  
+    public GameObject deniedText;
 
-    private void Start()
+
+    private void Update()
     {
-       
-        
-    }
-    void Update()
-    {
-    
-        if (newScene)
+        if(DataHolder.dataHolder.spaceTransitDone)
         {
-            playerOnMap.transform.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-            newScene = false;
+            deniedText.SetActive(false);
+        }
+        else
+        {
+            deniedText.SetActive(true);
         }
     }
-    public void LoadScene(string SceneName)
+
+    public void LoadIzzy()
     {
-        Scene currentScene = SceneManager.GetActiveScene();
-        if(currentScene.name!=SceneName)
+        if(DataHolder.dataHolder.spaceTransitDone)
         {
-            newScene = true;
-            SceneManager.LoadScene(SceneName);
-          
+            SceneManager.LoadScene("Planet Izzy");
         }
-       
+        else
+        {
+            FindObjectOfType<SFXManager>().Denied();
+        }
+    }
+    public void LoadRocket()
+    {
+        SceneManager.LoadScene("RocketLobby");
     }
 
+    public void LoadHomePlanet()
+    {
+            SceneManager.LoadScene("HomePlanet");
+    }
 }

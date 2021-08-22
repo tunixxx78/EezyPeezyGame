@@ -19,7 +19,8 @@ public class GridPlayer : MonoBehaviour
 
     [SerializeField] private GameObject[] locations;
     [SerializeField] private GameObject[] buildings;
-    
+    [SerializeField] private GameObject wrongWayPanel, gameFinishedPanel;
+
     public int nextSpot = 0;
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,9 @@ public class GridPlayer : MonoBehaviour
         allowMove = true;
         movePoint.parent = null;
         oldPos = movePoint.position;
+
+        wrongWayPanel.SetActive(false);
+        gameFinishedPanel.SetActive(false);
 
         Reshuffle(locations);
 
@@ -132,8 +136,7 @@ public class GridPlayer : MonoBehaviour
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f) * 2.5f;
                     playerPositions.Add(movePoint.position);
                     setNewLocation = true;
-                    
-                    
+
                 }
                 //Wait a moment to set new position or else there is multiple inputs to positions list
                 if (setNewLocation)
@@ -157,19 +160,32 @@ public class GridPlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Wall"))
+        if (collision.gameObject.CompareTag("Wall"))
         {
             Debug.Log("Hit wall, resetting scene");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
+            wrongWayPanel.SetActive(true);
+            playerPositions.Clear();
+            nextSpot = 0;
+            Invoke("ResetGame", 3f);
         }
         if (collision.gameObject.CompareTag("LevelEnd"))
         {
+            DataHolder.dataHolder.gridNavigationDone = true;
             Debug.Log("Level finished");
-            SceneManager.LoadScene("NewtonsHouse");
-
+            gameFinishedPanel.SetActive(true);
+            FindObjectOfType<SFXManager>().PlanetExplotion();
+            Invoke("NextScene", 2f);
         }
-        
+
     }
 
+    public void ResetGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene("NewtonsHouse");
+    }
 }

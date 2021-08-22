@@ -60,6 +60,7 @@ public class RocketTransitMovement : MonoBehaviour
 
     private void GoToIzzy()
     {
+        DataHolder.dataHolder.spaceTransitDone = true;
         SceneManager.LoadScene("Planet Izzy");
     }
 }
