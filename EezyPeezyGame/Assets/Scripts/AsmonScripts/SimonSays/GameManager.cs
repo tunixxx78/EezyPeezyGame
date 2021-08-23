@@ -143,7 +143,7 @@ public class GameManager : MonoBehaviour
                         Completed();
                     }
                 }
-            }
+             
             }
             else
             {
@@ -152,6 +152,7 @@ public class GameManager : MonoBehaviour
                 gameActive = false;
             }
         }
+    }
 
     public void Completed()
     {
