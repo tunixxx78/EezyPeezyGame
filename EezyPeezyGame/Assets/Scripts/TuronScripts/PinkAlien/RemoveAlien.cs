@@ -21,6 +21,7 @@ public class RemoveAlien : MonoBehaviour
 
             if (hit2D.collider.CompareTag("PinkAlien"))
             {
+                DataHolder.dataHolder.foundAliens++;
                 ScoringSystem.numberOfAliens += 1;
                 animator.SetTrigger("DeathOfPiggy");
                 FindObjectOfType<SFXManager>().YouFindLittlePiggy();

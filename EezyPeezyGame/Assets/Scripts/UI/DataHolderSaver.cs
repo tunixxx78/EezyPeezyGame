@@ -4,9 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using TMPro;
 
 public class DataHolderSaver : MonoBehaviour
 {
+    [SerializeField] private TMP_Text alienAmount;
+
+    private void Update()
+    {
+        int foundAliens = DataHolder.dataHolder.foundAliens;
+        alienAmount.text = foundAliens.ToString(foundAliens + " collected");
+    }
+
     public void Save()
     {
         Debug.Log("Saving data.");

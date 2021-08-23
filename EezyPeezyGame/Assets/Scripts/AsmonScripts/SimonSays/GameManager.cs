@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     public AudioSource incorrect;
     
 
-    [SerializeField] private GameObject moveOn;
+    [SerializeField] private GameObject moveOn, failed, yourTurn, startGame;
     
 
     
@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+
         if(shouldBeLit)
         {
             stayLitCounter -= Time.deltaTime;
@@ -150,6 +151,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Wrong");
                 incorrect.Play();
                 gameActive = false;
+                failed.SetActive(true);
             }
         }
     }
