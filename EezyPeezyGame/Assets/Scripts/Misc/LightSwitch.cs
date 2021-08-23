@@ -7,12 +7,7 @@ public class LightSwitch : MonoBehaviour
 {
     public Sprite hoverSprite, sprite;
     public GameObject lights;
-    // Start is called before the first frame update
-    void Start()
-    {
-        lights.SetActive(false);
-        
-    }
+
 
     private void OnMouseOver()
     {
