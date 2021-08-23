@@ -719,7 +719,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4074495017003520111, guid: d6181329139344cf1ad9b7a64a0d0742, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -2571,6 +2571,7 @@ MonoBehaviour:
   stayLit: 1
   waitBetweenLights: 0.25
   activeSequence: 
+  inputInSequence: 0
   correct: {fileID: 1687563594}
   incorrect: {fileID: 1093851666}
   moveOn: {fileID: 1636648657}
@@ -3471,6 +3472,7 @@ MonoBehaviour:
   stayLit: 1
   waitBetweenLights: 0.25
   activeSequence: 
+  inputInSequence: 0
   correct: {fileID: 1687563594}
   incorrect: {fileID: 1093851666}
   moveOn: {fileID: 0}

@@ -1516,7 +1516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1924155132194631407, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1924155132194631407, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1601,14 +1601,14 @@ PrefabInstance:
     - target: {fileID: 4438810520741352070, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 547480294}
+      objectReference: {fileID: 617965732}
     - target: {fileID: 4438810520741352070, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SavePlayer
+      value: Save
       objectReference: {fileID: 0}
     - target: {fileID: 4438810520741352070, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ScoringSystem, Assembly-CSharp
+      value: DataHolderSaver, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4631007166485865179, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_RootOrder
@@ -1664,6 +1664,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+--- !u!114 &617965732 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4368696106974576242, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_PrefabInstance: {fileID: 617965731}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8bddcc190268a49a50abf6b2dbf638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &618781878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,7 +2300,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1069156755 stripped
 RectTransform:
@@ -3312,7 +3323,7 @@ Transform:
   - {fileID: 1388931493}
   - {fileID: 1272571671}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1399305877
 GameObject:

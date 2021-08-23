@@ -295,14 +295,14 @@ PrefabInstance:
     - target: {fileID: 4438810520741352070, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 715144996}
+      objectReference: {fileID: 79966633}
     - target: {fileID: 4438810520741352070, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SavePlayer
+      value: Save
       objectReference: {fileID: 0}
     - target: {fileID: 4438810520741352070, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ScoringSystem, Assembly-CSharp
+      value: DataHolderSaver, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5958751755977552947, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -359,6 +359,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8910920710327546902, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
   m_PrefabInstance: {fileID: 79966629}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &79966633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4368696106974576242, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+  m_PrefabInstance: {fileID: 79966629}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8bddcc190268a49a50abf6b2dbf638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &87255521
 GameObject:
   m_ObjectHideFlags: 0
