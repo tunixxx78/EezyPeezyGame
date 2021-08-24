@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
         {
             stayLitCounter -= Time.deltaTime;
 
-            if(stayLitCounter < 0)
+            if (stayLitCounter < 0)
             {
                 colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 0.5f);
                 buttonSounds[activeSequence[positionInSequence]].Stop();
@@ -69,6 +69,7 @@ public class GameManager : MonoBehaviour
             {
                 shouldBeDark = false;
                 gameActive = true;
+                yourTurn.SetActive(true);
             }
             else
             {
@@ -76,7 +77,7 @@ public class GameManager : MonoBehaviour
                 { 
                     colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
                     buttonSounds[activeSequence[positionInSequence]].Play();
-
+                    
                     stayLitCounter = stayLit;
                     shouldBeLit = true;
                     shouldBeDark = false;
@@ -89,6 +90,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        startGame.SetActive(false);
         activeSequence.Clear();
 
         positionInSequence = 0;
@@ -133,8 +135,12 @@ public class GameManager : MonoBehaviour
                     //shouldBeLit = true;
 
                     //gameActive = false;
-                    correct.Play();
+
+                    //correct.Play();
+                    yourTurn.SetActive(false);
+                    Invoke("DelayCorrectSound", 0.5f);
                     StartCoroutine(WaitBetweenSequences());
+
 
                     if (inputInSequence == 6)
                     {
@@ -152,8 +158,15 @@ public class GameManager : MonoBehaviour
                 incorrect.Play();
                 gameActive = false;
                 failed.SetActive(true);
+                startGame.SetActive(true);
+                yourTurn.SetActive(false);
             }
         }
+    }
+
+    public void DelayCorrectSound()
+    {
+        correct.Play();
     }
 
     public void Completed()
@@ -170,7 +183,7 @@ public class GameManager : MonoBehaviour
     }
 
     IEnumerator WaitBetweenSequences()
-    {
+    { 
         yield return new WaitForSeconds(waitBetweenLights);
 
         positionInSequence = 0;
@@ -188,6 +201,5 @@ public class GameManager : MonoBehaviour
 
         gameActive = false;
 
-        
     }
 }
