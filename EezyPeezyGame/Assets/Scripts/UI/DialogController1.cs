@@ -19,10 +19,13 @@ public class DialogController1 : MonoBehaviour
     private int index = 0;
     public float dialogSpeed;
     private bool nextText = true;
+   
 
 
     private void Start()
     {
+        
+
         if (dialogPart == "HomePlanet" && DataHolder.dataHolder.dashboardDone)
         {
             dialogPanel.SetActive(false);
@@ -36,6 +39,10 @@ public class DialogController1 : MonoBehaviour
             dialogPanel.SetActive(false);
         }
         else if (dialogPart == "Headquarters" && DataHolder.dataHolder.dashboardDone == false)
+        {
+            dialogPanel.SetActive(false);
+        }
+        else if (dialogPart == "Planet Izzy" && DataHolder.dataHolder.gridNavigationDone == true)
         {
             dialogPanel.SetActive(false);
         }
@@ -53,6 +60,11 @@ public class DialogController1 : MonoBehaviour
         }
         else if (dialogPart == "Cockpit" && DataHolder.dataHolder.FuelPipesDone == true)
         {
+            currentDialog = dialog2;
+        }
+        else if (dialogPart == "NewtonsHouse" && DataHolder.dataHolder.newtonTreatedDone == true)
+        {
+            
             currentDialog = dialog2;
         }
         else
