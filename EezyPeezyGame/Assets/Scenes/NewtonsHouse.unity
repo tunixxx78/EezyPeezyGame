@@ -620,12 +620,12 @@ MonoBehaviour:
   - Hey there friends, we have arrived! Doctor Fizz will examine you straight away,
     Newton.
   - 'Dr. Fizz: Hmm, Newton has a bad case of the slimies.'
-  - 'Dr. Fizz: We need to make a remedy for him. The medicine is on the table, could
+  - 'Dr. Fizz: We need to make a remedy for him. The medicine is on the table. Could
     you prepare it?'
   dialog2:
   - Oh Newton, you are looking like yourself again.
   - Our mission was a success, thanks to you!
-  - We hope you had fun and will join us to our future adventures too!
+  - We hope you had fun and will join us on our future adventures too!
   dialogPart: NewtonsHouse
   dialogSpeed: 0.02
 --- !u!4 &313636262
