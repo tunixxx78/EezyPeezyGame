@@ -6029,7 +6029,7 @@ MonoBehaviour:
   - And finally, if you would like to save your game, adjust settings or go back
     to the main menu you can press the options button.
   - "Ok, Team Cody! Let\u2019s get to work and go in the rocket!"
-  dialogSpeed: 0.04
+  dialogSpeed: 0.02
   isOpen: 0
   taskPanel: {fileID: 1290017841}
   mapPanel: {fileID: 1290017840}
