@@ -53,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NewtonsHouse.unity
     guid: 19d851f4112b7f140860e160e324a662
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/MedicineMeasuring.unity
+    guid: 515bd45270c7a744887400674c8ddfc4
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

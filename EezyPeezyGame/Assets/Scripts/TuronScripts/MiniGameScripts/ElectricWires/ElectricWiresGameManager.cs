@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ElectricWiresGameManager : MonoBehaviour
 {
-    public GameObject wireHolder;
+    public GameObject wireHolder, gameFinishedBanner;
     public GameObject[] wires;
 
     int totalWires = 0;
@@ -17,6 +17,7 @@ public class ElectricWiresGameManager : MonoBehaviour
 
     private void Start()
     {
+        gameFinishedBanner.SetActive(false);
         Spawn();
 
         wireHolder = templates.gameSheets[gameSheetRandomization];
@@ -36,7 +37,8 @@ public class ElectricWiresGameManager : MonoBehaviour
         if(correctWires == totalWires)
         {
             DataHolder.dataHolder.FuelPipesDone = true;
-            SceneManager.LoadScene("RocketEngineFloor");
+            gameFinishedBanner.SetActive(true);
+            Invoke("GameFinished", 3f);
         }
     }
 
@@ -53,5 +55,10 @@ public class ElectricWiresGameManager : MonoBehaviour
             Instantiate(templates.gameSheets[gameSheetRandomization], transform.position, Quaternion.identity);
         }
         spawned = true;
+    }
+
+    public void GameFinished()
+    {
+        SceneManager.LoadScene("RocketEngineFloor");
     }
 }

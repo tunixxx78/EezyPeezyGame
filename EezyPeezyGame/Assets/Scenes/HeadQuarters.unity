@@ -583,8 +583,9 @@ MonoBehaviour:
     I always get lost there. Could you pick them up, please?"
   dialog2:
   - 'Dr. Fizz: Many thanks, friend!'
-  - "Almost done with the preparations. We still need to go check the rockets fuel
-    before we take off. Let\u2019s go!"
+  - Almost done with the preparations. We still need to go check the rockets fuel
+    before we take off.
+  - "Let\u2019s go to the rocket's bottom floor."
   dialogPart: Headquarters
   dialogSpeed: 0.02
 --- !u!4 &313636262

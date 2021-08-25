@@ -26,7 +26,13 @@ public class InteractableObject2 : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             Debug.Log("klik");
-            animator.Play(animName);
+            if(animator != null && animClip != null && animName != null)
+            {
+                animator.Play(animName);
+            }
+
+
+            
             if(sound != null)
             {
                 sound.Play();
