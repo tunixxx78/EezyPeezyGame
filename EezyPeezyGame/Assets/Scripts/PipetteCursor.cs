@@ -7,9 +7,13 @@ public class PipetteCursor : MonoBehaviour
     public Texture2D pipetteEmpty, pipetteRed, pipetteBlue, pipetteYellow;
     public Vector2 hotSpot = Vector2.zero;
 
-    // Start is called before the first frame update
+    private GameManagerMedicine GMM;
+
+    
+
     void Start()
     {
+        GMM = GetComponent<GameManagerMedicine>();
         Cursor.SetCursor(pipetteEmpty, hotSpot, CursorMode.ForceSoftware);
     }
 
@@ -20,7 +24,8 @@ public class PipetteCursor : MonoBehaviour
             Vector2 origin = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
                                           Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
             RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.zero, 0f);
-        
+
+            
 
             if (hit.transform.gameObject.CompareTag("Red"))
             {
@@ -29,6 +34,8 @@ public class PipetteCursor : MonoBehaviour
                 {
                     Debug.Log("Clicked Red");
                     Cursor.SetCursor(pipetteRed, hotSpot, CursorMode.ForceSoftware);
+                    GMM.redActive = true;
+
                 }
             }
 
@@ -52,16 +59,17 @@ public class PipetteCursor : MonoBehaviour
                 }
             }
 
-            if (hit.transform.gameObject.CompareTag("Empty"))
-            {
-                Debug.Log("rayhit Empty");
-                if (Input.GetMouseButtonDown(0))
-                {
-                    Debug.Log("Clicked Empty");
-                    Cursor.SetCursor(pipetteEmpty, hotSpot, CursorMode.ForceSoftware);
-                }
-            }
+            //if (hit.transform.gameObject.CompareTag("Empty"))
+            //{
+            //    Debug.Log("rayhit Empty");
+            //    if (Input.GetMouseButtonDown(0))
+            //    {
+            //        Debug.Log("Clicked Empty");
+            //        Cursor.SetCursor(pipetteEmpty, hotSpot, CursorMode.ForceSoftware);
+            //    }
+            //}
         }
     }
+
 
 }

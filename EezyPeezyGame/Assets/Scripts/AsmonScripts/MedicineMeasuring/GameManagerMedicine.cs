@@ -11,19 +11,25 @@ public class GameManagerMedicine : MonoBehaviour
     [SerializeField] private Button[] medicineJar;
     [SerializeField] private Button[] whichJar;
 
+    private PipetteCursor pcScript;
+
     private Button selectedButton;
 
     private float blueDropCount;
-    private float redDropCount;
+    public float redDropCount;
     private float yellowDropCount;
 
     public float redDropsNeeded;
     public float blueDropsNeeded;
     public float yellowDropsNeeded;
 
-    public bool redJarActive = false;
-    public bool blueJarActive = false;
-    public bool yellowJarActive = false;
+    public int redDrops;
+    public int blueDrops;
+    public int yellowDrops;
+
+    public bool redActive = false;
+    public bool blueActive = false;
+    public bool yellowActive = false;
 
 
     private bool activeMedicine;
@@ -31,6 +37,7 @@ public class GameManagerMedicine : MonoBehaviour
 
     void Start()
     {
+        pcScript = GetComponent<PipetteCursor>();
         JarDropCount();
     }
 
@@ -60,26 +67,31 @@ public class GameManagerMedicine : MonoBehaviour
         
     }
 
+    
+
+
+
     public void Drops()
     {
         redDropCount--;
-        medicineText[0].text = redDropCount.ToString("Red: " + redDropCount);
+        medicineText[0].text = redDropCount.ToString("" + redDropCount);
         Debug.Log("Hyvä hyvä");
-        if(redDropCount == 0)
+        if (redDropCount == 0)
         {
             Debug.Log("VITTU JEE");
-            redJarActive = false;
+            redActive = false;
         }
+        
 
-        blueDropCount--;
-        medicineText[1].text = blueDropCount.ToString("Blue: " + blueDropCount);
-        Debug.Log("SININEN");
-        if(blueDropCount == 0)
-        {
-            Debug.Log("OUJEE");
-            blueJarActive = false;     
-        }
+        //blueDropCount--;
+        //medicineText[1].text = blueDropCount.ToString("" + blueDropCount);
+        //Debug.Log("SININEN");
+        //if(blueDropCount == 0)
+        //{
+        //    Debug.Log("OUJEE");
+        //    blueActive = false;     
+        //}
     }
 
-        
+
 }
