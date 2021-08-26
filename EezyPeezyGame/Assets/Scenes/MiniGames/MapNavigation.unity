@@ -7040,6 +7040,7 @@ MonoBehaviour:
   - {fileID: 568784369}
   wrongWayPanel: {fileID: 756446227}
   gameFinishedPanel: {fileID: 294595556}
+  ghost: {fileID: 5432736880096128749, guid: a8d5242c7bddd824aa0abaa486169737, type: 3}
   nextSpot: 0
 --- !u!4 &1409797173
 Transform:

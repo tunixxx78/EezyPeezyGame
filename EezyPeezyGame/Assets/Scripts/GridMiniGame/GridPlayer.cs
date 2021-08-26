@@ -14,17 +14,18 @@ public class GridPlayer : MonoBehaviour
     [SerializeField] private List<Vector3> playerPositions = new List<Vector3>();
     
     [SerializeField] private Vector3 oldPos;
-    [SerializeField] private bool setNewLocation, allowMove;
+    [SerializeField] private bool setNewLocation, allowMove, levelDone;
     [SerializeField] private GameObject leftArrow, rightArrow, upArrow, downArrow;
 
     [SerializeField] private GameObject[] locations;
     [SerializeField] private GameObject[] buildings;
-    [SerializeField] private GameObject wrongWayPanel, gameFinishedPanel;
+    [SerializeField] private GameObject wrongWayPanel, gameFinishedPanel, ghost;
 
     public int nextSpot = 0;
     // Start is called before the first frame update
     void Start()
     {
+        levelDone = false;
         allowMove = true;
         movePoint.parent = null;
         oldPos = movePoint.position;
@@ -65,6 +66,9 @@ public class GridPlayer : MonoBehaviour
             {
                 playerPositions.Clear();
                 nextSpot = 0;
+                allowMove = false;
+                if (!levelDone) { Instantiate(ghost, transform); }
+                
                 return;
             }
             //Look for first position on positions list and move there
@@ -78,6 +82,7 @@ public class GridPlayer : MonoBehaviour
                     transform.position = Vector3.MoveTowards(transform.position, playerPositions[nextSpot], moveSpeed * Time.deltaTime);
                 }
             }
+            
         }
         if (allowMove && playerPositions.Count < 5)
         {
@@ -171,7 +176,7 @@ public class GridPlayer : MonoBehaviour
         if (collision.gameObject.CompareTag("LevelEnd"))
         {
             DataHolder.dataHolder.gridNavigationDone = true;
-            Debug.Log("Level finished");
+            levelDone = true;
             gameFinishedPanel.SetActive(true);
             FindObjectOfType<SFXManager>().PlanetExplotion();
             Invoke("NextScene", 2f);
