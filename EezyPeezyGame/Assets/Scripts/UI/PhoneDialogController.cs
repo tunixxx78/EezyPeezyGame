@@ -21,7 +21,7 @@ public class PhoneDialogController : MonoBehaviour
     public bool isOpen;
     public GameObject chatBubble, electra, newton, doctorBag, ez, pz, phoneConsole, callIcon, callWaves;
     private Animator phoneConsoleAnimator, ezAnimator, pzAnimator;
-    public GameObject dashboardGame, simonSaysGame, pilot;
+    public GameObject dashboardGame, simonSaysGame, pilot, liftOffButton;
     public AudioSource sneeze;
 
 
@@ -51,6 +51,14 @@ public class PhoneDialogController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(DataHolder.dataHolder.engineStartDone)
+        {
+            liftOffButton.SetActive(true);
+        }
+        else
+        {
+            liftOffButton.SetActive(false);
+        }
 
         //preventing the use of input until the bool is true again after the coroutine
         if (nextText == true)

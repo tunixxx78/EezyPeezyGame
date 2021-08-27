@@ -46,5 +46,7 @@ public class DataHolderSaver : MonoBehaviour
         bf.Serialize(file, data);
         file.Close();
 
+        FindObjectOfType<SFXManager>().DataSaved();
+
     }
 }

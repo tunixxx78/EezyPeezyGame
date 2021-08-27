@@ -44,7 +44,7 @@ public class InputManager : MonoBehaviour
         }
         else if (scene.name == "SpaceTransit")
         {
-            SceneManager.LoadScene("HomePlanet");
+            SceneManager.LoadScene("RocketCockpit");
         }
         else if (scene.name == "NewtonsHouse")
         {
