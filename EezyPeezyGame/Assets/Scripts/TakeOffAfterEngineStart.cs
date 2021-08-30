@@ -9,6 +9,7 @@ public class TakeOffAfterEngineStart : MonoBehaviour
     public GameObject canvas, input, rocket, ez, pz;
     public Animator rocketAnimator;
     public AnimationClip launchClip;
+    public AudioSource rocketEngine;
 
 
     // Start is called before the first frame update

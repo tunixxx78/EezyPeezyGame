@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class FactorySmoke : MonoBehaviour
 {
-    public GameObject smokeParticles;
+    public GameObject smokeParticles, signBoard;
     // Start is called before the first frame update
     void Start()
     {
-        smokeParticles.SetActive(false); 
+        smokeParticles.SetActive(false);
+
+        if (DataHolder.dataHolder.gridNavigationDone == true)
+        {
+            signBoard.GetComponent<BoxCollider2D>().enabled = false;
+        }
+        else
+        {
+            signBoard.GetComponent<BoxCollider2D>().enabled = true;
+        }
     }
     private void OnMouseOver()
     {

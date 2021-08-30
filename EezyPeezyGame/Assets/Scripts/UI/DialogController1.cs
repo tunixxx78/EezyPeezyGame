@@ -25,7 +25,6 @@ public class DialogController1 : MonoBehaviour
     private void Start()
     {
         
-
         if (dialogPart == "HomePlanet" && DataHolder.dataHolder.dashboardDone)
         {
             dialogPanel.SetActive(false);

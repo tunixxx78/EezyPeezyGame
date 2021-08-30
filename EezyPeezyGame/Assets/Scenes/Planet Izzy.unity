@@ -3356,6 +3356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smokeParticles: {fileID: 2064700932}
+  signBoard: {fileID: 1080697596}
 --- !u!114 &1896874676
 MonoBehaviour:
   m_ObjectHideFlags: 0

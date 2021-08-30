@@ -38,6 +38,7 @@ public class ElectricWiresGameManager : MonoBehaviour
         {
             DataHolder.dataHolder.FuelPipesDone = true;
             gameFinishedBanner.SetActive(true);
+            FindObjectOfType<SFXManager>().PlanetExplotion();
             Invoke("GameFinished", 3f);
         }
     }

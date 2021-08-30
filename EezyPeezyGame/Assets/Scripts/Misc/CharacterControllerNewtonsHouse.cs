@@ -6,12 +6,24 @@ public class CharacterControllerNewtonsHouse : MonoBehaviour
 {
     [SerializeField] private GameObject characters1, characters2;
     [SerializeField] private GameObject ez2, pz2;
+    [SerializeField] private GameObject medicineTable;
+
 
     private Animator animatorEZ, animatorPZ;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (DataHolder.dataHolder.newtonTreatedDone == true)
+        {
+            medicineTable.GetComponent<CapsuleCollider2D>().enabled = false;
+        }
+        else
+        {
+            medicineTable.GetComponent<CapsuleCollider2D>().enabled = true;
+        }
+
+
         animatorEZ = ez2.GetComponent<Animator>();
         animatorPZ = pz2.GetComponent<Animator>();
     }

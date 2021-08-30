@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManagerMedicine : MonoBehaviour
 {
-    [SerializeField] private GameObject emptyVial, gameFinished, gameFailed, mix, particleSmoke, particleBubbles;
+    [SerializeField] private GameObject emptyVial, gameFinished, gameFailed, mix, smokeParticles, particleBubbles;
     [SerializeField] private TMP_Text[] medicineText;
     [SerializeField] private Button[] medicineJar;
     [SerializeField] private Button[] whichJar;
@@ -42,15 +42,12 @@ public class GameManagerMedicine : MonoBehaviour
         pcScript = GetComponent<PipetteCursor>();
         JarDropCount();
 
+        
         particleBubbles.SetActive(false);
-        particleSmoke.SetActive(false);
+        smokeParticles.SetActive(false);
     }
 
-    
-    void Update()
-    {
-        
-    }
+
 
     public void JarDropCount()
     {
@@ -118,14 +115,16 @@ public class GameManagerMedicine : MonoBehaviour
         {
             gameFinished.SetActive(true);
             particleBubbles.SetActive(true);
+            DataHolder.dataHolder.medicineMeasureDone = true;
             DataHolder.dataHolder.newtonTreatedDone = true;
+            FindObjectOfType<SFXManager>().PlanetExplotion();
             Invoke("GameFinished", 3f);
         }
 
         else
         {
             gameFailed.SetActive(true);
-            particleSmoke.SetActive(true);
+            StartCoroutine(ParticleEffect());
             JarDropCount();
         }
     }
@@ -136,7 +135,6 @@ public class GameManagerMedicine : MonoBehaviour
         redActive = true;
         blueActive = false;
         yellowActive = false;
-        
     }
 
     public void ActiveJarBlue()
@@ -144,7 +142,6 @@ public class GameManagerMedicine : MonoBehaviour
         redActive = false;
         blueActive = true;
         yellowActive = false;
-        
     }
 
     public void ActiveJarYellow()
@@ -152,7 +149,13 @@ public class GameManagerMedicine : MonoBehaviour
         redActive = false;
         blueActive = false;
         yellowActive = true;
-        
+    }
+
+    IEnumerator ParticleEffect()
+    {
+        smokeParticles.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        smokeParticles.SetActive(false);
     }
 
     public void GameFinished()

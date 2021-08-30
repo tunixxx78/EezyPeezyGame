@@ -1864,7 +1864,7 @@ MonoBehaviour:
   gameFinished: {fileID: 1869110516}
   gameFailed: {fileID: 1974433870}
   mix: {fileID: 907449863}
-  particleSmoke: {fileID: 1439907751}
+  smokeParticles: {fileID: 1439907751}
   particleBubbles: {fileID: 1960377526}
   medicineText:
   - {fileID: 1635810278}
@@ -1878,7 +1878,7 @@ MonoBehaviour:
   - {fileID: 1321876376}
   - {fileID: 1364141431}
   - {fileID: 760709336}
-  dropSound: {fileID: 8300000, guid: 9b06db9efe73ef843bbdb1594100b19e, type: 3}
+  dropSound: {fileID: 664824777}
   redDropsNeeded: 0
   blueDropsNeeded: 0
   yellowDropsNeeded: 0
@@ -1908,7 +1908,7 @@ AudioSource:
   m_GameObject: {fileID: 664824774}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 25f74d62f3f5f45af9385fc1ca7102c3, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9b06db9efe73ef843bbdb1594100b19e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3

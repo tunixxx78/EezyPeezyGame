@@ -51,7 +51,7 @@ public class PhoneDialogController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(DataHolder.dataHolder.engineStartDone)
+        if(DataHolder.dataHolder.engineStartDone && DataHolder.dataHolder.spaceTransitDone == false)
         {
             liftOffButton.SetActive(true);
         }

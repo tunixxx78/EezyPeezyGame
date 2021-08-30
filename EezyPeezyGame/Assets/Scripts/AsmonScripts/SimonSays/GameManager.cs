@@ -176,8 +176,9 @@ public class GameManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             DataHolder.dataHolder.engineStartDone = true;
             moveOn.SetActive(true);
-            Invoke("HomePlanetScene", 3f);
             FindObjectOfType<SFXManager>().PlanetExplotion();
+            Invoke("HomePlanetScene", 3f);
+            
     }
 
     public void HomePlanetScene()
