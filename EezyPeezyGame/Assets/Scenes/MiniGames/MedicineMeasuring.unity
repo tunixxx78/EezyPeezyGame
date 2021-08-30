@@ -1733,7 +1733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 147.32149, y: 63.31169}
+  m_AnchoredPosition: {x: 147.32149, y: -4.6}
   m_SizeDelta: {x: 87.1279, y: 215.9124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660186095
@@ -1865,7 +1865,7 @@ MonoBehaviour:
   gameFailed: {fileID: 1974433870}
   mix: {fileID: 907449863}
   particleSmoke: {fileID: 1439907751}
-  particleBubbles: {fileID: 0}
+  particleBubbles: {fileID: 1960377526}
   medicineText:
   - {fileID: 1635810278}
   - {fileID: 1018566758}
@@ -2288,7 +2288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.3544, y: 50.818}
+  m_AnchoredPosition: {x: 21.3544, y: -18}
   m_SizeDelta: {x: 122.0755, y: 178.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &787143841
@@ -3049,7 +3049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -131.4435, y: 49.108}
+  m_AnchoredPosition: {x: -131.4435, y: -19.7}
   m_SizeDelta: {x: 122.0755, y: 174.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321876374
@@ -3181,7 +3181,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58.7456, y: 32.21471}
+  m_AnchoredPosition: {x: -58.7456, y: -37.5}
   m_SizeDelta: {x: 122.0755, y: 177.6844}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1364141429

@@ -75,6 +75,7 @@ public class GameManagerMedicine : MonoBehaviour
         {
             dropSound.Play();
             redDropCount--;
+            redActive = false;
             Debug.Log("luvut laskee");
             if (redDropCount == 0)
             {
@@ -87,6 +88,7 @@ public class GameManagerMedicine : MonoBehaviour
         {
             dropSound.Play();
             blueDropCount--;
+            blueActive = false;
             Debug.Log("siniset laskee");
             if(blueDropCount == 0)
             {
@@ -100,6 +102,7 @@ public class GameManagerMedicine : MonoBehaviour
         {
             dropSound.Play();
             yellowDropCount--;
+            yellowActive = false;
             Debug.Log("keltaset laskee");
             if(yellowDropCount == 0)
             {
@@ -141,7 +144,7 @@ public class GameManagerMedicine : MonoBehaviour
         redActive = false;
         blueActive = true;
         yellowActive = false;
-        return;
+        
     }
 
     public void ActiveJarYellow()
@@ -149,7 +152,7 @@ public class GameManagerMedicine : MonoBehaviour
         redActive = false;
         blueActive = false;
         yellowActive = true;
-        return;
+        
     }
 
     public void GameFinished()

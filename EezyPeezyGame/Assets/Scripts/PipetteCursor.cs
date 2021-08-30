@@ -34,8 +34,6 @@ public class PipetteCursor : MonoBehaviour
                 {
                     Debug.Log("Clicked Red");
                     Cursor.SetCursor(pipetteRed, hotSpot, CursorMode.ForceSoftware);
-                    GMM.redActive = true;
-
                 }
             }
 
@@ -59,15 +57,15 @@ public class PipetteCursor : MonoBehaviour
                 }
             }
 
-            //if (hit.transform.gameObject.CompareTag("Empty"))
-            //{
-            //    Debug.Log("rayhit Empty");
-            //    if (Input.GetMouseButtonDown(0))
-            //    {
-            //        Debug.Log("Clicked Empty");
-            //        Cursor.SetCursor(pipetteEmpty, hotSpot, CursorMode.ForceSoftware);
-            //    }
-            //}
+            if (hit.transform.gameObject.CompareTag("Empty"))
+            {
+                Debug.Log("rayhit Empty");
+                if (Input.GetMouseButtonDown(0))
+                {
+                    Debug.Log("Clicked Empty");
+                    Cursor.SetCursor(pipetteEmpty, hotSpot, CursorMode.ForceSoftware);
+                }
+            }
         }
     }
 
