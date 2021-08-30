@@ -34,8 +34,15 @@ public class MoveToNextStage : MonoBehaviour
     {
         ScoringSystem.theScore += 10;
         Debug.Log(ScoringSystem.theScore);
-        
-        SceneManager.LoadScene("RocketCockpit");
+        if(SceneManager.GetActiveScene().name == "DashboardAssembly2")
+        {
+            SceneManager.LoadScene("RocketArcade");
+        }
+        else
+        {
+            SceneManager.LoadScene("RocketCockpit");
+        }
+       
     }
 
     

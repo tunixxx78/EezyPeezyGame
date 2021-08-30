@@ -61,7 +61,14 @@ public class RocketTransitMovement : MonoBehaviour
 
     private void GoToIzzy()
     {
-        
-        SceneManager.LoadScene("Planet Izzy");
+        if (SceneManager.GetActiveScene().name == "SpaceTransit2")
+        {
+            SceneManager.LoadScene("RocketArcade");
+        }
+        else
+        {
+            SceneManager.LoadScene("Planet Izzy");
+        }
+       
     }
 }

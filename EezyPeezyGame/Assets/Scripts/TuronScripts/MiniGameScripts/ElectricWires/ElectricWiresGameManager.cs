@@ -60,6 +60,14 @@ public class ElectricWiresGameManager : MonoBehaviour
 
     public void GameFinished()
     {
-        SceneManager.LoadScene("RocketEngineFloor");
+        if (SceneManager.GetActiveScene().name == "FuelPipes2")
+        {
+            SceneManager.LoadScene("RocketArcade");
+        }
+        else
+        {
+            SceneManager.LoadScene("RocketEngineFloor");
+        }
+       
     }
 }
