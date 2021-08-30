@@ -157,7 +157,16 @@ public class GameManagerMedicine : MonoBehaviour
 
     public void GameFinished()
     {
-        SceneManager.LoadScene("NewtonsHouse");
+        if (SceneManager.GetActiveScene().name == "MedicineMeasuring2")
+        {
+            SceneManager.LoadScene("RocketArcade");
+        }
+        else
+        {
+            SceneManager.LoadScene("NewtonsHouse");
+        }
+
+        
     }
 
 }

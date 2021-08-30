@@ -191,6 +191,14 @@ public class GridPlayer : MonoBehaviour
 
     public void NextScene()
     {
-        SceneManager.LoadScene("NewtonsHouse");
+        if (SceneManager.GetActiveScene().name == "MapNavigation2")
+        {
+            SceneManager.LoadScene("RocketArcade");
+        }
+        else
+        {
+            SceneManager.LoadScene("NewtonsHouse");
+        }
+        
     }
 }

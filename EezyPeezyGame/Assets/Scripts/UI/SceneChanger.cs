@@ -47,7 +47,15 @@ public class SceneChanger : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && DataHolder.dataHolder.labyrinthDone == true)
         {
             Debug.Log("Trigger entered.");
-            SceneManager.LoadScene(toScene);
+            if (SceneManager.GetActiveScene().name == "Labyrinth2")
+            {
+                SceneManager.LoadScene("RocketArcade");
+            }
+            else
+            {
+                SceneManager.LoadScene(toScene); 
+            }
+            
         }
         else
         {

@@ -50,6 +50,10 @@ public class InputManager : MonoBehaviour
         {
             SceneManager.LoadScene("Planet Izzy");
         }
+        else if(scene.name == "Labyrinth2" || scene.name == "FuelPipes2" || scene.name == "SpaceTransit2" || scene.name == "DashboardAssembly2" || scene.name == "SimonSays2" || scene.name == "MapNavigation2" || scene.name == "MedicineMeasuring2")
+        {
+            SceneManager.LoadScene("RocketArcade");
+        }
         else
         {
             SceneManager.LoadScene(scene.buildIndex - 1);

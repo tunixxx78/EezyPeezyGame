@@ -182,7 +182,15 @@ public class GameManager : MonoBehaviour
 
     public void HomePlanetScene()
     {
-        SceneManager.LoadScene("HomePlanet");
+        if (SceneManager.GetActiveScene().name == "SimonSays2")
+        {
+            SceneManager.LoadScene("RocketArcade");
+        }
+        else
+        {
+            SceneManager.LoadScene("HomePlanet");
+        }
+        
     }
 
     IEnumerator WaitBetweenSequences()
