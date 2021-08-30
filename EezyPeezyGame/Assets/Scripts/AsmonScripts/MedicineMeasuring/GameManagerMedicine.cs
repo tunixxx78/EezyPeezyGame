@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManagerMedicine : MonoBehaviour
 {
-    [SerializeField] private GameObject emptyVial, gameFinished, gameFailed, mix, particleSmoke;
+    [SerializeField] private GameObject emptyVial, gameFinished, gameFailed, mix, particleSmoke, particleBubbles;
     [SerializeField] private TMP_Text[] medicineText;
     [SerializeField] private Button[] medicineJar;
     [SerializeField] private Button[] whichJar;
@@ -40,6 +41,9 @@ public class GameManagerMedicine : MonoBehaviour
         dropSound = GetComponent<AudioSource>();
         pcScript = GetComponent<PipetteCursor>();
         JarDropCount();
+
+        particleBubbles.SetActive(false);
+        particleSmoke.SetActive(false);
     }
 
     
@@ -110,6 +114,9 @@ public class GameManagerMedicine : MonoBehaviour
         if(redDropCount == 0 && blueDropCount == 0 && yellowDropCount == 0)
         {
             gameFinished.SetActive(true);
+            particleBubbles.SetActive(true);
+            DataHolder.dataHolder.newtonTreatedDone = true;
+            Invoke("GameFinished", 3f);
         }
 
         else
@@ -143,6 +150,11 @@ public class GameManagerMedicine : MonoBehaviour
         blueActive = false;
         yellowActive = true;
         return;
+    }
+
+    public void GameFinished()
+    {
+        SceneManager.LoadScene("NewtonsHouse");
     }
 
 }

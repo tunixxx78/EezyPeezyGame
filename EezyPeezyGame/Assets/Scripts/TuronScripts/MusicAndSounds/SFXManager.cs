@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 public class SFXManager : MonoBehaviour
 {
 
-    public AudioSource button, doorOpening, typing, fireworks, littlePiggy, cursor, denied;
+    public AudioSource button, doorOpening, typing, fireworks, littlePiggy, cursor, denied, dataSaved;
 
     public static SFXManager sfxInstance;
 
@@ -56,4 +56,8 @@ public class SFXManager : MonoBehaviour
         denied.Play();
     }
 
+    public void DataSaved()
+    {
+        dataSaved.Play();
+    }
 }

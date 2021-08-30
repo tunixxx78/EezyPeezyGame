@@ -34,7 +34,7 @@ public class DialogController1 : MonoBehaviour
         {
             dialogPanel.SetActive(false);
         }
-        else if(dialogPart == "Cockpit" && DataHolder.dataHolder.dashboardDone && DataHolder.dataHolder.FuelPipesDone == false)
+        else if(dialogPart == "Cockpit" && DataHolder.dataHolder.dashboardDone && DataHolder.dataHolder.FuelPipesDone == false || dialogPart == "Cockpit" && DataHolder.dataHolder.engineStartDone)
         {
             dialogPanel.SetActive(false);
         }

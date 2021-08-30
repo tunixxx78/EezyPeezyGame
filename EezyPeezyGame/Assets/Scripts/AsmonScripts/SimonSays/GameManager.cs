@@ -67,6 +67,7 @@ public class GameManager : MonoBehaviour
 
             if (positionInSequence >= activeSequence.Count)
             {
+                Cursor.lockState = CursorLockMode.None;
                 shouldBeDark = false;
                 gameActive = true;
                 yourTurn.SetActive(true);
@@ -120,6 +121,7 @@ public class GameManager : MonoBehaviour
 
                 if (inputInSequence >= activeSequence.Count)
                 {
+                    Cursor.lockState = CursorLockMode.Locked;
                     //Invoke("DelayFirstLight", 1f);
                     //positionInSequence = 0;
                     //inputInSequence = 0;
@@ -171,6 +173,7 @@ public class GameManager : MonoBehaviour
 
     public void Completed()
     {
+            Cursor.lockState = CursorLockMode.None;
             DataHolder.dataHolder.engineStartDone = true;
             moveOn.SetActive(true);
             Invoke("HomePlanetScene", 3f);

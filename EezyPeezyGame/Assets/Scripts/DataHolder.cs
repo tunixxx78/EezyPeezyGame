@@ -65,7 +65,7 @@ public class DataHolder : MonoBehaviour
 
     public void Load()
     {
-        Debug.Log("No path found.");
+        
         if (File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
         {
             BinaryFormatter bf = new BinaryFormatter();
@@ -94,6 +94,11 @@ public class DataHolder : MonoBehaviour
             Debug.Log("Loaded gamedata.");
 
             SceneManager.LoadScene(currentScene);
+        }
+        else
+        {
+            Debug.Log("No path found.");
+            FindObjectOfType<SFXManager>().Denied();
         }
 
     }

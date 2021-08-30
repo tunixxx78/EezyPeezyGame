@@ -2320,6 +2320,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1052230646}
     m_Modifications:
+    - target: {fileID: 6241717399584242365, guid: 30e1602af5c0b8b44a2e2a9e1d142a0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1027085324}
+    - target: {fileID: 6241717399584242365, guid: 30e1602af5c0b8b44a2e2a9e1d142a0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackToPreviousScene
+      objectReference: {fileID: 0}
     - target: {fileID: 6241717400114192898, guid: 30e1602af5c0b8b44a2e2a9e1d142a0f, type: 3}
       propertyPath: m_RootOrder
       value: 4

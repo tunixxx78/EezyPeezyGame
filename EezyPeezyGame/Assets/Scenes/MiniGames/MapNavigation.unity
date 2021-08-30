@@ -4888,8 +4888,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 23}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: 44}
+  m_SizeDelta: {x: 280, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1028341620
 MonoBehaviour:
@@ -4911,7 +4911,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'FIND YOUR WAY TO  NEWTON''S HOUSE. USE WASD OR ARROWS TO MOVE '
+  m_text: FIND YOUR WAY TO  NEWTON'S HOUSE. USE ARROWS KEYS TO MOVE. YOU ONLY HAVE
+    5 STEPS.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0805e3ce9a5cf644bf74c06cda09150, type: 2}
   m_sharedMaterial: {fileID: -9124156689391278715, guid: a0805e3ce9a5cf644bf74c06cda09150, type: 2}
@@ -4938,8 +4939,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7022,6 +7023,7 @@ MonoBehaviour:
   oldPos: {x: 0, y: 0, z: 0}
   setNewLocation: 0
   allowMove: 0
+  levelDone: 0
   leftArrow: {fileID: 4891136227191804121, guid: 302be124fec4a4242811f320f6308f97, type: 3}
   rightArrow: {fileID: 4335476681901144890, guid: 33c163f56e6f099448fe5c602a18a3c1, type: 3}
   upArrow: {fileID: 5855706795942144380, guid: 1601f540cdfe57c46a6567b4120a6c55, type: 3}
@@ -7040,6 +7042,7 @@ MonoBehaviour:
   - {fileID: 568784369}
   wrongWayPanel: {fileID: 756446227}
   gameFinishedPanel: {fileID: 294595556}
+  ghost: {fileID: 5432736880096128749, guid: a8d5242c7bddd824aa0abaa486169737, type: 3}
   nextSpot: 0
 --- !u!4 &1409797173
 Transform:
@@ -9970,7 +9973,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: 0e5d7a89eb275d34aad0aedef4fb6d00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10308,7 +10311,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 85.84796}
-  m_SizeDelta: {x: 900, y: 400}
+  m_SizeDelta: {x: 1000, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051577915
 MonoBehaviour:
