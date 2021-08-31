@@ -2349,6 +2349,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3207335584229983531}
     - target: {fileID: 2122481720266010337, guid: f258a82a3b62d4a64b222a9adad00835, type: 3}
+      propertyPath: numberToSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122481720266010337, guid: f258a82a3b62d4a64b222a9adad00835, type: 3}
       propertyPath: spawnPool.Array.data[0]
       value: 
       objectReference: {fileID: 1367094961454205868, guid: b410cfd9a9b114c0e9a9e4380ad1a383, type: 3}
