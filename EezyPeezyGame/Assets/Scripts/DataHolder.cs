@@ -6,6 +6,9 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System;
 
+// This DataHolder moves with the player from Main Menu to each scene and keeps on updating the story bools. The load functions is called in Main Menu "Continue" button
+// and takes the player to the scene where they previously were when they saved.
+
 public class DataHolder : MonoBehaviour
 {
     public static DataHolder dataHolder;

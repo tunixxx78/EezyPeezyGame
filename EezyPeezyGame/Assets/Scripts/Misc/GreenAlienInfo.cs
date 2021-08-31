@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script is for the green alien inside Rockets Lobby. If clicked, an information chat bubble appears and disappears after 7 seconds.
+
 public class GreenAlienInfo : MonoBehaviour
 {
     [SerializeField] private GameObject infoChatBubble;
-    // Start is called before the first frame update
+  
     void Start()
     {
         infoChatBubble.SetActive(false);

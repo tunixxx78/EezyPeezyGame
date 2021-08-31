@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script controls the cursor in the medicine measuring game. It changes the default cursor into pipette and changes the pipette sprite depending on which medicine jar the player clicks.
+
 public class PipetteCursor : MonoBehaviour
 {
     public Texture2D pipetteEmpty, pipetteRed, pipetteBlue, pipetteYellow;
@@ -13,12 +15,14 @@ public class PipetteCursor : MonoBehaviour
 
     void Start()
     {
+        // At the beginning the pipette is empty
         GMM = GetComponent<GameManagerMedicine>();
         Cursor.SetCursor(pipetteEmpty, hotSpot, CursorMode.ForceSoftware);
     }
 
     private void Update()
     {
+        // when pressing the left mouse button a ray is casted from the mouse position
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 origin = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,

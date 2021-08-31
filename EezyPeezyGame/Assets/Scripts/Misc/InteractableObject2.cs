@@ -6,7 +6,7 @@ public class InteractableObject2 : MonoBehaviour
 {
     /*
      This is a simple script for interactable objects in scenes that are animated when they are clicked.
-     Give the script to the wanted object that has an animation, set the variables in Unity for the wanted animation clip and clips name.
+     Give the script to the wanted object that has an animation, set the variables in Unity for the wanted animation clip and clips name and a sound if wanted.
     */
 
     private Animator animator;

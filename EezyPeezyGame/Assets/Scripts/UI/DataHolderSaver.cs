@@ -6,6 +6,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using TMPro;
 
+// This script does the saving when pressed save game from the menu UI and also updates the found pink aliens in the map UI.
+
 public class DataHolderSaver : MonoBehaviour
 {
     [SerializeField] private TMP_Text alienAmount;

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script changes the characters accordingly in Newtons House depending on the story phase.
+
+
 public class CharacterControllerNewtonsHouse : MonoBehaviour
 {
     [SerializeField] private GameObject characters1, characters2;
@@ -11,9 +14,9 @@ public class CharacterControllerNewtonsHouse : MonoBehaviour
 
     private Animator animatorEZ, animatorPZ;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // activates and deactivates the clickable table that takes the player to the medicine minigame
         if (DataHolder.dataHolder.newtonTreatedDone == true)
         {
             medicineTable.GetComponent<CapsuleCollider2D>().enabled = false;
@@ -28,9 +31,9 @@ public class CharacterControllerNewtonsHouse : MonoBehaviour
         animatorPZ = pz2.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        // Checking the DataHolder for the status of the story and activates and deactivates the correct character holder gameobject.
         if(DataHolder.dataHolder.newtonTreatedDone == false)
         {
             characters1.SetActive(true);

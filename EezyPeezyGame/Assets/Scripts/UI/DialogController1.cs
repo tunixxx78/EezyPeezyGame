@@ -24,7 +24,8 @@ public class DialogController1 : MonoBehaviour
 
     private void Start()
     {
-        
+        // Oh lord. This is a mess, but it checks for each scene their correct dialog (1 or 2) or deactivates the panel if the dialog is done.
+        // This one has most likely some pot holes and it's logic might be faulty when not progressing in the game as intended.
         if (dialogPart == "HomePlanet" && DataHolder.dataHolder.dashboardDone)
         {
             dialogPanel.SetActive(false);
@@ -137,6 +138,7 @@ public class DialogController1 : MonoBehaviour
 
     public void CheckDialog()
     {
+        // updating the correct story bool after the dialog
         if(dialogPart == "Lobby")
         {
             DataHolder.dataHolder.lobbyDone = true;

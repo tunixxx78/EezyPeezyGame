@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script makes it possible to go to the Newtons house scene by clicking on it in Planet Izzy scene after the Map navigation game is done.
+
+
 public class NewtonsHouseActivation : MonoBehaviour
 {
     [SerializeField] private GameObject newtonsHouseActive;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if(DataHolder.dataHolder.gridNavigationDone)

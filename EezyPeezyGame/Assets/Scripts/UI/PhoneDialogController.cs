@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+// This script is in Rocket Cockpit, attached to an empty game object that controls the phone dialog part of the story.
+// It has very similar functionalities as the DialogController1.
+
+
 public class PhoneDialogController : MonoBehaviour
 {
 
@@ -27,6 +31,7 @@ public class PhoneDialogController : MonoBehaviour
 
     private void Start()
     {
+        // At the start of the scene we check which part of the story the player is in from the DataHolder
         if(DataHolder.dataHolder.dashboardDone && DataHolder.dataHolder.phoneCallDone == false)
         {
             dialogPanel.SetActive(true);
@@ -51,12 +56,14 @@ public class PhoneDialogController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // In case the player didn't finish the Space Transit minigame and wants to do the lift off again, there will be a button activated on the dashboard
         if(DataHolder.dataHolder.engineStartDone && DataHolder.dataHolder.spaceTransitDone == false)
         {
             liftOffButton.SetActive(true);
         }
         else
         {
+            // When the Space Transit is finished, it cannot be accessed anymore by this activation button, but from the arcade.
             liftOffButton.SetActive(false);
         }
 
@@ -70,6 +77,7 @@ public class PhoneDialogController : MonoBehaviour
             }
         }
 
+        // Doing a check of the status of the storyline in order to activate a correct game and also the Pilot character
         if (DataHolder.dataHolder.labyrinthDone && DataHolder.dataHolder.FuelPipesDone && DataHolder.dataHolder.engineStartDone == false)
         {
             simonSaysGame.SetActive(true);
@@ -133,6 +141,7 @@ public class PhoneDialogController : MonoBehaviour
         }
         else
         {
+            // if index is bigger than the lenght of the dialog array, the following will be deactivated and DataHolder updated
             dialogPanel.SetActive(false);
             callIcon.SetActive(false);
             callWaves.SetActive(false);
@@ -145,9 +154,8 @@ public class PhoneDialogController : MonoBehaviour
 
     IEnumerator WriteDialog()
     {
-        //activates the wanted animations for the for robots and UI elements at the wanted dialog index
-        
-        
+        // This checks the index of each dialog line and does the wanted activations and deactivations accoriding to the story
+        // It's a coroutine for the sake of animating the text.
         if (index == 2)
         {
             chatBubble.SetActive(true);
