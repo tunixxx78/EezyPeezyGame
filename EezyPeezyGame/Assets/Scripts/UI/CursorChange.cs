@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+// Setting a custom cursor, default and one for hovering over objects with colliders (interactables)
+
 public class CursorChange : MonoBehaviour
 {
     public Texture2D cursorDefault, cursorInteractable;
@@ -15,6 +18,7 @@ public class CursorChange : MonoBehaviour
     private void OnMouseEnter()
     {
         Cursor.SetCursor(cursorInteractable, hotSpot, CursorMode.ForceSoftware);
+        // this is a sound effect to give the player one more info of the interactable object if entering
         FindObjectOfType<SFXManager>().CursorChange();
     }
 

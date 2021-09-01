@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
+// This script disables the Fuel Pipes minigame if labyrinth isn't done or the fuel pipes minigame is finished
 
 public class FuelPipesDenied : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class FuelPipesDenied : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (SceneManager.GetActiveScene().name == "RocketEngineFloor" && DataHolder.dataHolder.labyrinthDone == false || SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.FuelPipesDone == true)
+        if (DataHolder.dataHolder.labyrinthDone == false || DataHolder.dataHolder.FuelPipesDone == true)
         {
             cabinet.GetComponent<BoxCollider2D>().enabled = false;
         }

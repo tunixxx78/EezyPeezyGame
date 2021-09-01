@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script is used in the Headquarters to animate the control panel interactable. It switches the pictures on the screen.
+
 public class ControlPanel_Interactable : MonoBehaviour
 {
     private Animator animator;
@@ -17,6 +19,8 @@ public class ControlPanel_Interactable : MonoBehaviour
 
     private void OnMouseOver()
     {
+        // Going through each of the animations/changig pictures when clicking the button.
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             animIndex++;

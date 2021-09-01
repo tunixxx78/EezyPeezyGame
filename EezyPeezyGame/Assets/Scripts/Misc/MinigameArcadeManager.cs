@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// In this script we activate each of the minigames corresponding game console in the Rocket arcade when the minigame has been finished in the story.
+
 public class MinigameArcadeManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] gameConsoles;

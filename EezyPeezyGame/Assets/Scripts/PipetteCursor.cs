@@ -30,7 +30,7 @@ public class PipetteCursor : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.zero, 0f);
 
             
-
+            // checking the tag of ray cast hit target and if pressed, it changes the corresponding colored pipette cursor
             if (hit.transform.gameObject.CompareTag("Red"))
             {
                 Debug.Log("rayhit red");

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script is used in Home Planet scene for the interactable windows that change the colors formations, creating shapes.
+
 public class LightFormation : MonoBehaviour
 {
     public GameObject notLit;
@@ -16,6 +18,7 @@ public class LightFormation : MonoBehaviour
     }
 
 
+    // When clicking it goes trough each of the formations in the gameobject array by increasing the index
     private void OnMouseDown()
     {
         if (Input.GetKey(KeyCode.Mouse0))

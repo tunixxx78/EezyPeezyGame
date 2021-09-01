@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+// This a dialog script for the first game scene, in which the UI is being introduced to the player.
+
 public class DialogTutorial : MonoBehaviour
 {
 

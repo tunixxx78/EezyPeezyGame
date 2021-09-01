@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script is used for the Headquarter robot arm animations. It has two different kinds of animated moves, therefore it has it's own script.
+
 public class RobotArmInteractables : MonoBehaviour
 {
     private Animator animator;
@@ -18,7 +20,7 @@ public class RobotArmInteractables : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Debug.Log("klik");
+            
             if (animIndex == 0)
             {
                 animator.Play("1");

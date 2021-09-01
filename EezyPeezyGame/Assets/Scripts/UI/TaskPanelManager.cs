@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+// This script handles the task panel UI element. It reveals new tasks and sets done tasks background color green.
+
 public class TaskPanelManager : MonoBehaviour
 {
     public TextMeshProUGUI task1, task2, task3, task4, task5, task6, task7;
@@ -13,6 +15,7 @@ public class TaskPanelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Here it goes through each of the tasks and checks what is done in the story that saves into the dataholder
 
         task1.text = "Fix the dashboard inside the rocket";
 
