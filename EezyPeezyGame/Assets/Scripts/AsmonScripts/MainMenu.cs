@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
 {
     public static MainMenu instance;
     [SerializeField] GameObject loginScreen, registerScreen, startGameScreen, avatar;
+    [SerializeField] InputField userInput, passwordInput;
 
     private void Awake()
     {
@@ -44,4 +45,5 @@ public class MainMenu : MonoBehaviour
         startGameScreen.SetActive(true);
         loginScreen.SetActive(false);
     }
+
 }
