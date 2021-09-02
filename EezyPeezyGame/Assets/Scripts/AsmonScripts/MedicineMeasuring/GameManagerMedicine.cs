@@ -33,8 +33,6 @@ public class GameManagerMedicine : MonoBehaviour
 
     private bool activeJar;
 
-    
-
 
     void Start()
     {

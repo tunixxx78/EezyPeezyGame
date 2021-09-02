@@ -822,6 +822,7 @@ RectTransform:
   - {fileID: 1328506212}
   - {fileID: 760507415}
   - {fileID: 1410274681}
+  - {fileID: 1736595811}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -906,9 +907,9 @@ GameObject:
   m_Component:
   - component: {fileID: 524166567}
   - component: {fileID: 524166571}
-  - component: {fileID: 524166569}
   - component: {fileID: 524166568}
   - component: {fileID: 524166570}
+  - component: {fileID: 524166569}
   m_Layer: 8
   m_Name: ButtonRed
   m_TagString: Untagged
@@ -965,7 +966,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 524166566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 0
@@ -1569,7 +1570,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 735071513}
-  - component: {fileID: 735071512}
   m_Layer: 0
   m_Name: Colors
   m_TagString: Untagged
@@ -1577,34 +1577,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &735071512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735071511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c103806cda6ea80409918fad856ca8ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colors:
-  - {fileID: 1157612307}
-  - {fileID: 1736014045}
-  - {fileID: 1918035144}
-  - {fileID: 1446671671}
-  buttonSounds: []
-  stayLit: 1
-  waitBetweenLights: 0.25
-  activeSequence: 
-  inputInSequence: 0
-  correct: {fileID: 202173200}
-  incorrect: {fileID: 1528277815}
-  moveOn: {fileID: 0}
-  failed: {fileID: 0}
-  yourTurn: {fileID: 0}
-  startGame: {fileID: 0}
 --- !u!4 &735071513
 Transform:
   m_ObjectHideFlags: 0
@@ -1825,9 +1797,9 @@ GameObject:
   m_Component:
   - component: {fileID: 818334990}
   - component: {fileID: 818334991}
-  - component: {fileID: 818334989}
   - component: {fileID: 818334988}
   - component: {fileID: 818334987}
+  - component: {fileID: 818334989}
   m_Layer: 8
   m_Name: ButtonBlue
   m_TagString: Untagged
@@ -1966,7 +1938,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 818334986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 3
@@ -2127,9 +2099,9 @@ GameObject:
   m_Component:
   - component: {fileID: 967369443}
   - component: {fileID: 967369447}
-  - component: {fileID: 967369445}
   - component: {fileID: 967369444}
   - component: {fileID: 967369446}
+  - component: {fileID: 967369445}
   m_Layer: 8
   m_Name: ButtonYellow
   m_TagString: Untagged
@@ -2186,7 +2158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 967369442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 1
@@ -2347,9 +2319,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1001008059}
   - component: {fileID: 1001008063}
-  - component: {fileID: 1001008061}
   - component: {fileID: 1001008060}
   - component: {fileID: 1001008062}
+  - component: {fileID: 1001008061}
   m_Layer: 8
   m_Name: ButtonGreen
   m_TagString: Untagged
@@ -2406,7 +2378,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1001008058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 2
@@ -2636,7 +2608,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1157612306}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 0
@@ -3464,7 +3436,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1446671670}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 3
@@ -3534,7 +3506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1451735081}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c103806cda6ea80409918fad856ca8ea, type: 3}
+  m_Script: {fileID: 11500000, guid: ce914c6371a173d418afd41e6d6b64e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   colors:
@@ -3547,6 +3519,7 @@ MonoBehaviour:
   - {fileID: 967369446}
   - {fileID: 1001008062}
   - {fileID: 818334987}
+  scoreText: {fileID: 1736595812}
   stayLit: 1
   waitBetweenLights: 1
   activeSequence: 
@@ -3556,7 +3529,7 @@ MonoBehaviour:
   moveOn: {fileID: 760507412}
   failed: {fileID: 1532899905}
   yourTurn: {fileID: 1894131244}
-  startGame: {fileID: 1410274680}
+  startGame: {fileID: 365557745}
 --- !u!4 &1451735083
 Transform:
   m_ObjectHideFlags: 0
@@ -4170,7 +4143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1736014044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 1
@@ -4214,6 +4187,88 @@ Transform:
   m_Father: {fileID: 735071513}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1736595810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736595811}
+  - component: {fileID: 1736595813}
+  - component: {fileID: 1736595812}
+  m_Layer: 5
+  m_Name: scoreText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1736595811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736595810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 368470974}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000038147, y: 61}
+  m_SizeDelta: {x: 164.6598, y: 55.246}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1736595812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736595810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'High Score: 99
+
+
+    Score: 99'
+--- !u!222 &1736595813
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736595810}
+  m_CullTransparentMesh: 1
 --- !u!1 &1774186857
 GameObject:
   m_ObjectHideFlags: 0
@@ -4661,7 +4716,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918035143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2395902c22cd63846acc1a4bb015cc19, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dd41698ee21d846b205f1fa5e21abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisButtonNumber: 2
@@ -4787,7 +4842,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451735082}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
