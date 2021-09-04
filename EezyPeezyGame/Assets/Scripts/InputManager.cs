@@ -67,4 +67,5 @@ public class InputManager : MonoBehaviour
             SceneManager.LoadScene(scene.buildIndex - 1);
         }
     }
+
 }
