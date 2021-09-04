@@ -15,8 +15,6 @@ public class ItemRandomizer : MonoBehaviour
 
     public int i = 0;
     public int amountThings;
-    
-    
 
 
     void Start()
@@ -42,7 +40,9 @@ public class ItemRandomizer : MonoBehaviour
             int index = Random.Range(0, freeSpawnPoints.Count);
             Transform pos = freeSpawnPoints[index];
             freeSpawnPoints.RemoveAt(index);
+            
             Instantiate(itemPrefab[i], pos.position, pos.rotation);
         }
     }
+
 }
