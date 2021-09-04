@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     public bool isMoving = false;
     public GameObject exitDeniedPanel;
+    
 
     void Start()
     {
