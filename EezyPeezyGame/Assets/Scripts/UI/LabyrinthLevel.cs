@@ -16,15 +16,6 @@ public class LabyrinthLevel : MonoBehaviour
         labTemplates[index].SetActive(true);
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Return))
-        {
-            ChangeTemplate();
-        }
-
-    }
-
     public void ChangeTemplate()
     {
         Destroy(GameObject.FindGameObjectWithTag("Mask"));
