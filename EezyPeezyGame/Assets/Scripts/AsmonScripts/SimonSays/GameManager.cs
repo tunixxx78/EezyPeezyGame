@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-
+        //AI's Input and making the light stay up for x amount of time on each button press
         if(shouldBeLit)
         {
             stayLitCounter -= Time.deltaTime;
@@ -58,22 +58,24 @@ public class GameManager : MonoBehaviour
                 shouldBeDark = true;
                 waitBetweenCounter = waitBetweenLights;
                 
-                positionInSequence++; 
+                positionInSequence++;
+                
             }
         }
         if (shouldBeDark)
         {
             waitBetweenCounter -= Time.deltaTime;
-
+            //Player's turn
             if (positionInSequence >= activeSequence.Count)
             {
                 Cursor.lockState = CursorLockMode.None;
                 shouldBeDark = false;
                 gameActive = true;
                 yourTurn.SetActive(true);
+                
             }
             else
-            {
+            {   //AI's turn and making the game wait x amount of time between button press
                 if(waitBetweenCounter < 0)
                 { 
                     colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
@@ -82,6 +84,7 @@ public class GameManager : MonoBehaviour
                     stayLitCounter = stayLit;
                     shouldBeLit = true;
                     shouldBeDark = false;
+                    
                 }
             }
         }
@@ -108,6 +111,7 @@ public class GameManager : MonoBehaviour
         shouldBeLit = true;
     }
 
+    //Checking if player input is correct or wrong
     public void ColorPressed(int whichButton)
     {
         if (gameActive)
@@ -122,23 +126,7 @@ public class GameManager : MonoBehaviour
                 if (inputInSequence >= activeSequence.Count)
                 {
                     Cursor.lockState = CursorLockMode.Locked;
-                    //Invoke("DelayFirstLight", 1f);
-                    //positionInSequence = 0;
-                    //inputInSequence = 0;
-
-                    //colorSelect = Random.Range(0, colors.Length);
-
-                    //activeSequence.Add(colorSelect);
-
-                    //colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
-                    //buttonSounds[activeSequence[positionInSequence]].Play();
-
-                    //stayLitCounter = stayLit;
-                    //shouldBeLit = true;
-
-                    //gameActive = false;
-
-                    //correct.Play();
+                    
                     yourTurn.SetActive(false);
                     Invoke("DelayCorrectSound", 0.5f);
                     StartCoroutine(WaitBetweenSequences());
@@ -171,6 +159,7 @@ public class GameManager : MonoBehaviour
         correct.Play();
     }
 
+    // When the game is completed
     public void Completed()
     {
             Cursor.lockState = CursorLockMode.None;
@@ -193,7 +182,7 @@ public class GameManager : MonoBehaviour
         }
         
     }
-
+    //Makes the game wait second between player's and AI's turn
     IEnumerator WaitBetweenSequences()
     { 
         yield return new WaitForSeconds(waitBetweenLights);

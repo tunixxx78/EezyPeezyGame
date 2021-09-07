@@ -31,7 +31,7 @@ public class ItemRandomizer : MonoBehaviour
             
         //}
     }
-
+    //Spawning the items on randomized locations
     public void Spawn()
     {
         List<Transform> freeSpawnPoints = new List<Transform>(spawnPoint);

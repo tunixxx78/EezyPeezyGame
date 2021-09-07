@@ -22,7 +22,7 @@ public class Collectables : MonoBehaviour
         }
         
     }
-
+    //Checking which Item is collected and making them appear on right side of the screen
     private void OnTriggerEnter2D(Collider2D collision)
     {
         

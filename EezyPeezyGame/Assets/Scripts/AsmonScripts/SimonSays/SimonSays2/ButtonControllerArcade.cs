@@ -34,7 +34,6 @@ public class ButtonControllerArcade : MonoBehaviour
     private void OnMouseUp()
     {
         theSprite.color = new Color(theSprite.color.r, theSprite.color.g, theSprite.color.b, 0.5f);
-        theGM.ColorPressed(thisButtonNumber);
-        //theSound.Stop();
+        theGM.ColorPressed(thisButtonNumber); 
     }
 }
