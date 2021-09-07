@@ -76,4 +76,9 @@ public class SceneChanger : MonoBehaviour
         
     }
 
+    public void ToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }

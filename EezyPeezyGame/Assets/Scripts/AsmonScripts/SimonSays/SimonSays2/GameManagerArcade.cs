@@ -11,7 +11,7 @@ public class GameManagerArcade : MonoBehaviour
 {
     public SpriteRenderer[] colors;
     public AudioSource[] buttonSounds;
-    public Text scoreText;
+    public TMP_Text scoreText;
 
     private int colorSelect;
 
@@ -27,6 +27,7 @@ public class GameManagerArcade : MonoBehaviour
     public List<int> activeSequence;
     private int positionInSequence;
     public int inputInSequence;
+    [SerializeField] private int score;
 
     private bool gameActive = false;
 
@@ -34,13 +35,11 @@ public class GameManagerArcade : MonoBehaviour
     public AudioSource incorrect;
     
 
-    [SerializeField] private GameObject moveOn, failed, yourTurn, startGame;
-    
+    [SerializeField] private GameObject gameOver, yourTurn, startGame;
 
-    
-    void Start()
+    private void Start()
     {
-
+        score = 0;
     }
 
     void Update()
@@ -93,6 +92,7 @@ public class GameManagerArcade : MonoBehaviour
 
     public void StartGame()
     {
+        score = 0;
         startGame.SetActive(false);
         activeSequence.Clear();
 
@@ -142,9 +142,9 @@ public class GameManagerArcade : MonoBehaviour
 
                     //correct.Play();
                     yourTurn.SetActive(false);
+                    score++;
                     Invoke("DelayCorrectSound", 0.5f);
                     StartCoroutine(WaitBetweenSequences());
-
                 }
              
             }
@@ -153,7 +153,8 @@ public class GameManagerArcade : MonoBehaviour
                 Debug.Log("Wrong");
                 incorrect.Play();
                 gameActive = false;
-                failed.SetActive(true);
+                scoreText.text = score.ToString();
+                gameOver.SetActive(true);
                 startGame.SetActive(true);
                 yourTurn.SetActive(false);
             }
@@ -165,28 +166,14 @@ public class GameManagerArcade : MonoBehaviour
         correct.Play();
     }
 
-    public void Completed()
+    /*public void Completed()
     {
             Cursor.lockState = CursorLockMode.None;
             DataHolder.dataHolder.engineStartDone = true;
-            moveOn.SetActive(true);
             FindObjectOfType<SFXManager>().PlanetExplotion();
             Invoke("HomePlanetScene", 3f);
             
-    }
-
-    public void HomePlanetScene()
-    {
-        if (SceneManager.GetActiveScene().name == "SimonSays2")
-        {
-            SceneManager.LoadScene("RocketArcade");
-        }
-        else
-        {
-            SceneManager.LoadScene("HomePlanet");
-        }
-        
-    }
+    }*/
 
     IEnumerator WaitBetweenSequences()
     { 

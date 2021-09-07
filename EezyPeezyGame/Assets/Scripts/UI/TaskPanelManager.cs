@@ -19,7 +19,7 @@ public class TaskPanelManager : MonoBehaviour
 
         task1.text = "Fix the dashboard inside the rocket";
 
-        if (DataHolder.dataHolder.tutorialDone == true && DataHolder.dataHolder.dashboardDone == true)
+        if (DataHolder.dataHolder.dashboardDone == true)
         {
             task2.text = "Help Dr. Fizz to find his equipment in Headquarters";
             taskImage1.color = Color.green;
