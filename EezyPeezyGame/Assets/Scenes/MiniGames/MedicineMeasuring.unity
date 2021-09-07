@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 6241717399584242365, guid: 30e1602af5c0b8b44a2e2a9e1d142a0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 320627951}
     - target: {fileID: 6241717399584242365, guid: 30e1602af5c0b8b44a2e2a9e1d142a0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BackToPreviousScene
@@ -1017,6 +1017,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2691acce827d5cd47a06378a083ad715, type: 3}
+--- !u!114 &320627951 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7003477675205327229, guid: 2691acce827d5cd47a06378a083ad715, type: 3}
+  m_PrefabInstance: {fileID: 320627950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5318b28d776333d4e984982d8a5794d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &351426842
 GameObject:
   m_ObjectHideFlags: 0
