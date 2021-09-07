@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
         MoveDot();
     }
 
+    //Player movement, making it to move only one direction at time
     void MoveDot()
     {
         if (Input.GetKey(KeyCode.LeftArrow) && isMoving == false)
@@ -44,7 +45,7 @@ public class Player : MonoBehaviour
  
         CheckIfMoving();
     }
-
+    
     void CheckIfMoving()
     {
         if (Input.GetAxisRaw("Horizontal") != 0 && Input.GetAxisRaw("Vertical") != 0)

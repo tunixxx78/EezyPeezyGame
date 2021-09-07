@@ -46,7 +46,7 @@ public class GameManagerMedicine : MonoBehaviour
     }
 
 
-
+    //Randomize the formula for player. Blue, Red and Yellow.
     public void JarDropCount()
     {
         blueDropCount = Random.Range(1, 7);
@@ -63,7 +63,7 @@ public class GameManagerMedicine : MonoBehaviour
     }
 
 
-
+    //Adding drops on Jar player has activated. After every drop, player has to activate the Jar again.
     public void Drops()
     {
         if(redActive)
@@ -107,6 +107,7 @@ public class GameManagerMedicine : MonoBehaviour
         }
     }
 
+    //When player is ready, player can check if the formula is right.
     public void CheckIfRightFormula()
     {
         if(redDropCount == 0 && blueDropCount == 0 && yellowDropCount == 0)
@@ -127,7 +128,7 @@ public class GameManagerMedicine : MonoBehaviour
         }
     }
 
-
+    //Activating Red Jar on click.
     public void ActiveJarRed()
     {
         redActive = true;
@@ -135,6 +136,7 @@ public class GameManagerMedicine : MonoBehaviour
         yellowActive = false;
     }
 
+    //Activating Blue Jar on click.
     public void ActiveJarBlue()
     {
         redActive = false;
@@ -142,6 +144,7 @@ public class GameManagerMedicine : MonoBehaviour
         yellowActive = false;
     }
 
+    //Activating Yellow Jar on click.
     public void ActiveJarYellow()
     {
         redActive = false;
