@@ -17,7 +17,7 @@ public class TaskPanelManager : MonoBehaviour
     {
         // Here it goes through each of the tasks and checks what is done in the story that saves into the dataholder
 
-        task1.text = "Fix the dashboard inside the rocket";
+        task1.text = "Fix the dashboard inside the rocket's top floor";
 
         if (DataHolder.dataHolder.dashboardDone == true)
         {
@@ -41,7 +41,7 @@ public class TaskPanelManager : MonoBehaviour
 
         if (DataHolder.dataHolder.dashboardDone == true && DataHolder.dataHolder.labyrinthDone == true && DataHolder.dataHolder.FuelPipesDone == true)
         {
-            task4.text = "Start the rocket's engine with the dashboard in the rocket";
+            task4.text = "Start the rocket's engine in the rocket cockpit";
             taskImage3.color = Color.green;
             
         }
@@ -52,7 +52,7 @@ public class TaskPanelManager : MonoBehaviour
 
         if (DataHolder.dataHolder.engineStartDone == true)
         {
-            task5.text = "Manoeuvre through asteroid storms in space with the rocket";
+            task5.text = "Manoeuvre the rocket through asteroid storm";
             taskImage4.color = Color.green;
         }
         else
@@ -62,7 +62,7 @@ public class TaskPanelManager : MonoBehaviour
 
         if (DataHolder.dataHolder.spaceTransitDone == true)
         {
-            task6.text = "Find the way to Newton's house with the map on the infoboard";
+            task6.text = "Use the map board in Planet Izzy to get to Newton";
             taskImage5.color = Color.green;
         }
         else
@@ -72,7 +72,7 @@ public class TaskPanelManager : MonoBehaviour
 
         if (DataHolder.dataHolder.gridNavigationDone == true)
         {
-            task7.text = "Assist Dr. Fizz to measure the correct amount of medicine for Newton";
+            task7.text = "Measure the correct amount of medicine for Newton";
             taskImage6.color = Color.green;
         }
         else
@@ -80,9 +80,9 @@ public class TaskPanelManager : MonoBehaviour
             task7.text = "???";
         }
 
-        if (DataHolder.dataHolder.medicineMeasureDone == true)
+        if (DataHolder.dataHolder.medicineMeasureDone == true || DataHolder.dataHolder.newtonTreatedDone == true)
         {
-            taskImage6.color = Color.green;
+            taskImage7.color = Color.green;
         }
        
     }

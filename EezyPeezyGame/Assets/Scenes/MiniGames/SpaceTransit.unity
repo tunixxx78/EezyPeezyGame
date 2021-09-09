@@ -745,7 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   asteroidPatterns:
   - {fileID: 1360616229375579597, guid: cd9863a87c8724920bb2f48448271988, type: 3}
-  startTimeBtwSpawns: 20
+  startTimeBtwSpawns: 30
   decreaseTime: 0
   minTime: 0.65
 --- !u!1 &466191806

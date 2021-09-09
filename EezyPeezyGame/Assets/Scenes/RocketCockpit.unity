@@ -313,7 +313,6 @@ GameObject:
   - component: {fileID: 137122583}
   - component: {fileID: 137122582}
   - component: {fileID: 137122581}
-  - component: {fileID: 137122580}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -340,25 +339,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &137122580
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137122578}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 76f4f3bf6ba9f88499e8c1e62f166745, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &137122581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2755,6 +2735,18 @@ PrefabInstance:
       propertyPath: dashboardAssemble
       value: 
       objectReference: {fileID: 498154309}
+    - target: {fileID: 3865786108013222248, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 313636261}
+    - target: {fileID: 3865786108013222248, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UIInputForDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865786108013222248, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogController1, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4438810520741352070, guid: fc965ca7a7dc3ea4c87732f3437ae8cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3177,7 +3169,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 25f74d62f3f5f45af9385fc1ca7102c3, type: 2}
   m_audioClip: {fileID: 8300000, guid: a4e33b7fb3f96d743bcaca7d51004538, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4458,6 +4450,7 @@ GameObject:
   - component: {fileID: 1444404348}
   - component: {fileID: 1444404350}
   - component: {fileID: 1444404349}
+  - component: {fileID: 1444404351}
   m_Layer: 5
   m_Name: NextButtonBackground
   m_TagString: Untagged
@@ -4523,6 +4516,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444404347}
   m_CullTransparentMesh: 1
+--- !u!95 &1444404351
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444404347}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec317aba49489c34cab6299b53750b14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1451896320
 PrefabInstance:
   m_ObjectHideFlags: 0

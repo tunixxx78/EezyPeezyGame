@@ -19,6 +19,6 @@ public class AvatarSystem : MonoBehaviour
     }
     public void GoGoGo()
     {
-        SceneManager.LoadScene("SampleScene");
+        //SceneManager.LoadScene("SampleScene");
     }
 }
