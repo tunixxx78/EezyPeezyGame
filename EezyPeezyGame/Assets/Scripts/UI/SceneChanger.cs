@@ -26,7 +26,7 @@ public class SceneChanger : MonoBehaviour
     public void GoToScene()
     {
         // this if check is used in Headquarters to deny the player from entering the labyrinth if it's either done already or the player hasn't done the phone call scene yet
-        if (SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.phoneCallDone == false || SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.labyrinthDone == true)
+        if (SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.dashboardDone == false || SceneManager.GetActiveScene().name == "HeadQuarters" && DataHolder.dataHolder.labyrinthDone == true)
         {
             if(sceneDenied != null)
             {

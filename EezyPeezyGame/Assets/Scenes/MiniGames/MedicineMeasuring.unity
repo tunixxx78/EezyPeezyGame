@@ -1142,7 +1142,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 150}
+  m_SizeDelta: {x: 350, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &405661923
 MonoBehaviour:
@@ -1187,7 +1187,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 950543070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 664824775}
+        m_TargetAssemblyTypeName: GameManagerMedicine, Assembly-CSharp
+        m_MethodName: CheckIfRightFormula
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &405661924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2512,7 +2524,7 @@ MonoBehaviour:
   pipetteRed: {fileID: 2800000, guid: a7f07ec2b04b96d4aa458d683337d8ad, type: 3}
   pipetteBlue: {fileID: 2800000, guid: 3902855804508674984fcf8195e828d7, type: 3}
   pipetteYellow: {fileID: 2800000, guid: f2c7a3fa04742a24fb2f9a3c31c6b009, type: 3}
-  hotSpot: {x: 25, y: 165}
+  hotSpot: {x: 25, y: 128}
 --- !u!1 &907449863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2621,10 +2633,10 @@ RectTransform:
   m_Father: {fileID: 405661922}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 240, y: 170}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0.000028133}
+  m_SizeDelta: {x: 350, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950543070
 MonoBehaviour:
@@ -2709,7 +2721,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0.42258456, y: 1.37117, z: -1.965179, w: 0.84064865}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8539,7 +8551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1691499136
 RectTransform:
   m_ObjectHideFlags: 0
