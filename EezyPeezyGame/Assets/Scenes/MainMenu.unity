@@ -15916,6 +15916,7 @@ MonoBehaviour:
   cursor: {fileID: 1666016650}
   denied: {fileID: 1666016651}
   dataSaved: {fileID: 1666016652}
+  avatar: {fileID: 1518238668294916344}
 --- !u!82 &1666016646
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21331,6 +21332,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1666016645}
         m_TargetAssemblyTypeName: SFXManager, Assembly-CSharp
         m_MethodName: ButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1666016645}
+        m_TargetAssemblyTypeName: SFXManager, Assembly-CSharp
+        m_MethodName: CreateAndSaveAvatar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

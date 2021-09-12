@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This one is moving asteroids and helds a logic for what collisions do.
+
 public class MovingAsteroids : MonoBehaviour
 {
     [SerializeField] float asteroidSpeed = 4f;

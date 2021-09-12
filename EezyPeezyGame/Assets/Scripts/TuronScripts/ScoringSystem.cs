@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+// partly abandoned saveSystem and partly keeping score in game.
+
 public class ScoringSystem : MonoBehaviour
 {
     public static ScoringSystem scoringInstance;
@@ -24,21 +26,10 @@ public class ScoringSystem : MonoBehaviour
     {
         theGameScore = theScore;
         numberOfAliensFound = numberOfAliens;
-
-        /*if (scoringInstance != null && scoringInstance != this)
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-
-        scoringInstance = this;
-        DontDestroyOnLoad(this);*/
     }
 
     private void Start()
     {
-        //theGameScore = theScore;
-        //numberOfAliensFound = numberOfAliens;
         NumberOfAliens();
         PlayerScore();
     }
@@ -70,8 +61,6 @@ public class ScoringSystem : MonoBehaviour
             GameProgress();
         }
 
-        //NumberOfAliens();
-        //PlayerScore();
     }
 
     private void NumberOfAliens()
@@ -112,14 +101,9 @@ public class ScoringSystem : MonoBehaviour
 
         pointsCount.text = theGameScore.ToString();
         aliensCount.text = numberOfAliensFound.ToString();
-        //NumberOfAliens();
-        //PlayerScore();
 
         theScore = theGameScore;
         numberOfAliens = numberOfAliensFound;
-
-        //theGameScore = theScore;
-        //numberOfAliensFound = numberOfAliens;
 
         Debug.Log("Loaded from " + theScore);
         Debug.Log("Loaded from " + numberOfAliens);

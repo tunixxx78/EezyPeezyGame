@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This one is counting found pink aliens and keeping score of it.
+
 public class AlienCountManager : MonoBehaviour
 {
     [SerializeField] Text alienCount;

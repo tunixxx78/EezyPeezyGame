@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Main game logic and spawning a template.
+
 public class DotsCounter : MonoBehaviour
 {
     public GameObject dotHolder;

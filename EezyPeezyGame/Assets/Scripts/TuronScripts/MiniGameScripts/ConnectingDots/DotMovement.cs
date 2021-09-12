@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Logic for moving "pencils tip"
+
 public class DotMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D dot;

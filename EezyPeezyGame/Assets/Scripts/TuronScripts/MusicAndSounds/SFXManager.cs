@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEditor;
+
+//This one contains information of games sfx
 
 public class SFXManager : MonoBehaviour
 {
@@ -9,6 +12,8 @@ public class SFXManager : MonoBehaviour
     public AudioSource button, doorOpening, typing, fireworks, littlePiggy, cursor, denied, dataSaved;
 
     public static SFXManager sfxInstance;
+
+    public GameObject avatar;
 
     private void Awake()
     {
@@ -20,6 +25,11 @@ public class SFXManager : MonoBehaviour
 
         sfxInstance = this;
         DontDestroyOnLoad(this);
+    }
+
+    public void CreateAndSaveAvatar()
+    {
+        //PrefabUtility.SaveAsPrefabAsset(avatar, "assets/Prefabs/TestPrefabs/avatar.prefab");
     }
 
     public void ButtonPress()

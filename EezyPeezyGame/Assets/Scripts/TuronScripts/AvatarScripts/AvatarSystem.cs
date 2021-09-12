@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// This on is for spawning created avatar where ever you want.
+
 public class AvatarSystem : MonoBehaviour
 {
     [SerializeField] GameObject[] avatarPrefabs;
@@ -19,6 +21,6 @@ public class AvatarSystem : MonoBehaviour
     }
     public void GoGoGo()
     {
-        //SceneManager.LoadScene("SampleScene");
+        
     }
 }

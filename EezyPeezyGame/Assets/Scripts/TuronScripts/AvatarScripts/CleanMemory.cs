@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This is for cleaning memory at the start of game.
+
 public class CleanMemory : MonoBehaviour
 {
     private void Start()

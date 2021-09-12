@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Part of abandonet saveSystem.
+
 [System.Serializable]
 public class PLRData
 {

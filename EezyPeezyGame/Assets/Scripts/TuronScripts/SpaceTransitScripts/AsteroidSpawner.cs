@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This is for Spawning obstacle and asteroid patterns in spaceTransit scene
+
 public class AsteroidSpawner : MonoBehaviour
 {
     [SerializeField] GameObject[] asteroidPatterns;

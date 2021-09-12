@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Logic for dashboardAssemblyMinigame.
+
 public class MovingSystem : MonoBehaviour
 {
     public GameObject correctShape, stroke;

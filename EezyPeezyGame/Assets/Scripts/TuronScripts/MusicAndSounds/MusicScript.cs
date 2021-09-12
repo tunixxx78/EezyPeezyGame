@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This one creates music instrance for games background music.
+
 public class MusicScript : MonoBehaviour
 {
     public static MusicScript musicInstance;

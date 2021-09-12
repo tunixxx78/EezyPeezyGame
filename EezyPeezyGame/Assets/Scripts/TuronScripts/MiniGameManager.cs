@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//abandoned logic for moving played minigames to arcade. 
+
 public class MiniGameManager : MonoBehaviour
 {
     [SerializeField] GameObject minigameOne, minigameTwo, minigamethree;

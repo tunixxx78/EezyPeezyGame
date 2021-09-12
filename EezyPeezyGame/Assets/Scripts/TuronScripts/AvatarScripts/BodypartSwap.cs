@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This on is for selecting avatar parts that player wants.
+
 public class BodypartSwap : MonoBehaviour
 {
     [Header("Sprite to change")]

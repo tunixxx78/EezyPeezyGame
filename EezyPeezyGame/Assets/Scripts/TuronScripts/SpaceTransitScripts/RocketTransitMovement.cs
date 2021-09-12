@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This on helds logic for moving rocket in spaceTransit scene and also handles collision logic.
+
 public class RocketTransitMovement : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rocket;

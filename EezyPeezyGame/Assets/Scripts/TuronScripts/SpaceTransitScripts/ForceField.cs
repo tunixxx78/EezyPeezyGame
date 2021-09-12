@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This on handles spaceShips forceField in spaceTransit scene
+
 public class ForceField : MonoBehaviour
 {
     public static int theForceField;

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Game logic for when you win game or lose
+
 public class ElectricWiresGameManager : MonoBehaviour
 {
     public GameObject wireHolder, gameFinishedBanner;

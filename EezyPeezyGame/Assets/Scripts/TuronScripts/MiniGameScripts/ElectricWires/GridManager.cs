@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Abandoned part of minigame -> creating grid for background
+
 public class GridManager : MonoBehaviour
 {
     [SerializeField] int rows = 6, cols = 8;

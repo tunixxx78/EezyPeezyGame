@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This one is for changing avatar sprites.ABANDONED!
+
 public class ColorSwap : MonoBehaviour
 {
 

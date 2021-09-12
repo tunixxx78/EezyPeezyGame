@@ -4,6 +4,8 @@ using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
+//Part of abandonet saveSystem.
+
 public class SaveSystem
 {
     public static void SavePlayer(ScoringSystem player)

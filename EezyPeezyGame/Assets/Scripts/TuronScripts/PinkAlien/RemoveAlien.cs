@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This on helds logic for clicking pink aliens.
+
 public class RemoveAlien : MonoBehaviour
 {
     [SerializeField] Animator animator;

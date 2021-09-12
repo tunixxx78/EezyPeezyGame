@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Main Game logic, turnin electric pipes.
+
 public class ElectricWireScript : MonoBehaviour
 {
     private float[] rotations = { 0, 90, 180, 270 };

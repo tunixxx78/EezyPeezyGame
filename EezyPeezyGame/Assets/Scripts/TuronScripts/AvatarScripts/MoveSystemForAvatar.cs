@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This one is for avatar assembly.
+
 public class MoveSystemForAvatar : MonoBehaviour
 {
     public GameObject correctShape;

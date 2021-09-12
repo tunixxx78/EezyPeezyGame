@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This one was moving destination planet(izzy) in spaceTransit scene (at least at some point of project
+
 public class MovingDestinationPlanet : MonoBehaviour
 {
 

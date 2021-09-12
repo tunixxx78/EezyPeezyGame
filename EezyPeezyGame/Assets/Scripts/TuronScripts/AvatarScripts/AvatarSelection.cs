@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Logic for avatar assembly part in game.
+
 public class AvatarSelection : MonoBehaviour
 {
     private int pointsToWin, currentPoints;

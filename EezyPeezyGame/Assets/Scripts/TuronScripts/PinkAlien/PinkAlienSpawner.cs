@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This on is spawning pink aliens in random positions in screen.
+
 public class PinkAlienSpawner : MonoBehaviour
 {
     public int numberToSpawn;

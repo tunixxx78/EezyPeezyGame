@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// At some point this was handling ArcadeFloor logic!
+
 public class ArcadeManager : MonoBehaviour
 {
     [SerializeField] GameObject gameOne, game2, game3;

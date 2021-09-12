@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Abandoned scripts for some sfx.
+
 public class SFXSounds : MonoBehaviour
 {
     public void PressThisButton()

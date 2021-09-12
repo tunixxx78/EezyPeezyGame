@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+// This on helds logic for music and sfx volume sliders
+
 
 public class SetVolume : MonoBehaviour
 {
