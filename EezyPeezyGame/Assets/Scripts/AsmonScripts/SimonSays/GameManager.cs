@@ -132,7 +132,7 @@ public class GameManager : MonoBehaviour
                     StartCoroutine(WaitBetweenSequences());
 
 
-                    if (inputInSequence == 6)
+                    if (inputInSequence == 5)
                     {
                         
                         gameActive = false;
