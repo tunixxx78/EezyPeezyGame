@@ -12,6 +12,7 @@ public class ButtonController : MonoBehaviour
 
     private AudioSource theSound;
 
+    //Button pressing script, increases the alpha of the colors when pressed
     void Start()
     {
         theSprite = GetComponent<SpriteRenderer>();

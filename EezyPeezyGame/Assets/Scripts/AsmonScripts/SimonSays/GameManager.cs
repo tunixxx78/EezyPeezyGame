@@ -117,9 +117,7 @@ public class GameManager : MonoBehaviour
         if (gameActive)
         {
             if (activeSequence[inputInSequence] == whichButton)
-            {
-                Debug.Log("Correct");
-                
+            {  
                 inputInSequence++;
                 
 
@@ -136,7 +134,6 @@ public class GameManager : MonoBehaviour
                     {
                         
                         gameActive = false;
-                        Debug.Log("HYVÄÄ TYÖTÄ");
                         Completed();
                     }
                 }
@@ -144,7 +141,6 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("Wrong");
                 incorrect.Play();
                 gameActive = false;
                 failed.SetActive(true);
