@@ -30,6 +30,26 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("HomePlanet");
     }
 
+    public void ArcadeMode()
+    {
+        DataHolder.dataHolder.tutorialDone = true;
+        DataHolder.dataHolder.lobbyDone = true;
+        DataHolder.dataHolder.cockpitDone = true;
+        DataHolder.dataHolder.dashboardDone = true;
+        DataHolder.dataHolder.phoneCallDone = true;
+        DataHolder.dataHolder.headquartersDone = true;
+        DataHolder.dataHolder.labyrinthDone = true;
+        DataHolder.dataHolder.engineFloorDone = true;
+        DataHolder.dataHolder.FuelPipesDone = true;
+        DataHolder.dataHolder.engineStartDone = true;
+        DataHolder.dataHolder.spaceTransitDone = true;
+        DataHolder.dataHolder.gridNavigationDone = true;
+        DataHolder.dataHolder.medicineMeasureDone = true;
+        DataHolder.dataHolder.newtonTreatedDone = true;
+
+        SceneManager.LoadScene("RocketArcade");
+    }
+
     public void QuitGame()
     {
         Application.Quit();

@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 
     public float moveSpeed;
     public bool isMoving = false;
-    public GameObject exitDeniedPanel;
+    public GameObject exitDeniedPanel, mobileArrows;
     
 
     void Start()
@@ -21,6 +21,20 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         MoveDot();
+    }
+
+    public void Update()
+    {
+        
+        /* This isn't being used, we ran out of time to make the game work also on mobiles
+        if(Input.touchSupported)
+        {
+            mobileArrows.SetActive(true);
+        }
+        else
+        {
+            mobileArrows.SetActive(false);
+        }*/
     }
 
     //Player movement, making it to move only one direction at time
@@ -44,6 +58,7 @@ public class Player : MonoBehaviour
         }
  
         CheckIfMoving();
+
     }
     
     void CheckIfMoving()
@@ -72,6 +87,27 @@ public class Player : MonoBehaviour
         //this coroutine will shut the panel after a while if none of the buttons have been pressed
         yield return new WaitForSeconds(6f);
         exitDeniedPanel.SetActive(false);
+    }
+
+    // These are not used, but could be taken further to make the game to work also on mobiles
+    public void MoveUP()
+    {
+        transform.Translate(0, moveSpeed * Time.deltaTime, 0);
+    }
+
+    public void MoveDOWN()
+    {
+        transform.Translate(0, -moveSpeed * Time.deltaTime, 0);
+    }
+
+    public void MoveLEFT()
+    {
+        transform.Translate(-moveSpeed * Time.deltaTime, 0, 0);
+    }
+
+    public void MoveRIGHT()
+    {
+        transform.Translate(moveSpeed * Time.deltaTime, 0, 0);
     }
 
 }
