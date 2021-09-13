@@ -63,7 +63,7 @@ public class GameManagerMedicine : MonoBehaviour
     }
 
 
-    //Adding drops on Jar player has activated. After every drop, player has to activate the Jar again.
+    //Adding drops on Jar player has activated. After every drop, player has to activate the Jar again
     public void Drops()
     {
         if(redActive)
@@ -71,10 +71,8 @@ public class GameManagerMedicine : MonoBehaviour
             dropSound.Play();
             redDropCount--;
             redActive = false;
-            Debug.Log("luvut laskee");
             if (redDropCount == 0)
             {
-                Debug.Log("VITTU JEE");
                 redActive = false;  
             }
         }
@@ -84,10 +82,8 @@ public class GameManagerMedicine : MonoBehaviour
             dropSound.Play();
             blueDropCount--;
             blueActive = false;
-            Debug.Log("siniset laskee");
             if(blueDropCount == 0)
             {
-                Debug.Log("KOVA!");
                 blueActive = false;
 
             }
@@ -98,10 +94,8 @@ public class GameManagerMedicine : MonoBehaviour
             dropSound.Play();
             yellowDropCount--;
             yellowActive = false;
-            Debug.Log("keltaset laskee");
             if(yellowDropCount == 0)
             {
-                Debug.Log("JEEEE");
                 yellowActive = false;
             }
         }

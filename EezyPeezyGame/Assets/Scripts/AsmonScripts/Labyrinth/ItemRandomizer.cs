@@ -20,14 +20,7 @@ public class ItemRandomizer : MonoBehaviour
     void Start()
     {
         Spawn();
-        //randPosition = Random.Range(0, spawnPoint.Length);
         
-        //for(int i = 0; i < itemPrefab.Length; i++)
-        //{
-        //    randPosition = Random.Range(0, spawnPoint.Length);
-        //    itemPrefab[i] = Instantiate(itemPrefab[i], spawnPoint[randPosition].position, Quaternion.identity);
-            
-        //}
     }
     //Spawning the items on randomized locations
     public void Spawn()
