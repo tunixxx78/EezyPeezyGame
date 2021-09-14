@@ -13,6 +13,6 @@ public class MovingDestinationPlanet : MonoBehaviour
     {
         transform.Translate(Vector2.down * planetSpeed * Time.deltaTime);
 
-        Destroy(this.gameObject, 20f);
+        Destroy(this.gameObject, 30f);
     }
 }
